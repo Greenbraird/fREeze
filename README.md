@@ -1,1 +1,1 @@
-# fREze
+# fREeze
