@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/kimsijun/Desktop/Project/fREze
+C:/Users/kimsijun/Desktop/Project/fREeze
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64188
-Successfully changed project path to: C:/Users/kimsijun/Desktop/Project/fREze
-C:/Users/kimsijun/Desktop/Project/fREze
+62094
+Successfully changed project path to: C:/Users/kimsijun/Desktop/Project/fREeze
+C:/Users/kimsijun/Desktop/Project/fREeze
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/kimsijun/Desktop/Project/fREze
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27464] Host "[IP] 10.210.42.142 [Port] 0 [Flags] 2 [Guid] 1740826295 [EditorId] 1740826295 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27912] Host "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 2217407487 [EditorId] 2217407487 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27464] Host "[IP] 10.210.42.142 [Port] 0 [Flags] 2 [Guid] 1740826295 [EditorId] 1740826295 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27912] Host "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 2217407487 [EditorId] 2217407487 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 21 workers.
-Refreshing native plugins compatible for Editor in 8.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kimsijun/Desktop/Project/fREze/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kimsijun/Desktop/Project/fREeze/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003380 seconds.
-- Loaded All Assemblies, in  0.336 seconds
+Registered in 0.007749 seconds.
+- Loaded All Assemblies, in  0.674 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
+Android Extension - Scanning For ADB Devices 546 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.487 seconds
-Domain Reload Profiling: 823ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  1.264 seconds
+Domain Reload Profiling: 1937ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (131ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (115ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (488ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (344ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
+		SetupLoadedEditorAssemblies (1138ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (292ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (749ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 823ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.718 seconds
-Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.494 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,1106 +127,107 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.421 seconds
-Domain Reload Profiling: 1139ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  1.198 seconds
+Domain Reload Profiling: 2690ms
+	BeginReloadAssembly (296ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (538ms)
-		LoadAssemblies (481ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1014ms)
+		LoadAssemblies (943ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (421ms)
+	FinalizeReload (1200ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (311ms)
+		SetupLoadedEditorAssemblies (881ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (57.6 KB). Loaded Objects now: 3667.
-Memory consumption went from 140.7 MB to 140.6 MB.
-Total: 2.260500 ms (FindLiveObjects: 0.167100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.945100 ms  DeleteObjects: 0.108200 ms)
+Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (57.5 KB). Loaded Objects now: 3728.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 7.354100 ms (FindLiveObjects: 0.780700 ms CreateObjectMapping: 0.180900 ms MarkObjects: 6.100900 ms  DeleteObjects: 0.289100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
 ========================================================================
 Received Import Request.
-  Time since last request: 58462.514289 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene
-  artifactKey: Guid(92db8e1f506372f4bbed38f9cb7176c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene using Guid(92db8e1f506372f4bbed38f9cb7176c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da80da38b216e31b70c7e58ac872dd0') in 0.002320 seconds
+  Time since last request: 106613.974008 seconds.
+  path: Assets/Props/Duct/Materials
+  artifactKey: Guid(fd0072cedf93e28409e1698016d85d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Duct/Materials using Guid(fd0072cedf93e28409e1698016d85d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4742828a450ced98d8a10e59b6432ba5') in 0.004212 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.039908 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/unityexport.obj
-  artifactKey: Guid(6493b1aa91e649e43a61df80beb8958b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/unityexport.obj using Guid(6493b1aa91e649e43a61df80beb8958b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c18d0cb758210ba86a29ab059e485d5') in 0.025501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.845471 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/assets.unity
-  artifactKey: Guid(126317e8750391a4e82212881457842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/assets.unity using Guid(126317e8750391a4e82212881457842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117012046f959cb3de096d75c154a405') in 0.000822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.709810 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/MeadowDemo.unity
-  artifactKey: Guid(f23e08cdebda68449bc157014463d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/MeadowDemo.unity using Guid(f23e08cdebda68449bc157014463d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7a619bb623fdfb2257556a7c0984ec') in 0.000635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 150.690479 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/MeadowDemo.unity
-  artifactKey: Guid(f23e08cdebda68449bc157014463d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/MeadowDemo.unity using Guid(f23e08cdebda68449bc157014463d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ca6939db23ad2feed9e68af826037d') in 0.000709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 165.604853 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/MeadowDemo_Profiles
-  artifactKey: Guid(89e684c30dfe3ef40ba018476821376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/MeadowDemo_Profiles using Guid(89e684c30dfe3ef40ba018476821376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd3c0bfc93e10e6a7c80549965ec1ce') in 0.000769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.033338 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/MeadowDemo_Profiles/Volume Profile.asset
-  artifactKey: Guid(6f00b14f18aab304c8158312d32b9660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/MeadowDemo_Profiles/Volume Profile.asset using Guid(6f00b14f18aab304c8158312d32b9660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f121177dc4a5cf95e0a7b8c8498f39ab') in 0.001842 seconds
+  Time since last request: 0.054265 seconds.
+  path: Assets/Props/Duct/Materials/duct_curvedMat.mat
+  artifactKey: Guid(db62ca65586ab4247af9c025b3256c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Duct/Materials/duct_curvedMat.mat using Guid(db62ca65586ab4247af9c025b3256c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6843e3d4132a12059643641cb52297') in 0.213395 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 4.859177 seconds.
-  path: Assets/EmaceArt/Free Meadows/TerrainData/Demo_Terrain_Layer_Grass.terrainlayer
-  artifactKey: Guid(01fd9fd0ae90c504b818d9f44bbf8e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/TerrainData/Demo_Terrain_Layer_Grass.terrainlayer using Guid(01fd9fd0ae90c504b818d9f44bbf8e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1d3bacf98c21efe6bace16aa7983fc') in 0.088099 seconds
+  Time since last request: 25.844846 seconds.
+  path: Assets/Props/Duct/duct_curved.prefab
+  artifactKey: Guid(9376368eef23b13469fbc195a99da385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Duct/duct_curved.prefab using Guid(9376368eef23b13469fbc195a99da385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5d9b1027ed9d278621b2b4f01f481f') in 0.111622 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/EmaceArt/Free Meadows/TerrainData/Demo_Terrain_Rocks.mat
-  artifactKey: Guid(898738ff06c28784a98f68e1d6d4fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/TerrainData/Demo_Terrain_Rocks.mat using Guid(898738ff06c28784a98f68e1d6d4fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0489d9bc9898789eb4fb2b9929ccf48') in 0.243862 seconds
+  Time since last request: 6.945038 seconds.
+  path: Assets/Props/Duct/duct_curved.prefab
+  artifactKey: Guid(9376368eef23b13469fbc195a99da385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Duct/duct_curved.prefab using Guid(9376368eef23b13469fbc195a99da385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea028552e8e4bf58323d21b79d734b3a') in 0.026866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 476.823561 seconds.
+  path: Assets/Props/Column/Materials/columnMat.mat
+  artifactKey: Guid(a97b3e6679558e04ab673998f11feeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Column/Materials/columnMat.mat using Guid(a97b3e6679558e04ab673998f11feeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a8918660bb2b30197d35aa21a6de7e') in 0.043926 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.549687 seconds.
-  path: Assets/EmaceArt/Free Meadows/Material/Colorsheet.mat
-  artifactKey: Guid(a97822256caa3254fb7b880303af5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Material/Colorsheet.mat using Guid(a97822256caa3254fb7b880303af5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a10d29d236ca7bc3d31ba2a93ba8b7') in 0.031728 seconds
+  Time since last request: 288.045700 seconds.
+  path: Assets/Props/Fan/fan.mat
+  artifactKey: Guid(7ecbba37a32b94be7ae18c0364c25cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Fan/fan.mat using Guid(7ecbba37a32b94be7ae18c0364c25cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132d833b8efca5aee97733f2ecd016ec') in 0.177107 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.001203 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EA01_Env_Tree_01c.fbx
-  artifactKey: Guid(b4764394da081ef4abdc0a69b1524266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EA01_Env_Tree_01c.fbx using Guid(b4764394da081ef4abdc0a69b1524266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1722b3c72b12f5cde06160d8fa456ab') in 0.097998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Branch03a.fbx
-  artifactKey: Guid(08a224516519aa64d997f7ec0b0f43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Branch03a.fbx using Guid(08a224516519aa64d997f7ec0b0f43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f3c72466fed4f71fd10561ff07ed5f') in 0.069608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.800228 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Rock01c.fbx
-  artifactKey: Guid(7d0e8a81e833a7546b370fe8dfcde1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Rock01c.fbx using Guid(7d0e8a81e833a7546b370fe8dfcde1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2a09e3dbe4dc6561143058cb94615e') in 0.107726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.141625 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Rock02b.fbx
-  artifactKey: Guid(278672ec97fa733459902cbca5f51322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Rock02b.fbx using Guid(278672ec97fa733459902cbca5f51322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b20cb6dfa105681d964183483567bd3') in 0.079145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Rock19.fbx
-  artifactKey: Guid(0e68c936b14b0ed478abb9cc325b01f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Rock19.fbx using Guid(0e68c936b14b0ed478abb9cc325b01f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a53974fcb280ae51a4f35b28281085') in 0.079234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.141513 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Rock37.fbx
-  artifactKey: Guid(4d16e569dc5c73748959b570bf6f9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Rock37.fbx using Guid(4d16e569dc5c73748959b570bf6f9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eca93dc14b1bf7fa03af08c4042346') in 0.071137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_rock_fence5.fbx
-  artifactKey: Guid(34d07a9bf2aa0dd4a971e02e7153a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_rock_fence5.fbx using Guid(34d07a9bf2aa0dd4a971e02e7153a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39546b8d98404dc3c2abe6f6f627b600') in 0.085224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.238856 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_rock_fence7.fbx
-  artifactKey: Guid(95ae310d7b7e88548b3f0dbe9efe3db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_rock_fence7.fbx using Guid(95ae310d7b7e88548b3f0dbe9efe3db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d9c169444e2a32ab338654557baebd') in 0.090285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.148239 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Root2a.fbx
-  artifactKey: Guid(d496f6f5e3206b6489297df2dd372132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Root2a.fbx using Guid(d496f6f5e3206b6489297df2dd372132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d7b4f4f9b1f996954512377a92ba49') in 0.096077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Root3b.fbx
-  artifactKey: Guid(d6de51f925c9fa545b6ae266b7a0bba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Root3b.fbx using Guid(d6de51f925c9fa545b6ae266b7a0bba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c018f69166425a44c097fe72d17cd7db') in 0.076679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.105212 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Root4b.fbx
-  artifactKey: Guid(a62f2b36b3386ba449979aa133716f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Root4b.fbx using Guid(a62f2b36b3386ba449979aa133716f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557c4623f2f2bce2248c6b2f36421342') in 0.070787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Stone9.fbx
-  artifactKey: Guid(4c2f11536d79b9d4990d94c7b63a2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Stone9.fbx using Guid(4c2f11536d79b9d4990d94c7b63a2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55603e56316f2a3f409b0f15d0ebd1c') in 0.075879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.095489 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Tree1a.fbx
-  artifactKey: Guid(3338671b078f6184d9530ee83999bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Tree1a.fbx using Guid(3338671b078f6184d9530ee83999bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a281891bb0bc644b427290a22b073') in 0.105787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.193663 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_Tree3a.fbx
-  artifactKey: Guid(aceb601719d5db1459f09b05f758ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_Tree3a.fbx using Guid(aceb601719d5db1459f09b05f758ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02d416e61991608280891bb0a0c9c43') in 0.122005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_wood_fence3.fbx
-  artifactKey: Guid(7971f9edb13c46f4d850ef0bcbc884cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_wood_fence3.fbx using Guid(7971f9edb13c46f4d850ef0bcbc884cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d53a56271a15b973194e4bf3bf6c2') in 0.075538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.056622 seconds.
-  path: Assets/EmaceArt/Free Meadows/Meshes/EM_wood_fence3b.fbx
-  artifactKey: Guid(2223d9f8e9703124db4cdffc45a17d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Meshes/EM_wood_fence3b.fbx using Guid(2223d9f8e9703124db4cdffc45a17d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de621318c2cfe938718e79ea0ac6d71') in 0.051577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 4.691460 seconds.
-  path: Assets/EmaceArt/Free Meadows/Info/ReadMe.pdf
-  artifactKey: Guid(4e2397ec2a0d2ae4ab842781224a98ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Info/ReadMe.pdf using Guid(4e2397ec2a0d2ae4ab842781224a98ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5cc6c3bbc779cdccccae7c4d9bdc31') in 0.001092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 24.104010 seconds.
-  path: Assets/EmaceArt/Free Meadows/Scene/MeadowDemoSettings.lighting
-  artifactKey: Guid(8b8fead039dc2c944bea6b073c3fd879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Scene/MeadowDemoSettings.lighting using Guid(8b8fead039dc2c944bea6b073c3fd879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a82a45e2d4d02fee4160a360b4b15') in 0.001659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.059708 seconds.
-  path: Assets/EmaceArt/Free Meadows/TerrainData/TerrainData_7ade1069-3b10-4975-953d-04490cfad788.asset
-  artifactKey: Guid(637648a43532eb54382fc93a5f88ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/TerrainData/TerrainData_7ade1069-3b10-4975-953d-04490cfad788.asset using Guid(637648a43532eb54382fc93a5f88ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c0ccd96fbf328bdf7df112a72dcf08') in 0.102602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.244122 seconds.
-  path: Assets/EmaceArt/Free Meadows/TerrainData/TerrainData_dbafc843-80c4-4f68-ba12-e34f55b66dc1.asset
-  artifactKey: Guid(2db5ab264b47cd34e939104970981964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/TerrainData/TerrainData_dbafc843-80c4-4f68-ba12-e34f55b66dc1.asset using Guid(2db5ab264b47cd34e939104970981964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda685f71c000a67e5a5e37877fd05dc') in 0.073313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.199939 seconds.
-  path: Assets/EmaceArt/Free Meadows/Texture/Demo_Pobbles_Grass_NM.png
-  artifactKey: Guid(1ea6355344ff6c9428faf2b58a97025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Texture/Demo_Pobbles_Grass_NM.png using Guid(1ea6355344ff6c9428faf2b58a97025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2126ec6e07206d92eddb5286a7fbfb5d') in 0.042241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 73.153361 seconds.
-  path: Assets/EmaceArt/Free Meadows/Texture/Demo_Pobbles_Grass.png
-  artifactKey: Guid(66cfd04abc1c603439c751369221af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Texture/Demo_Pobbles_Grass.png using Guid(66cfd04abc1c603439c751369221af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dda491a6bc12f48ec23ae65b79a2d54') in 0.082179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/EmaceArt/Free Meadows/Texture/Demo_Cliffwall_NM.png
-  artifactKey: Guid(8569086e970f02341a252547a8e73182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/Free Meadows/Texture/Demo_Cliffwall_NM.png using Guid(8569086e970f02341a252547a8e73182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d9b3319ed2443dbe8302f36453344') in 0.050883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.336 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
-Domain Reload Profiling: 1023ms
-	BeginReloadAssembly (113ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (217ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (688ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (404ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.1 KB). Loaded Objects now: 3731.
-Memory consumption went from 148.0 MB to 148.0 MB.
-Total: 2.939300 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.594300 ms  DeleteObjects: 0.055700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.424 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.616 seconds
-Domain Reload Profiling: 1040ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (290ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (616ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.1 KB). Loaded Objects now: 3734.
-Memory consumption went from 150.2 MB to 150.2 MB.
-Total: 2.599300 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.211000 ms  DeleteObjects: 0.060700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.356 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.714 seconds
-Domain Reload Profiling: 1068ms
-	BeginReloadAssembly (124ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (234ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (714ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.1 KB). Loaded Objects now: 3737.
-Memory consumption went from 152.1 MB to 152.1 MB.
-Total: 2.744200 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.386000 ms  DeleteObjects: 0.057000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.377 seconds
-Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.629 seconds
-Domain Reload Profiling: 1005ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (229ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (629ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (345ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.2 KB). Loaded Objects now: 3782.
-Memory consumption went from 157.0 MB to 157.0 MB.
-Total: 2.286800 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.012300 ms  DeleteObjects: 0.050300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.403 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1114ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (712ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.2 KB). Loaded Objects now: 3785.
-Memory consumption went from 159.0 MB to 158.9 MB.
-Total: 4.287900 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.209600 ms MarkObjects: 3.497300 ms  DeleteObjects: 0.056800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.413 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.656 seconds
-Domain Reload Profiling: 1069ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (282ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (656ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.2 KB). Loaded Objects now: 3788.
-Memory consumption went from 160.9 MB to 160.8 MB.
-Total: 3.497900 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.060700 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.058600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.335 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 1006ms
-	BeginReloadAssembly (115ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (220ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (673ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (358ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.1 KB). Loaded Objects now: 3791.
-Memory consumption went from 162.8 MB to 162.8 MB.
-Total: 5.035200 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.044400 ms MarkObjects: 4.625600 ms  DeleteObjects: 0.083600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.362 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.653 seconds
-Domain Reload Profiling: 1014ms
-	BeginReloadAssembly (125ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (653ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (355ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.1 KB). Loaded Objects now: 3794.
-Memory consumption went from 164.7 MB to 164.7 MB.
-Total: 3.794600 ms (FindLiveObjects: 0.466100 ms CreateObjectMapping: 0.332500 ms MarkObjects: 2.911500 ms  DeleteObjects: 0.082600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.419 seconds
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1064ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (264ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (646ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (31.2 KB). Loaded Objects now: 3797.
-Memory consumption went from 166.7 MB to 166.6 MB.
-Total: 3.313900 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.054300 ms MarkObjects: 3.010400 ms  DeleteObjects: 0.057500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: e17d6ed34923b0b9140fcd062af7821a -> a77a99791d56182bd98862d6c4861ded
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CameraPosition.cs: a2407aabd02c586114ea9b002afd1df8 -> e732973052cb68f8e8bdea9d3c698b87
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/AudioManager.cs: d80f801c38617b47394f0d3b9e7d0c1e -> e8310be4479956b7ccf5d41d9f0f6e53
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/SplashScreen.cs: 1ebd617a776cf52ab572a2f0dfae6e69 -> 3cffbfb2a696e5658d4c13f4ec12ebba
-  custom:scripting/monoscript/fileName/SpringManager.cs: eb6a533b4e0021c0e1c3aac2c22e5b9a -> daa32df024c8d1d3fcc1211377d70c7a
-  custom:scripting/monoscript/fileName/IdleChanger.cs: 788090da930a7931de976ea0f5ad4bc7 -> da06a30859e1a20b77b2a43ba709b662
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/SpringBone.cs: ddc8096f00cfedf823ef813fb9729d6b -> 2495ac65ccaeb95348021193318adc02
-  custom:scripting/monoscript/fileName/UIManager.cs: 57724e77908c1fb25747e98c23366ff8 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpringCollider.cs: 011f2f614f5331642f672a48bbe96c84 -> 29f53123fff6fbe39d69aab0b5c996c5
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RandomWind.cs: e4d866c9543cdde5bc6cbecd3663c569 -> ee01148af6f03d83b48dd008a895faea
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AutoBlink.cs: f0dfe55673f584c6a5abf144b1e4e9f8 -> fda9e2a9c42f1f5ae276344f30d635c5
-  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 0dacb376ece77cabf05945c35e1fdbfc -> 50fb994c027e1326d9a347b623973901
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/FaceUpdate.cs: 1fe743c5519e0788dd321348946cb241 -> a4de5e9bd507b4d9937d96cf75fc81f9
-  custom:scripting/monoscript/fileName/CameraController.cs: d2816c84956c008e47c0d050546000ff -> 79990bececf068262d94e5d51ea64eb2
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 0d35a446e4e7853343d16243597bdfa2 -> 28839942d100315071571435dc1cdf6e
-  custom:scripting/monoscript/fileName/Player.cs: bc93839d4287b661df4f3f838d90e183 -> 007e2e63cbf915a2b71612a7f593548a
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CreateLocatorHere.cs: 64a27562441d100a0436051f7f44d852 -> 8dac026d77ef58adbe3522c82dba3b2c

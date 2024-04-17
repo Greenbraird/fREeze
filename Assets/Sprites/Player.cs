@@ -7,10 +7,11 @@ public class Player : MonoBehaviour
 {
 
     public float speed = 5f;
-    public Transform[] waypoint;
+    public Transform[] waypoints;
+    private int currentWaypointIndex = 0;
 
     private Vector3 touchStartPos;
-    public float slideThreshold = 0.2f; // 슬라이드로 감지하는 최소 거리
+    public float slideThreshold = 0.1f; // 슬라이드로 감지하는 최소 거리
 
     [SerializeField]
     private Animator playerAnimator;
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
 
     void playerMove()
     {
+        
         // 현재 위치를 저장
         Vector3 currentPosition = transform.position;
 
@@ -33,7 +35,25 @@ public class Player : MonoBehaviour
 
         // 새로운 위치를 설정
         transform.position = currentPosition;
+
+        /**
+        if (currentWaypointIndex < waypoints.Length)
+        {
+            // 다음 지점 방향으로 이동
+            transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypointIndex].position, speed * Time.deltaTime);
+
+            transform.DOLookAt(waypoints[currentWaypointIndex].position, 0.5f).SetEase(Ease.InOutExpo);
+
+            // 다음 지점에 도착하면 다음 지점으로 이동
+            if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
+            {
+                currentWaypointIndex++;
+            }
+        }
+        **/
     }
+
+
 
     void OnMouseDown()
     {
