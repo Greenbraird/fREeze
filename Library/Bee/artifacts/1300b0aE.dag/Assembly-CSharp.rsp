@@ -367,7 +367,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Sprites/AudioManager.cs"
 "Assets/Sprites/CameraPosition.cs"
+"Assets/Sprites/MovetomyCube.cs"
 "Assets/Sprites/Player.cs"
+"Assets/Sprites/Singletone.cs"
 "Assets/Sprites/UIManager.cs"
 -langversion:9.0
 
