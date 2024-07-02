@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    [SerializeField] private GameObject mainCharater;
+    public GameObject mainCharater;
     void Update()
     {
-        transform.position = new Vector3(mainCharater.transform.position.x, mainCharater.transform.position.y + 2.8f, mainCharater.transform.position.z - 4);
+        Vector3 camereUpdis = mainCharater.transform.up;
+        Vector3 camereBackdis = mainCharater.transform.forward * -0.4f;
+        transform.position = camereBackdis;
     }
 }

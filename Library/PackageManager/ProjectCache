@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638546167007874759
-    m_Hash: 464107752
+      ticks: 638548035134264900
+    m_Hash: 2526231943
   m_LockFileStatus:
     m_FilePath: C:/Users/kimsijun/Desktop/Project/fREeze/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638546167007930205
-    m_Hash: 4268855559
+      ticks: 638548035134274861
+    m_Hash: 3914570764
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -335,8 +335,10 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     - 2.3.1
+    - 2.4.3
     compatible:
     - 2.3.1
+    - 2.4.3
     recommended: 2.3.1
     deprecated: []
   dependencies: []
@@ -3296,9 +3298,11 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
+    - 3.0.31
     compatible:
     - 3.0.28
-    recommended: 3.0.28
+    - 3.0.31
+    recommended: 3.0.31
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
