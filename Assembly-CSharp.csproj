@@ -62,10 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\02. Scripts\Managers\Data\GoogleSheetManager.cs" />
-    <Compile Include="Assets\02. Scripts\Player.cs" />
+    <Compile Include="Assets\02. Scripts\Player\PlayerCollider.cs" />
     <Compile Include="Assets\02. Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\02. Scripts\Singletone.cs" />
-    <Compile Include="Assets\02. Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\02. Scripts\Player\Player.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
