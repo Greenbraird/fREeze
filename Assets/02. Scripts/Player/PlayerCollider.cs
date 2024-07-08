@@ -29,7 +29,7 @@ public class PlayerCollider : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         transform.position = new Vector3(transform.position.x, positionY, transform.position.z);
-
+        _splineAnimate.Container = null;
     }
 
     /**

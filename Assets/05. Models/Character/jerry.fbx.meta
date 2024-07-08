@@ -3,7 +3,32 @@ guid: 38cb08b9f23d67148a40bdd868aa2c65
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cheese_leg_arm
+    second: {fileID: 2100000, guid: 2376440dd97221c48acc8ecfa742a82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cheese_mouse
+    second: {fileID: 2100000, guid: e2e0841bac0e4114088540ee64ce4a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_cheese
+    second: {fileID: 2100000, guid: 90c9268d76f47724ca5c2087db4fddcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hole
+    second: {fileID: 2100000, guid: d58ef9f1e32c65045aa9b2b22d389b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__cheese
+    second: {fileID: 2100000, guid: 2a83f6abd36c52647a3d5349c5578c2e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
