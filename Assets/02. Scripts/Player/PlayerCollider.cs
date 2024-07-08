@@ -19,6 +19,16 @@ public class PlayerCollider : MonoBehaviour
         _splineAnimate.Container = otherspline;
         _splineAnimate.Play();
 
+        float initpositionY = transform.position.y;
+
+        StartCoroutine(SplineEndInitY(initpositionY));
+        
+    }
+
+    IEnumerator SplineEndInitY(float positionY)
+    {
+        yield return new WaitForSeconds(3);
+        transform.position = new Vector3(transform.position.x, positionY, transform.position.z);
 
     }
 
