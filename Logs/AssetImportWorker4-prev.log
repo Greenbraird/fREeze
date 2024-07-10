@@ -15,7 +15,7 @@ C:/Users/kimsijun/Desktop/Project/fREeze
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-56803
+58603
 Successfully changed project path to: C:/Users/kimsijun/Desktop/Project/fREeze
 C:/Users/kimsijun/Desktop/Project/fREeze
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/kimsijun/Desktop/Project/fREeze
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31976] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 2119767613 [EditorId] 2119767613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27048] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 239674611 [EditorId] 239674611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31976] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 2119767613 [EditorId] 2119767613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27048] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 239674611 [EditorId] 239674611 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 21 workers.
-Refreshing native plugins compatible for Editor in 18.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003469 seconds.
-- Loaded All Assemblies, in  0.239 seconds
+Registered in 0.004884 seconds.
+- Loaded All Assemblies, in  0.437 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 189 ms
+Android Extension - Scanning For ADB Devices 182 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.510 seconds
-Domain Reload Profiling: 749ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 899ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (136ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (510ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (462ms)
+		SetupLoadedEditorAssemblies (405ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (306ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (271ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 749ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.673 seconds
-Domain Reload Profiling: 1346ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (508ms)
-		LoadAssemblies (295ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (391ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (273ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (201ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (674ms)
+	FinalizeReload (678ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (496ms)
+		SetupLoadedEditorAssemblies (511ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5384 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (0.7 MB). Loaded Objects now: 5884.
-Memory consumption went from 232.3 MB to 231.6 MB.
-Total: 2.992400 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.271100 ms  DeleteObjects: 0.302600 ms)
+Unloading 5444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (359.3 KB). Loaded Objects now: 5947.
+Memory consumption went from 243.3 MB to 242.9 MB.
+Total: 4.975600 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 4.470200 ms  DeleteObjects: 0.129400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -188,41 +188,553 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 254972.999505 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Ellen/Prefabs/Ellen.prefab
-  artifactKey: Guid(1c443c3abb862244aa6185fe28d5f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Ellen/Prefabs/Ellen.prefab using Guid(1c443c3abb862244aa6185fe28d5f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2f34f6df0a5fba7ee97474d9246f3f') in 0.468674 seconds
+  Time since last request: 264579.779107 seconds.
+  path: Assets/Stylized Toon Pro/Demo/ShaderBall/ShaderBall.obj
+  artifactKey: Guid(492bbfe63f757884fa711aa3d9fec510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/ShaderBall/ShaderBall.obj using Guid(492bbfe63f757884fa711aa3d9fec510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653e7c3a6dd9e7d2a8046eefe839eeca') in 0.676234 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 464
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 10.025488 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Ellen/Weapons/Materials
-  artifactKey: Guid(b42730b6b16eabb43bd61bac35d00dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Ellen/Weapons/Materials using Guid(b42730b6b16eabb43bd61bac35d00dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04312ca5f26b6ca3f1e2400af85131e') in 0.001580 seconds
+  Time since last request: 1.003981 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/Toon Materials/Misc/Base/Base 2.mat
+  artifactKey: Guid(8bd03f661720bb347867a2cd4ee08822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/Toon Materials/Misc/Base/Base 2.mat using Guid(8bd03f661720bb347867a2cd4ee08822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa89f1220682c6b667a110b4f02d8613') in 0.733007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.224016 seconds.
+  path: Assets/Stylized Toon Pro/Textures/LightRamps/LightRamp2.png
+  artifactKey: Guid(f8ca21af549a65a40b848f2330b50790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/LightRamps/LightRamp2.png using Guid(f8ca21af549a65a40b848f2330b50790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1736a67dd9f236f36cb907866c031ca3') in 0.032262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.013596 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Scripts/Camera_Controller.cs
+  artifactKey: Guid(42dd1a894d85db548a183bdc6a398828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Scripts/Camera_Controller.cs using Guid(42dd1a894d85db548a183bdc6a398828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f7e8e1022b317f5f7f15cd703c0af') in 0.000511 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.741414 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Ellen/Weapons/Materials/Pistol_Mat.mat
-  artifactKey: Guid(cdd1dda890977a24b8597b566bc084de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Ellen/Weapons/Materials/Pistol_Mat.mat using Guid(cdd1dda890977a24b8597b566bc084de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1068b12cdaa349e425d47ac75ec17b4') in 0.350892 seconds
+  Time since last request: 45.696436 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 1.mat
+  artifactKey: Guid(e9ecad2c3f468994ea415e16c02cd142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 1.mat using Guid(e9ecad2c3f468994ea415e16c02cd142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4b57e7d1bc25e9ee2041a7e5b177eb') in 0.477074 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 17.787728 seconds.
-  path: Assets/Stylized Toon Pro/Textures/Halftone/HalftoneCross.png
-  artifactKey: Guid(0c021cea0cf2417459ce7fa844118e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Textures/Halftone/HalftoneCross.png using Guid(0c021cea0cf2417459ce7fa844118e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6ae2976576f4f61d304bd9100726b9') in 0.034456 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 4.mat
+  artifactKey: Guid(2795ab884a0485a4196d891c2775bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 4.mat using Guid(2795ab884a0485a4196d891c2775bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8948e140cae6d418c31364a6ab095ecf') in 0.519895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 3.mat
+  artifactKey: Guid(cc4911b4610a4474e9b56e3d18ab590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 3.mat using Guid(cc4911b4610a4474e9b56e3d18ab590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d73dd401825592261264afecdd552e') in 0.538434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 3.mat
+  artifactKey: Guid(43f04a76c47b7e849930ecca8c4ca0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 3.mat using Guid(43f04a76c47b7e849930ecca8c4ca0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6bc3fdb4990fbbf81f1b563f38eb08') in 0.553331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.178722 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp3.png
+  artifactKey: Guid(7a71efcf52d1257409b9df92da2581c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp3.png using Guid(7a71efcf52d1257409b9df92da2581c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f702003bc566a8e212efaa3d8ad51b7') in 0.011006 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Toon Pro/Textures/Noises/NoisePastel.png
+  artifactKey: Guid(ea55c807822ebcc418fda73c2f116047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/Noises/NoisePastel.png using Guid(ea55c807822ebcc418fda73c2f116047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009fb6ff18b18e5d89d15008ca20ff66') in 0.021192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.849684 seconds.
+  path: Assets/Stylized Toon Pro/Textures/Sketch/SketchPastels.png
+  artifactKey: Guid(e65f4fcdb4894f14a8a82f7eff8299e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/Sketch/SketchPastels.png using Guid(e65f4fcdb4894f14a8a82f7eff8299e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a4c3c766a857250ba1d5c5dcfd1a7e') in 0.032579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.833325 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Ellen/Ellen_Body_Dirty_Mat 1.mat
+  artifactKey: Guid(f1cbdc674853e0341ba307d9d9a971f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Ellen/Ellen_Body_Dirty_Mat 1.mat using Guid(f1cbdc674853e0341ba307d9d9a971f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ada55cf0cc2d4ca8dd31cad8893139') in 1.237116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.413899 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 1.mat
+  artifactKey: Guid(481844db451fa93489604a763b3f23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 1.mat using Guid(481844db451fa93489604a763b3f23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae83327d90214d9f6cfc900b1859dde') in 0.549694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 6.mat
+  artifactKey: Guid(c0ef1c635d236e34e8a15eab872d381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 6.mat using Guid(c0ef1c635d236e34e8a15eab872d381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dead2ba95923b6ca6192eeb3f5ad021c') in 0.490734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.628089 seconds.
+  path: Assets/Stylized Toon Pro/Textures/LightRamps/LightRamp6.png
+  artifactKey: Guid(bfe6d9beb762ae547ad2d1b79a29ca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/LightRamps/LightRamp6.png using Guid(bfe6d9beb762ae547ad2d1b79a29ca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc8be86edd917b35ddf093762086b97') in 0.053402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.400308 seconds.
+  path: Assets/Stylized Toon Pro/Textures/Hatching/Pencil2/PencilHatchPackedLight.png
+  artifactKey: Guid(92a9365c9601d7d4abdcb699c767f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/Hatching/Pencil2/PencilHatchPackedLight.png using Guid(92a9365c9601d7d4abdcb699c767f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663be7017af4b501d17d01e9e0dab268') in 0.029671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.777313 seconds.
+  path: Assets/Stylized Toon Pro/Textures/Hatching/Pencil1/PencilHatchbrightest.png
+  artifactKey: Guid(47e69ef5f397d07408c87e4e461b62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/Hatching/Pencil1/PencilHatchbrightest.png using Guid(47e69ef5f397d07408c87e4e461b62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec3ce1cfaf1ebe76957555ed0a852a4') in 0.053864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.739506 seconds.
+  path: Assets/Stylized Toon Pro/Editor/Inspector
+  artifactKey: Guid(f196a8fbe0356794594a1dfe3c1d0a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Editor/Inspector using Guid(f196a8fbe0356794594a1dfe3c1d0a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d0d1e2b45880df51a79b921ea3a616') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.665961 seconds.
+  path: Assets/Stylized Toon Pro/Editor/Inspector/StylizedToonEditor.cs
+  artifactKey: Guid(45f401417c2bb694f99aa686039577a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Editor/Inspector/StylizedToonEditor.cs using Guid(45f401417c2bb694f99aa686039577a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5e4b288227da5a5b86b03eb93088be') in 0.000793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.214793 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Knots Diffuse WarpTimeline.playable
+  artifactKey: Guid(9151f828907b50e4f9664e6ac57d2229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Knots Diffuse WarpTimeline.playable using Guid(9151f828907b50e4f9664e6ac57d2229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896b2f8ad316712eb2af6a9b491377c5') in 0.004559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.484171 seconds.
+  path: Assets/Stylized Toon Pro/Default Materials/Room.mat
+  artifactKey: Guid(6768a361e7e5eda4c91e6dd59a438974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Default Materials/Room.mat using Guid(6768a361e7e5eda4c91e6dd59a438974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12caf14cd19e9a6d05f6a6cc8fe841d1') in 0.041695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.406303 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(6baab489d76df0e4585ecd1a454b2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(6baab489d76df0e4585ecd1a454b2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d2f28ec1b5a2c7af4a42b0f478f9c4') in 0.002183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.646555 seconds.
+  path: Assets/Materials/bread.001.mat
+  artifactKey: Guid(3fa97386bc041af43a936f09ddbbaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bread.001.mat using Guid(3fa97386bc041af43a936f09ddbbaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524c9817ddd53c9b7420655e2bbf06b8') in 0.035382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Line Material.mat
+  artifactKey: Guid(6f247c4aabc0f134eb79a9d010b09e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Line Material.mat using Guid(6f247c4aabc0f134eb79a9d010b09e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b823d17377daef1030b7b7ff024e5c39') in 0.028771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.281295 seconds.
+  path: Assets/Settings/High_PipelineAsset.asset
+  artifactKey: Guid(59e276ec18a1ec64ba5ce3759993dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/High_PipelineAsset.asset using Guid(59e276ec18a1ec64ba5ce3759993dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bac9580a9844f364bbf33cea223d07') in 0.003246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(e22065b89c1236c4ab85ea34e29965f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(e22065b89c1236c4ab85ea34e29965f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aba0681db3e2f608ffb1b2f55d2f844') in 0.001234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.424552 seconds.
+  path: Assets/Settings/Very High_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(27d207c641399814a8f49e1bf3526f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Very High_PipelineAsset_ForwardRenderer.asset using Guid(27d207c641399814a8f49e1bf3526f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84022a77e930af13e083a511ab362153') in 0.032064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.120751 seconds.
+  path: Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(87866228f92778642a7c3fd3fc647da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset using Guid(87866228f92778642a7c3fd3fc647da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a799830b6c476489d80088add0ffa') in 0.022977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.577307 seconds.
+  path: Assets/Toon Universal Render Pipeline Asset.asset
+  artifactKey: Guid(41a0d1649eebc3d4b8dacc7b08af8add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Universal Render Pipeline Asset.asset using Guid(41a0d1649eebc3d4b8dacc7b08af8add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2116664951a683d5643ae25cacb81487') in 0.002467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.576460 seconds.
+  path: Assets/Toon Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(aba894f2cd8b3f242b06be0d9925841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Universal Render Pipeline Asset_Renderer.asset using Guid(aba894f2cd8b3f242b06be0d9925841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f87669f1f6f19e1567c3a6bab5b7546') in 0.048376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.494805 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset
+  artifactKey: Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset using Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b7c6a1e8c0bd1b1c494fa98494bd1f') in 0.003440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.924052 seconds.
+  path: Assets/Stylized Toon Pro/Scenes/DemoRoom.unity
+  artifactKey: Guid(aff30241fd291e74b80e48d239e80ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Scenes/DemoRoom.unity using Guid(aff30241fd291e74b80e48d239e80ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac05e2fcc00aca999aa59ebb0da2cc53') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.986495 seconds.
+  path: Assets/Stylized Toon Pro/Scenes/Environment.unity
+  artifactKey: Guid(bed2a14411992a142af6012229737661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Scenes/Environment.unity using Guid(bed2a14411992a142af6012229737661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602485beaad086a568e8716a413b23f6') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.090883 seconds.
+  path: Assets/Stylized Toon Pro/Scenes/Showcases.unity
+  artifactKey: Guid(8e0c453e345b0574e8ba650d116025b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Scenes/Showcases.unity using Guid(8e0c453e345b0574e8ba650d116025b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e63632d8b9815e1f9177d0c929d970f') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.059642 seconds.
+  path: Assets/Stylized Toon Pro/Textures/Sketch/SketchCharcoal.png
+  artifactKey: Guid(db7f26e627f453a4a8a2a21418ef9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Textures/Sketch/SketchCharcoal.png using Guid(db7f26e627f453a4a8a2a21418ef9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eb509f29fa0ff28037bd485af2cce5') in 0.023393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.736212 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Meshes/BendedScene 1.obj
+  artifactKey: Guid(fdaa7bbce484fe64e90f77e7d82a3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Meshes/BendedScene 1.obj using Guid(fdaa7bbce484fe64e90f77e7d82a3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8d8d8b0c39e8073f6079e4077ed452') in 0.104583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Meshes/TestRoom.prefab
+  artifactKey: Guid(dbdf5fc7c6e35854f9703eed8776374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Meshes/TestRoom.prefab using Guid(dbdf5fc7c6e35854f9703eed8776374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38884022490e5a2909c5904ad0998ee') in 0.041894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Meshes/TestRoom.fbx
+  artifactKey: Guid(39b9658d627e1ed4b8c6f2d17e6152a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Meshes/TestRoom.fbx using Guid(39b9658d627e1ed4b8c6f2d17e6152a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae2ca67e1d708edb35e62cd5f56f0b9') in 0.030961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 30.851012 seconds.
+  path: Assets/Stylized Toon Pro/Scenes/DemoRoom
+  artifactKey: Guid(04fb7f37e781a6a4f83d2214fbf688bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Scenes/DemoRoom using Guid(04fb7f37e781a6a4f83d2214fbf688bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b4c062a982adae1fe165387bd5469') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038289 seconds.
+  path: Assets/Stylized Toon Pro/Scenes/DemoRoom/LightingData.asset
+  artifactKey: Guid(40545cf13c0a2e346aa8a50ffb6a5759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Scenes/DemoRoom/LightingData.asset using Guid(40545cf13c0a2e346aa8a50ffb6a5759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb69218da65b2183a45c45d7ba61cb3') in 0.012583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.369236 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium01_Albedo.tif
+  artifactKey: Guid(d5f22b130f4c4344ca0819aaa74ce1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium01_Albedo.tif using Guid(d5f22b130f4c4344ca0819aaa74ce1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f69dd1076710ab3b52dcd443e4e7aa') in 0.076712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium01_Occlusion.tif
+  artifactKey: Guid(b97546dcabed36c4bb24175139ecb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium01_Occlusion.tif using Guid(b97546dcabed36c4bb24175139ecb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f101d76be3ac1abb82bd3f6796f499') in 0.043958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.663903 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_Albedo.tif
+  artifactKey: Guid(876e8f78dd234ba498dc2e24356e3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_Albedo.tif using Guid(876e8f78dd234ba498dc2e24356e3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb80dd67197c3ad84f322d86581a48d') in 0.060118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028876 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_MetallicSmooth.tif
+  artifactKey: Guid(644f59998c47e8a4bafc2a5026fe33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_MetallicSmooth.tif using Guid(644f59998c47e8a4bafc2a5026fe33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea1e3922f73957f8d1a804b7e73718') in 0.028119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.547226 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_Normals.tif
+  artifactKey: Guid(4afd5ea213210424a8aa72fdd14ba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium02_Normals.tif using Guid(4afd5ea213210424a8aa72fdd14ba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7292723b3a6ae2c37ad1888b2c6c3') in 0.076127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium04_Emissive.tif
+  artifactKey: Guid(dc8184056bca4054bae5e93159338620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium04_Emissive.tif using Guid(dc8184056bca4054bae5e93159338620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b55c40722358a9787e34017f2700f2') in 0.029491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.189139 seconds.
+  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium04_Normals.tif
+  artifactKey: Guid(17753bbe9fb00a14189fd0f9bd5b01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationMedium04_Normals.tif using Guid(17753bbe9fb00a14189fd0f9bd5b01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55d9b595ae5077d2bcff0f75494d515') in 0.085363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165704 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png
+  artifactKey: Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png using Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d389c0808af24e6a1d3e22a2e68b989') in 0.033069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 47.297396 seconds.
+  path: Assets/Stylized Toon Pro/Demo/ShaderBall/1EmssionTest.png
+  artifactKey: Guid(9d440d2f8b6af1649ba5c1fe531233e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Demo/ShaderBall/1EmssionTest.png using Guid(9d440d2f8b6af1649ba5c1fe531233e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3778eb3611d7dcfe0b8e45222664a79e') in 0.028171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.518520 seconds.
+  path: Assets/Stylized Toon Pro/Example Materials
+  artifactKey: Guid(cecce3a2876e76b46a66f39577a81f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Toon Pro/Example Materials using Guid(cecce3a2876e76b46a66f39577a81f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0e200e5c7f5160a3386d91a123e20a') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.184032 seconds.
+  path: Assets/01. Scenes/BackgroundExScene.unity
+  artifactKey: Guid(ba743a8293da2c347aad501be5b8484a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scenes/BackgroundExScene.unity using Guid(ba743a8293da2c347aad501be5b8484a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c585e8a2cf131909ecfae5df5be39') in 0.000634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.288382 seconds.
+  path: Assets/Materials/Load.mat
+  artifactKey: Guid(0bd01b8e4a78ab54888273ae9afff33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Load.mat using Guid(0bd01b8e4a78ab54888273ae9afff33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433409fb18c7db8332704e12fdaa0268') in 0.060232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.061820 seconds.
+  path: Assets/03. Prefabs/Cube.prefab
+  artifactKey: Guid(f0c94fc1a2d322044be6d8a4e6e3ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Prefabs/Cube.prefab using Guid(f0c94fc1a2d322044be6d8a4e6e3ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8d57b0c1a8e9da4a3563962fdaf955') in 0.047908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.120284 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Models/BoxUnityChan.fbx
+  artifactKey: Guid(d6dad0fb52ba12f458cc7ffb66882391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Models/BoxUnityChan.fbx using Guid(d6dad0fb52ba12f458cc7ffb66882391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097119bef9ae7e57d4283ef5e3637194') in 0.526465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 456
+========================================================================
+Received Import Request.
+  Time since last request: 2.027815 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/body.mat
+  artifactKey: Guid(bb570020a8c3bad4bbf803af20e78937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/body.mat using Guid(bb570020a8c3bad4bbf803af20e78937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2589ec6fe7ef15f7da4c4d95cc74904') in 0.130895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/face.mat
+  artifactKey: Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/face.mat using Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77f924171a0c7c0f51a40a81c8198de') in 0.028915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/eyebase.mat
+  artifactKey: Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/eyebase.mat using Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271584a89f079a4b3a707d6b6e734773') in 0.018011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/mat_cheek.mat
+  artifactKey: Guid(5f9d44654b83160428d7c4cf276b3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/mat_cheek.mat using Guid(5f9d44654b83160428d7c4cf276b3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea321eea53d56a12580e5b2f22c3c3') in 0.019209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/eye_R1.mat
+  artifactKey: Guid(a87def7cf3654cc43add52e645fee2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/eye_R1.mat using Guid(a87def7cf3654cc43add52e645fee2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33757c0530b96a66eb3cc586361ea6e') in 0.017135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/hair.mat
+  artifactKey: Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/hair.mat using Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fc61f59f97346f267c2529c5777a44') in 0.049555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.391125 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01.tga
+  artifactKey: Guid(f9c6074c5a78e71448f9efd3013cadda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01.tga using Guid(f9c6074c5a78e71448f9efd3013cadda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee9169e7aa291f1b22547c337861429') in 0.040464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/ENV2.tga
+  artifactKey: Guid(763c5d30206d1d54a9b49b3309e37fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/ENV2.tga using Guid(763c5d30206d1d54a9b49b3309e37fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae60cec3b5f2ee886c01001abf359dc7') in 0.021640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01_SPEC.tga
+  artifactKey: Guid(7ae1142e9b3a72048960dd9561e0e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01_SPEC.tga using Guid(7ae1142e9b3a72048960dd9561e0e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be96735b117b9d6f05d0c5e5ea02b169') in 0.023842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.045978 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/Right.mat
+  artifactKey: Guid(88157e674d7d0314db76940c73b69405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/Right.mat using Guid(88157e674d7d0314db76940c73b69405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ca9f88c50455341021ec480a8df7ef') in 0.026981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.770212 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx
+  artifactKey: Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx using Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6b5fd0ca9654e53b73f2f4619522b7') in 0.019947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx
+  artifactKey: Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx using Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93710fd9b201db55bc90c70cedd4193d') in 0.100490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00B.fbx
+  artifactKey: Guid(d6fd0c7048894427c8663615237d6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00B.fbx using Guid(d6fd0c7048894427c8663615237d6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19dbb36f05dbaae5f9952aaf5485df8') in 0.098048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00.fbx
+  artifactKey: Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00.fbx using Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac05edff3bbd29c7820d4cd18abcdd0') in 0.105045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
@@ -232,48 +744,48 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.953 seconds
-Domain Reload Profiling: 1419ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  1.274 seconds
+Domain Reload Profiling: 1756ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (312ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (311ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (954ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
+		SetupLoadedEditorAssemblies (632ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5272 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 5932.
-Memory consumption went from 210.0 MB to 209.2 MB.
-Total: 3.708900 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.147400 ms MarkObjects: 2.821100 ms  DeleteObjects: 0.362200 ms)
+Unloading 5270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (357.4 KB). Loaded Objects now: 6041.
+Memory consumption went from 214.7 MB to 214.4 MB.
+Total: 4.030200 ms (FindLiveObjects: 0.404300 ms CreateObjectMapping: 0.107900 ms MarkObjects: 3.395100 ms  DeleteObjects: 0.121000 ms)
 
-Prepare: number of updated asset objects reloaded= 1
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -290,321 +802,310 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.575226 seconds.
-  path: Assets/Stylized Toon Pro/readme.txt
-  artifactKey: Guid(c496d126cac944043a75b15c02428824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/readme.txt using Guid(c496d126cac944043a75b15c02428824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590856923e6e2cfdc6e23c8261212fd2') in 0.011765 seconds
+  Time since last request: 10.056386 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx
+  artifactKey: Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx using Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cf8845fe041e3348088a8a7c43efaa') in 0.395339 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 345
 ========================================================================
 Received Import Request.
-  Time since last request: 40.499555 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials
-  artifactKey: Guid(757ddd51f621226458fc3bac354633b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials using Guid(757ddd51f621226458fc3bac354633b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfe1dd1636e640f12cad201451552d5') in 0.000532 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx
+  artifactKey: Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx using Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a329f6440d471c5f6362e33e8229967f') in 0.108640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx
+  artifactKey: Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx using Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0182d71c60e5aab1d01298ddac88107f') in 0.098492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 5.955105 seconds.
+  path: Assets/05. Models/Character
+  artifactKey: Guid(605fdea26dee0524fbbc0eee8ee59165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05. Models/Character using Guid(605fdea26dee0524fbbc0eee8ee59165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0588678bc03eedd78fecc08589908cdb') in 0.001247 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.733631 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp
-  artifactKey: Guid(b8c9a9a52a0894f45807e7b19373da0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp using Guid(b8c9a9a52a0894f45807e7b19373da0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567aaec6bab04da2cc4b2c0dafd7cb95') in 0.000677 seconds
+  Time since last request: 0.040863 seconds.
+  path: Assets/05. Models/Character/jerry.fbx
+  artifactKey: Guid(38cb08b9f23d67148a40bdd868aa2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05. Models/Character/jerry.fbx using Guid(38cb08b9f23d67148a40bdd868aa2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be892ef4fd90f8c36130fc1a575af209') in 0.600509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 51.708015 seconds.
+  path: Assets/Materials/Map
+  artifactKey: Guid(6c87323e6ccafeb45a1ae7a3f9988369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map using Guid(6c87323e6ccafeb45a1ae7a3f9988369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5642d6feb77e60e5686e0e6dad148ed6') in 0.000675 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.084243 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 1.mat
-  artifactKey: Guid(e9ecad2c3f468994ea415e16c02cd142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Diffuse Warp 1.mat using Guid(e9ecad2c3f468994ea415e16c02cd142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576be7aaad6e7bef19dd80a0275ada4f') in 0.155829 seconds
+  Time since last request: 18.840504 seconds.
+  path: Assets/Materials/Jerry
+  artifactKey: Guid(68644e48dca1c8640afccb8cb6591d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jerry using Guid(68644e48dca1c8640afccb8cb6591d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb88578a2a9b2fea97c68133314541d3') in 0.001223 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 2.mat
-  artifactKey: Guid(0f8ef8747b3c701438899c80e03c4bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 2.mat using Guid(0f8ef8747b3c701438899c80e03c4bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3872fafbe43e3f5c2bb5c2218bf37a') in 0.028550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 1.mat
-  artifactKey: Guid(13a34230f957e6c43a153399851b4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 1.mat using Guid(13a34230f957e6c43a153399851b4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46651850ba077929cf7b34d63198a606') in 0.022866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 5.mat
-  artifactKey: Guid(44390ebb63f665445901e610d281e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/DiffuseWarp/Sketch 5.mat using Guid(44390ebb63f665445901e610d281e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13808c734393ae2d974d411f42a5c80') in 0.016897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1.786439 seconds.
-  path: Assets/Stylized Toon Pro/Textures/Noises/NoiseMoisture.png
-  artifactKey: Guid(961d138f082b55b4985da6479a92e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Textures/Noises/NoiseMoisture.png using Guid(961d138f082b55b4985da6479a92e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c33b8e35ab5d224fc6e3c786c38cb2') in 0.033205 seconds
+  Time since last request: 20.311739 seconds.
+  path: Assets/Materials/Jerry/New Material.mat
+  artifactKey: Guid(e44e080f9ee28f840ba252c6d665e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jerry/New Material.mat using Guid(e44e080f9ee28f840ba252c6d665e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd188c84f07b5692b7b4aa16e261f59') in 0.025966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.172859 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Ellen/Ellen_Body_Dirty_Mat 1.mat
-  artifactKey: Guid(f1cbdc674853e0341ba307d9d9a971f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Ellen/Ellen_Body_Dirty_Mat 1.mat using Guid(f1cbdc674853e0341ba307d9d9a971f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b435c87a947aea96fc144bdb1591325') in 0.763117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.972763 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp2.png
-  artifactKey: Guid(5efb60cccbbb1e049bcb0b290d7fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp2.png using Guid(5efb60cccbbb1e049bcb0b290d7fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4357eb343a2af0899fbd2f19bcfc9297') in 0.080347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.055611 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Halftone/Halftone 1.mat
-  artifactKey: Guid(4c388947390a703459f0a6f0bce9ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Halftone/Halftone 1.mat using Guid(4c388947390a703459f0a6f0bce9ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49d302ce9024262d32a482f726598cd') in 0.042726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.975612 seconds.
-  path: Assets/Stylized Toon Pro/Textures/Halftone/HalftoneChecker.png
-  artifactKey: Guid(8d359518c918b044b8c82e113f8e7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Textures/Halftone/HalftoneChecker.png using Guid(8d359518c918b044b8c82e113f8e7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc39d098aa87e91a472f9fbe409c3bb') in 0.033328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.131991 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 1.mat
-  artifactKey: Guid(481844db451fa93489604a763b3f23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 1.mat using Guid(481844db451fa93489604a763b3f23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64daaad8b74d8bb066700c6857cc7cd1') in 0.048842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1.139161 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Rim/Backlight.mat
-  artifactKey: Guid(a1cb5bed3f5df834797b3089aff0ba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Rim/Backlight.mat using Guid(a1cb5bed3f5df834797b3089aff0ba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1048e9778e0ef92b5e29cf098b0d09b0') in 0.020788 seconds
+  Time since last request: 208.238880 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9477ba98e35fd0d5ec4c87ac575d99') in 0.057921 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.245874 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Robot/Robot Toon 1.mat
-  artifactKey: Guid(f2e876c394ca6254e8b61f74925421a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Robot/Robot Toon 1.mat using Guid(f2e876c394ca6254e8b61f74925421a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe27c73694cb6025d58982c3245912') in 0.040586 seconds
+  Time since last request: 1.474058 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b01d1510aa32ed5cf2a9e32b18c8856') in 0.420758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.009725 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab
+  artifactKey: Guid(6788413dff62c534d8ca610faef3c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab using Guid(6788413dff62c534d8ca610faef3c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086161ac1d2e7daafff0fd8446bc8568') in 0.024433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 456
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/unitychan_dynamic.prefab
+  artifactKey: Guid(49f2055d53eeb4e5a92af590a44bddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/unitychan_dynamic.prefab using Guid(49f2055d53eeb4e5a92af590a44bddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475a770c7ed44993114655fc91923fc1') in 0.415114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 641
+========================================================================
+Received Import Request.
+  Time since last request: 7.780858 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0001.wav
+  artifactKey: Guid(eed2451bbd4264da8b6c27c92df62faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0001.wav using Guid(eed2451bbd4264da8b6c27c92df62faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a31a999b7098b9973be193c151337f') in 0.037590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0007.wav
+  artifactKey: Guid(d721cf72523c74b5b937bd0a354fdd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0007.wav using Guid(d721cf72523c74b5b937bd0a354fdd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d517748826c9137f56b7b1fa61d09') in 0.029866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0009.wav
+  artifactKey: Guid(9fac2d685a3ce48f0b3ec4ed05101df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0009.wav using Guid(9fac2d685a3ce48f0b3ec4ed05101df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888fab254e45fa120b29e020e6e396d4') in 0.035676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0010.wav
+  artifactKey: Guid(d7c4040670e28478fbd49fd9b6060ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0010.wav using Guid(d7c4040670e28478fbd49fd9b6060ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4a09f592c16b382aae2fe19d9a4ad9') in 0.025751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0004.wav
+  artifactKey: Guid(adf7488d7a7d741409ceb3f11b90852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Audio/Voice/univ0004.wav using Guid(adf7488d7a7d741409ceb3f11b90852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b419b7957b16d3a6c35e9e0610fffc') in 0.030876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.643921 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion
+  artifactKey: Guid(9aeff261260b248328b8ce74346dc8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion using Guid(9aeff261260b248328b8ce74346dc8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446d2dcbc4e8e1d0b14862cd2560524d') in 0.000564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048088 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/CamPos.prefab
+  artifactKey: Guid(65eb07d65eb184e13a4b388eced0d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/CamPos.prefab using Guid(65eb07d65eb184e13a4b388eced0d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748398a0ad4db32dd1030db04fcdaa1f') in 0.002015 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.225379 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Edge Warp + Specular.mat
-  artifactKey: Guid(51ddfc0b8a1deda48a6738ec7b07a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Edge Warp + Specular.mat using Guid(51ddfc0b8a1deda48a6738ec7b07a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea1225d14aac8fd4f54ffcc8fbf7a60') in 0.022638 seconds
+  Time since last request: 0.002965 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/LookAtPos.prefab
+  artifactKey: Guid(efaf5c7817edc41d68744ffe3a3dbeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/LookAtPos.prefab using Guid(efaf5c7817edc41d68744ffe3a3dbeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bec58bf6545eb690b7b9acebfa872a9') in 0.007706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002709 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/unitychan_dynamic_locomotion.prefab
+  artifactKey: Guid(69c3ed15e9d13481e8f7dc4db5532fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion/unitychan_dynamic_locomotion.prefab using Guid(69c3ed15e9d13481e8f7dc4db5532fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c6ff6de4f41a89bf8e7a17ab65faa0') in 0.175639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 552
+========================================================================
+Received Import Request.
+  Time since last request: 28.990291 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0
+  artifactKey: Guid(ad7ee9b345c64894095bcf3c288e6abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0 using Guid(ad7ee9b345c64894095bcf3c288e6abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec41acb7721363e7fa0d5b645d01aa4a') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.774544 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/skin_01.tga
+  artifactKey: Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/skin_01.tga using Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff6cf45c8d7113cc0c7d7f802e64b02') in 0.034997 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Specular Mask.mat
-  artifactKey: Guid(761a25afcab043a498157047590f2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Specular Mask.mat using Guid(761a25afcab043a498157047590f2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccf829347b0ad22f6e001383d32ab12') in 0.015521 seconds
+  Time since last request: 3.395892 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eyeline_00.tga
+  artifactKey: Guid(e315db926a0705845b12da3cc80ea306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eyeline_00.tga using Guid(e315db926a0705845b12da3cc80ea306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b18ceace9f0accc099416a0223c1a3') in 0.025687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.465396 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/face_00.tga
+  artifactKey: Guid(3cf2e516b5353d5499c41818747b4155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/face_00.tga using Guid(3cf2e516b5353d5499c41818747b4155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6465f58b7d8fb6d81ed9eb1c52ad4257') in 0.030183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.269904 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/hair.mat
+  artifactKey: Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/Materials/hair.mat using Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae65636d7ff60535d5af75b5f070cbd2') in 0.040981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.897354 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga
+  artifactKey: Guid(89ede59217e3847c39c444f223f4084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga using Guid(89ede59217e3847c39c444f223f4084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651c8891b97d353fdcdb3822cda7beeb') in 0.024138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.209250 seconds.
+  path: Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/DEFAULT_NORMAL.tga
+  artifactKey: Guid(f90e3449ad3674016962a3aba3d31a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/DEFAULT_NORMAL.tga using Guid(f90e3449ad3674016962a3aba3d31a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d8503a2c542102ae299295022d6095') in 0.036990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 162.981538 seconds.
+  path: Assets/Materials/Map/bread.001.mat
+  artifactKey: Guid(3fa97386bc041af43a936f09ddbbaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/bread.001.mat using Guid(3fa97386bc041af43a936f09ddbbaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ea0aebbed1fb3b3c0d9ef92bc1535a') in 0.027144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Map/Carton_white.mat
+  artifactKey: Guid(72706569273b010449055100c191fcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Carton_white.mat using Guid(72706569273b010449055100c191fcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7bada929846d7149b044f86288f64f') in 0.030408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Materials/Map/lettuce.001.mat
+  artifactKey: Guid(e47a273be66bf9f40a148b50c2c4e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/lettuce.001.mat using Guid(e47a273be66bf9f40a148b50c2c4e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbeb29866572f8f2f719610caab97d1a') in 0.024553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Map/cheese.001.mat
+  artifactKey: Guid(3a7a0133a726d6e4ea825a15a0168e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/cheese.001.mat using Guid(3a7a0133a726d6e4ea825a15a0168e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957b6d100df9e1018bb57a7a20a97a28') in 0.026407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Map/Cube Material.mat
+  artifactKey: Guid(17da3b021f224124c98e81ae0381ca95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Cube Material.mat using Guid(17da3b021f224124c98e81ae0381ca95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6e8bbc53d48bb36ded153b5c4a071d') in 0.021085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Map/road.mat
+  artifactKey: Guid(785b7ad511da8b24e86b8c4fad812367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/road.mat using Guid(785b7ad511da8b24e86b8c4fad812367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ca9f7bfc06d9f8a71f3aba11530f0f') in 0.023553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Map/Carton_blue.mat
+  artifactKey: Guid(dbfa48815d4d4b343aa66219b7f70ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Carton_blue.mat using Guid(dbfa48815d4d4b343aa66219b7f70ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c69ae7ef69fd67ec59bc72e3085f1b') in 0.024200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Map/Rock.mat
+  artifactKey: Guid(c8823a1ad5bde2443b4a222d6758143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Rock.mat using Guid(c8823a1ad5bde2443b4a222d6758143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb6a9b4f46a0b70f7ad7aee468e5ac') in 0.021266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Map/Load.mat
+  artifactKey: Guid(0bd01b8e4a78ab54888273ae9afff33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Load.mat using Guid(0bd01b8e4a78ab54888273ae9afff33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a348cea2daa9fa042a4ca90263a76') in 0.022189 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.908610 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp.png
-  artifactKey: Guid(e64d6ad6fe4a2834c8aeca51c83eb4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp.png using Guid(e64d6ad6fe4a2834c8aeca51c83eb4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9a361307c5284c9076a71c227bfb8d') in 0.021295 seconds
+  Time since last request: 0.232694 seconds.
+  path: Assets/Materials/Jerry/New Material.mat
+  artifactKey: Guid(e44e080f9ee28f840ba252c6d665e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jerry/New Material.mat using Guid(e44e080f9ee28f840ba252c6d665e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674319ea13df1bc2b084cb67e1f6f91f') in 0.379040 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.116914 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone
-  artifactKey: Guid(5686d01056fc60f4cb773a0daa615d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone using Guid(5686d01056fc60f4cb773a0daa615d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2fbe8d2a934182ca6f11de1bc7fe3') in 0.000634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.038871 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/RockFloating04_Mat 1.mat
-  artifactKey: Guid(125747010aabf9b478a57555e7ea8129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/RockFloating04_Mat 1.mat using Guid(125747010aabf9b478a57555e7ea8129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bf0f3d95541c12234ce3289daf5385') in 0.187093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/VegetationMedium04_Mat 1.mat
-  artifactKey: Guid(aff214ee79a8bcc4597fea6a8a2333fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/VegetationMedium04_Mat 1.mat using Guid(aff214ee79a8bcc4597fea6a8a2333fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd76e0bbf06148cf32dbc39d85f71c6') in 0.093038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 66.804281 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(29bdb792667ae2f488b462b1a05bcae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(29bdb792667ae2f488b462b1a05bcae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6076ce2b2f81c0c11701f5e9e2513c') in 0.002753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.579741 seconds.
-  path: Assets/05. Models/Character/jerry.fbx
-  artifactKey: Guid(38cb08b9f23d67148a40bdd868aa2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Character/jerry.fbx using Guid(38cb08b9f23d67148a40bdd868aa2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fd8e93f1e8580b7311b4408f84e2b6') in 0.120137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 44.104026 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings 1.asset
-  artifactKey: Guid(bd357aa634da75e4384bcc8392d8b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings 1.asset using Guid(bd357aa634da75e4384bcc8392d8b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730a139c30c6377cc215671871bdb065') in 0.001850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 135.351470 seconds.
-  path: Assets/Stylized Toon Pro/Built-in Toon Pro.unitypackage
-  artifactKey: Guid(02aa08ae105d37e4e857ee2fed39af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Built-in Toon Pro.unitypackage using Guid(02aa08ae105d37e4e857ee2fed39af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74440fb0e383d6d499c897a05bab13a8') in 0.001801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.098704 seconds.
-  path: Assets/Stylized Toon Pro/AmplifyShaderFunctions.unitypackage
-  artifactKey: Guid(34c78e8afe7a3a54ba250637789bed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/AmplifyShaderFunctions.unitypackage using Guid(34c78e8afe7a3a54ba250637789bed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b95d627c6a381837394f3f64b3bf49') in 0.001132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.716002 seconds.
-  path: Assets/Stylized Toon Pro/Demo
-  artifactKey: Guid(0a6bcba9f53d6be4b9c91be313ff23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo using Guid(0a6bcba9f53d6be4b9c91be313ff23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26284a6bfb73863b115db4e6a113bfb') in 0.000892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.320546 seconds.
-  path: Assets/Stylized Toon Pro/Demo/UVCheckerMaps
-  artifactKey: Guid(356b2eb1a4c058548aaec32c71333c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/UVCheckerMaps using Guid(356b2eb1a4c058548aaec32c71333c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c1bfd42b19b69805a2fb2bfb42d56e') in 0.000584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.915640 seconds.
-  path: Assets/Stylized Toon Pro/Demo/ShaderBall/ShaderBall.prefab
-  artifactKey: Guid(cb1788c71e65b9442a13ad78d282fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/ShaderBall/ShaderBall.prefab using Guid(cb1788c71e65b9442a13ad78d282fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dccb28b157b445dc5d5a4daf1a014b') in 0.019336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 4.043816 seconds.
-  path: Assets/Stylized Toon Pro/Demo/ShaderBall/license.txt
-  artifactKey: Guid(8754375a8c200c848ae513947eb49323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/ShaderBall/license.txt using Guid(8754375a8c200c848ae513947eb49323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc1b517b7739e44924bcbedd4b29e60') in 0.001393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.514362 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/Prefabs
-  artifactKey: Guid(ccf068dea05d5cc46918a8e76b7447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/Prefabs using Guid(ccf068dea05d5cc46918a8e76b7447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d7ce37d21c2117a3720013046b30f7') in 0.000703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.519516 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/Prefabs/RockFloating04.prefab
-  artifactKey: Guid(a17e41bd688c1c24c96fee89d0577100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/Prefabs/RockFloating04.prefab using Guid(a17e41bd688c1c24c96fee89d0577100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e86d80c614e2e6ed389c1d76d19a4') in 0.024634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/Prefabs/VegetationMedium01.prefab
-  artifactKey: Guid(7128ac1a1d97c724483da331530b0e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/Prefabs/VegetationMedium01.prefab using Guid(7128ac1a1d97c724483da331530b0e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d74167c07051b2b367b9404f6e586f') in 0.023605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/Prefabs/VegetationMedium02.prefab
-  artifactKey: Guid(9e14fda5d8ea96746b484e814d499873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/Prefabs/VegetationMedium02.prefab using Guid(9e14fda5d8ea96746b484e814d499873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2aa311d4d84067244e234bcc9f23f3') in 0.023325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 3.014892 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/RockFloating04.fbx
-  artifactKey: Guid(212368ab19d8225429a208adc2442249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/RockFloating04.fbx using Guid(212368ab19d8225429a208adc2442249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2269062a0e1c1f4adbf7076f06c54944') in 0.077995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/RockFloating04_MetallicSmooth.tif
-  artifactKey: Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/RockFloating04_MetallicSmooth.tif using Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be4d71a53c9c41906fbd59de079f432') in 0.029170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_MetallicSmooth.tif
-  artifactKey: Guid(f08c446c665439d48adaa46d61f462f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_MetallicSmooth.tif using Guid(f08c446c665439d48adaa46d61f462f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6783fb6d50965d15ca68162258afe16') in 0.027776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_Albedo.tif
-  artifactKey: Guid(0eaf75c63225d4845b26dff06e476785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_Albedo.tif using Guid(0eaf75c63225d4845b26dff06e476785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d634aa5b6ec7a75860984ecd1c7955') in 0.027189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.467576 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_Normals.tif
-  artifactKey: Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge03_Normals.tif using Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264b636fc1609e7f81856bd17c9793c9') in 0.111260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.764166 seconds.
-  path: Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge04.fbx
-  artifactKey: Guid(50b92cf3f08f03745bbc74de550c2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Demo/Environment/UsedInScene/VegetationLarge04.fbx using Guid(50b92cf3f08f03745bbc74de550c2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a402fd3f350449f0a229e0dc49fc48') in 0.077059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
