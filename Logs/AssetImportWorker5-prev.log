@@ -15,7 +15,7 @@ C:/Users/kimsijun/Desktop/Project/fREeze
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-56803
+58603
 Successfully changed project path to: C:/Users/kimsijun/Desktop/Project/fREeze
 C:/Users/kimsijun/Desktop/Project/fREeze
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/kimsijun/Desktop/Project/fREeze
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20584] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 791176762 [EditorId] 791176762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31872] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 1492328654 [EditorId] 1492328654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20584] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 791176762 [EditorId] 791176762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31872] Host "[IP] 172.30.1.23 [Port] 0 [Flags] 2 [Guid] 1492328654 [EditorId] 1492328654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 21 workers.
-Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005974 seconds.
-- Loaded All Assemblies, in  0.254 seconds
+Registered in 0.004643 seconds.
+- Loaded All Assemblies, in  0.349 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 266 ms
+Android Extension - Scanning For ADB Devices 272 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 768ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1014ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (73ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (173ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (516ms)
+	FinalizeReload (665ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
+		SetupLoadedEditorAssemblies (538ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (342ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (362ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 768ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.133 seconds
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.744 seconds
-Domain Reload Profiling: 1875ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1339ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (904ms)
-		LoadAssemblies (628ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (313ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (744ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (640ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (497ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (0.7 MB). Loaded Objects now: 5885.
-Memory consumption went from 232.5 MB to 231.7 MB.
-Total: 3.195100 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.299800 ms  DeleteObjects: 0.392000 ms)
+Unloading 5444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (359.3 KB). Loaded Objects now: 5947.
+Memory consumption went from 243.3 MB to 243.0 MB.
+Total: 5.280200 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 4.554900 ms  DeleteObjects: 0.167400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,54 +186,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 255091.569095 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Halftone/Halftone 4.mat
-  artifactKey: Guid(6636eee04680ae144b1e860c1b87018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Halftone/Halftone 4.mat using Guid(6636eee04680ae144b1e860c1b87018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2f6c8e82e4bcfe695e32259292a0ef') in 0.119791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 15.065417 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 4.mat
-  artifactKey: Guid(c5571e4f64d590c4a8507c5af8e7d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Hatching/Hatch 4.mat using Guid(c5571e4f64d590c4a8507c5af8e7d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5383a1e691ec834c9a10411020ddba55') in 0.033502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.152734 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Rim/Side Shine Rim.mat
-  artifactKey: Guid(99cb96b2e1f3089439f29e9adcc5e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Rim/Side Shine Rim.mat using Guid(99cb96b2e1f3089439f29e9adcc5e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abbaff2f8b1968359dee9920cf995e1') in 0.027535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.517451 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Haltone + Side Shine.mat
-  artifactKey: Guid(3886d5893f68ec940859318c443e923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Teapots/Haltone + Side Shine.mat using Guid(3886d5893f68ec940859318c443e923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc185ec05e62bfda5828762e098255d8') in 0.022352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.930694 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp4.png
-  artifactKey: Guid(a3778dabc4f47274885c820d86f4b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Light Ramps/LightRamp4.png using Guid(a3778dabc4f47274885c820d86f4b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52060ffb60d6995b4d50ebf02b52fcca') in 0.031920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.159942 seconds.
-  path: Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/VegetationMedium01_Mat 1.mat
-  artifactKey: Guid(3c181ce41e9f10c41b1ff28077fa9aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Toon Pro/Example Materials/NPR Materials/Islands/Halftone/VegetationMedium01_Mat 1.mat using Guid(3c181ce41e9f10c41b1ff28077fa9aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1c218ed00485e2504f38528190bcbd') in 0.244061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
