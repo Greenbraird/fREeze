@@ -1,0 +1,904 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'ko' Physical Memory: 32348 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kimsijun/Desktop/Project/fREeze
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51441
+Successfully changed project path to: C:/Users/kimsijun/Desktop/Project/fREeze
+C:/Users/kimsijun/Desktop/Project/fREeze
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23184] Host "[IP] 10.10.57.239 [Port] 0 [Flags] 2 [Guid] 2174887730 [EditorId] 2174887730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23184] Host "[IP] 10.10.57.239 [Port] 0 [Flags] 2 [Guid] 2174887730 [EditorId] 2174887730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8K2SLO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 21 workers.
+Refreshing native plugins compatible for Editor in 18.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kimsijun/Desktop/Project/fREeze/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     16174 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006708 seconds.
+- Loaded All Assemblies, in  0.494 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 339 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (481ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.137 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (769ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5449 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (359.3 KB). Loaded Objects now: 5954.
+Memory consumption went from 245.4 MB to 245.0 MB.
+Total: 4.959000 ms (FindLiveObjects: 0.419700 ms CreateObjectMapping: 0.126000 ms MarkObjects: 4.238600 ms  DeleteObjects: 0.173600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.790 seconds
+Refreshing native plugins compatible for Editor in 8.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\kimsijun\Desktop\Project\fREeze\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.571 seconds
+Domain Reload Profiling: 2358ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (529ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (358.4 KB). Loaded Objects now: 5959.
+Memory consumption went from 214.8 MB to 214.4 MB.
+Total: 4.210700 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.151700 ms MarkObjects: 3.413800 ms  DeleteObjects: 0.140500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4703.943652 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026961 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001209 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058561 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002113 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017980 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001456 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024960 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009805 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041530 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001301 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044162 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001489 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042891 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001590 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051934 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002183 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052553 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001923 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096476 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001477 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088892 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001446 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097002 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001418 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054160 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002053 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044096 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001372 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052111 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001573 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043497 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001575 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067712 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001315 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017570 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001390 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048683 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001312 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007895 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001284 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.171242 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001431 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047719 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001357 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049325 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001391 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+  ERROR: Build asset version error: assets/dialoguedata.json in SourceAssetDB has modification time of '2024-07-13T06:59:51.0677434Z' while content on disk has modification time of '2024-07-13T07:00:57.1053957Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044660 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d7334dc20f4b1e0287ad9e34a7e26') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.232693 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082ef189c11b75b10d2c97036d58069b') in 0.001622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.618 seconds
+Domain Reload Profiling: 2239ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (357.4 KB). Loaded Objects now: 5965.
+Memory consumption went from 216.7 MB to 216.4 MB.
+Total: 4.816300 ms (FindLiveObjects: 0.588800 ms CreateObjectMapping: 0.194400 ms MarkObjects: 3.876900 ms  DeleteObjects: 0.154500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.668 seconds
+Domain Reload Profiling: 2314ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (438ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (357.5 KB). Loaded Objects now: 5970.
+Memory consumption went from 218.7 MB to 218.3 MB.
+Total: 6.963800 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.137200 ms MarkObjects: 6.084300 ms  DeleteObjects: 0.265300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\kimsijun\Desktop\Project\fREeze\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.587 seconds
+Domain Reload Profiling: 2213ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (834ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (357.4 KB). Loaded Objects now: 5975.
+Memory consumption went from 220.6 MB to 220.3 MB.
+Total: 4.643300 ms (FindLiveObjects: 0.426800 ms CreateObjectMapping: 0.129900 ms MarkObjects: 3.953400 ms  DeleteObjects: 0.131600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\kimsijun\Desktop\Project\fREeze\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-fREze
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.710 seconds
+Domain Reload Profiling: 2371ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5273 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (357.5 KB). Loaded Objects now: 5980.
+Memory consumption went from 222.5 MB to 222.2 MB.
+Total: 3.930400 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.123800 ms MarkObjects: 3.183800 ms  DeleteObjects: 0.128600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1139.956674 seconds.
+  path: Assets/DialogueData.json
+  artifactKey: Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData.json using Guid(bf92329038acddc449472e0374338f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493dee93c9ff5956c6ce3c24fc79c3e9') in 0.055330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

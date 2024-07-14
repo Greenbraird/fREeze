@@ -60,15 +60,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02. Scripts\Tutorial\TutorialDialogue.cs" />
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
+    <Compile Include="Assets\02. Scripts\Tutorial\TutorialManager.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\TestSceneManager.cs" />
     <Compile Include="Assets\02. Scripts\Managers\Data\GoogleSheetManager.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\MainCameraManager.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\Camera_Controller.cs" />
     <Compile Include="Assets\02. Scripts\Player\PlayerCollider.cs" />
+    <Compile Include="Assets\02. Scripts\Managers\Data\DataManaver.cs" />
     <Compile Include="Assets\02. Scripts\Managers\CameraManager.cs" />
-    <Compile Include="Assets\02. Scripts\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\Player\Player.cs" />
+    <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>

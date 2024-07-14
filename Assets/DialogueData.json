@@ -1,0 +1,252 @@
+{
+    "dialogues": [
+        {
+            "Order": 0,
+            "Format": "T",
+            "Speaker": "작고 하얀 무언가",
+            "Contents": "“안녕.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 1,
+            "Format": "T",
+            "Speaker": "작고 하얀 무언가",
+            "Contents": "“예전부터 너를 지켜봐 왔어.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 2,
+            "Format": "T",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": "“..누구?”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 3,
+            "Format": "T",
+            "Speaker": "작고 하얀 무언가",
+            "Contents": "“난 흰 or 하얀 곰팡이 페니야.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 4,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "”보아하니 너는 이곳을 떠나고 싶어하는 것 같은데?” or “따로 가고 싶은 곳이 있는 것 같은데?”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 5,
+            "Format": "T",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": " “맞아, 난 스위스로 가고싶어.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 6,
+            "Format": "B",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": "“너도 알다시피 <color=#cc0000><B>초콜릿</B></color>이 살기에 여긴 좀 덥잖아. 어떨 땐 너무 <color=#4a86e8>춥고!</color>”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 7,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“스위스! 맞아. 이곳에 비하면 스위스는 참 멋진 곳이지.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 8,
+            "Format": "T",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": "“아니 난 이곳 밖으로 나간 적이 없어. 하지만 방법은 알고 있지.”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 9,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 10,
+            "Format": "T",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": " “정말?”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 11,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“응! 지금 저 벽이 문제인 거지? 나갈 수 있게 도와줄까?”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 12,
+            "Format": "B2",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": "“그래주면 나야 좋지!”",
+            "Next": "14",
+            "AddEvent": ""
+        },
+        {
+            "Order": 13,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "“고맙지만 내 힘으로 해볼게.”",
+            "Next": "15",
+            "AddEvent": ""
+        },
+        {
+            "Order": 14,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“잘 생각했어! 대신 내 심부름 몇 개만 해줘.”",
+            "Next": "16",
+            "AddEvent": ""
+        },
+        {
+            "Order": 15,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“심부름 몇 개만 해주면 돼. 손해보는 장사는 아닐걸.” ",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 16,
+            "Format": "T",
+            "Speaker": "<color=#cc0000>리틀-릿</color>",
+            "Contents": "“그래!”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 17,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“앞으로 잘 부탁해, ”",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 18,
+            "Format": "T",
+            "Speaker": "페니",
+            "Contents": "“내가 널 뭐라고 부르면 될까?”",
+            "Next": "",
+            "AddEvent": "END\r"
+        },
+        {
+            "Order": 19,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 20,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 21,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 22,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 23,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 24,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 25,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 26,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 27,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 28,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 29,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        },
+        {
+            "Order": 30,
+            "Format": "",
+            "Speaker": "",
+            "Contents": "",
+            "Next": "",
+            "AddEvent": ""
+        }
+    ]
+}
