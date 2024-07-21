@@ -6,7 +6,7 @@ using DG.Tweening;
 public class Player : MonoBehaviour
 {
 
-    public float speed = 5f;
+    public float speed = 10f;
 
     private Vector3 touchStartPos;
     public float slideThreshold = 0.1f; // 슬라이드로 감지하는 최소 거리
