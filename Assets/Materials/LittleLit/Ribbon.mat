@@ -19,7 +19,6 @@ Material:
   - _USEADDITIONALLIGHTSDIFFUSE_ON
   - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_STEP
-  - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
@@ -156,7 +155,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.24752475
+    - _Glossiness: 0.242
     - _GlossyReflections: 1
     - _HalftoneEdgeOffset: 0.1
     - _HalftoneSmoothness: 0.3
@@ -239,7 +238,7 @@ Material:
     - _UseEnvironmentRefletion: 0
     - _UseHatchingConstantScale: 1
     - _UseLightRamp: 0
-    - _UseOutline: 1
+    - _UseOutline: 0
     - _UsePureSketch: 1
     - _UseRimLight: 0
     - _UseScreenUvs: 0
