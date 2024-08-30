@@ -2260,6 +2260,7 @@ Shader "Stylized Toon"
 				#endif
 				return 0;
 			}
+
 			ENDHLSL
 		}
 
