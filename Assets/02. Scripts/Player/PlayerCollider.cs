@@ -14,14 +14,22 @@ public class PlayerCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SplineContainer otherspline = other.gameObject.GetComponent<SplineContainer>();
+        if(other.gameObject.tag == "Coin")
+        {
+            Destroy(other.gameObject);
+        }
+        else
+        {
+            SplineContainer otherspline = other.gameObject.GetComponent<SplineContainer>();
 
-        _splineAnimate.Container = otherspline;
-        _splineAnimate.Play();
+            _splineAnimate.Container = otherspline;
+            _splineAnimate.Play();
 
-        float initpositionY = transform.position.y;
+            float initpositionY = transform.position.y;
 
-        StartCoroutine(SplineEndInitY(initpositionY));
+            StartCoroutine(SplineEndInitY(initpositionY));
+        }
+        
         
     }
 
