@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02. Scripts\Camera\WorldCurver.cs" />
+    <Compile Include="Assets\02. Scripts\UI\GradientUI.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialDialogue.cs" />
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\02. Scripts\Quest\InstanceDailyQuest.cs" />
@@ -73,6 +74,8 @@
     <Compile Include="Assets\02. Scripts\Managers\Data\DataManaver.cs" />
     <Compile Include="Assets\02. Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\02. Scripts\Player\Player.cs" />
+    <Compile Include="Assets\02. Scripts\System\LoadingSceneController.cs" />
+    <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
   </ItemGroup>
@@ -88,6 +91,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Stylized Toon Pro\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Shaders\Custom\GradientShader.shader" />
     <None Include="Assets\Shaders\CurvedUnlit.shader" />
     <None Include="Assets\Stylized Toon Pro\Demo\ShaderBall\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -101,6 +105,7 @@
     <None Include="Assets\Shaders\StylizedToon add Curved.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Shaders\Custom\GradientAlphaShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
