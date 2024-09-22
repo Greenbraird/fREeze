@@ -77,6 +77,7 @@
     <Compile Include="Assets\02. Scripts\System\LoadingSceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
+    <Compile Include="Assets\02. Scripts\System\FridgeInputCotroller.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>

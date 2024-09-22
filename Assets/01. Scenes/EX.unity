@@ -3164,6 +3164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_LittleLit_JUSTBONE_Rig_kha_v07_w01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666257032467838570, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130
