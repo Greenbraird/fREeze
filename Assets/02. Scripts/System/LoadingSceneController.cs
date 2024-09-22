@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -32,14 +31,17 @@ public class LoadingSceneController : MonoBehaviour
         {
             yield return null;
 
-            if(op.progress < 0.9f)
+            if (op.progress < 0.9f)
             {
                 progressBar.fillAmount = op.progress;
             }
             else
             {
-                timer = Time.unscaledDeltaTime;
+                // 누적 타이머 증가
+                timer += Time.deltaTime;
                 progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
+
+                // 프로그레스바가 1에 도달하면 씬 활성화
                 if (progressBar.fillAmount >= 1f)
                 {
                     op.allowSceneActivation = true;
@@ -48,6 +50,4 @@ public class LoadingSceneController : MonoBehaviour
             }
         }
     }
-
-
 }

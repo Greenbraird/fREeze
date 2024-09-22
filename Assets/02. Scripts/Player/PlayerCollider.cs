@@ -7,19 +7,18 @@ public class PlayerCollider : MonoBehaviour
 {
      SplineAnimate _splineAnimate;
 
-    void Start()
-    {
-        _splineAnimate = GetComponent<SplineAnimate>();
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Coin")
+        
+        if (other.gameObject.tag == "Coin")
         {
             Destroy(other.gameObject);
         }
         else
         {
+            _splineAnimate = gameObject.AddComponent<SplineAnimate>();
+            _splineAnimate.Loop = SplineAnimate.LoopMode.Once;
+
             SplineContainer otherspline = other.gameObject.GetComponent<SplineContainer>();
 
             _splineAnimate.Container = otherspline;
@@ -37,7 +36,7 @@ public class PlayerCollider : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         transform.position = new Vector3(transform.position.x, positionY, transform.position.z);
-        _splineAnimate.Container = null;
+        Destroy(_splineAnimate);
     }
 
     /**

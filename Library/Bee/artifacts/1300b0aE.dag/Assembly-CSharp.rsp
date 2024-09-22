@@ -394,6 +394,7 @@
 "Assets/02. Scripts/Player/Player.cs"
 "Assets/02. Scripts/Player/PlayerCollider.cs"
 "Assets/02. Scripts/Quest/InstanceDailyQuest.cs"
+"Assets/02. Scripts/System/FridgeInputCotroller.cs"
 "Assets/02. Scripts/System/LoadingSceneController.cs"
 "Assets/02. Scripts/System/SceneController.cs"
 "Assets/02. Scripts/System/Singletone.cs"
