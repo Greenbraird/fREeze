@@ -70,3 +70,46 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
 [2024-09-29 21:03:03] Git push process completed 
 [2024-09-29 21:03:55] Running git add . 
+warning: in the working copy of 'Designbackup.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Library/Bee/fullprofile.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'UserSettings/Layouts/default-2022.dwlt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Assets/05. Models/designtext.shader.meta', LF will be replaced by CRLF the next time Git touches it
+[2024-09-29 21:03:55] Running git commit 
+[Design f2fd28c1] Automated commit on 2024-09-29 21:03:55
+ 52 files changed, 12550 insertions(+), 12016 deletions(-)
+ create mode 100644 Assets/05. Models/designtext.shader
+ create mode 100644 Assets/05. Models/designtext.shader.meta
+ create mode 100644 Library/Artifacts/15/15184d602ebe30db385faef5f28df4a8
+ delete mode 100644 Library/Artifacts/27/27f1688972ccf1c10b89acaf22e9b48e
+ delete mode 100644 Library/Artifacts/2a/2aa114e619e0c3701907e8a358ab034c
+ delete mode 100644 Library/Artifacts/30/3043021cc5b0c64f4e2f1b33de77b7c7
+ delete mode 100644 Library/Artifacts/37/37b3f1bfe1cd8eb70e1c1db29d414967
+ delete mode 100644 Library/Artifacts/5d/5dade4302d921ef56f2a31c94e5bea9f
+ delete mode 100644 Library/Artifacts/85/851b245944c15a755ecbffd3d7a970b6
+ delete mode 100644 Library/Artifacts/96/96000050998f29cf84a56602196dcb60
+ delete mode 100644 Library/Artifacts/9d/9da0b0d9222323b303761635d1eea408
+ delete mode 100644 Library/Artifacts/bd/bd663baae7050b04304d2b1ed9abb4d5
+ delete mode 100644 Library/Artifacts/e8/e81b8091fa2ff225c5e5e68a7e03f715
+ delete mode 100644 Library/Artifacts/e9/e99e914844eedbc5019be3bc7f21be3a
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/51a9ab627c53aaadea8eab54c657e329.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/52c922dd0e4edf9af9e6875ed6003620.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/5d039b19d0e20bf9be9c07ed600d299c.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/c18a69924aca6e49c8758ea40d3a2c7c.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/c877843905fb658b1f6f32f09f32752b.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/e158a034d808be656e38dc20aef90628.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/f133aaffc26d2a141552c5d8745da8fa.bin
+ create mode 100644 Library/ShaderCache/shader/designtexte5d6/00/f8e7bd71e9352941979ffa35d9658d08.bin
+ rename Logs/{AssetImportWorker2.log => AssetImportWorker2-prev.log} (100%)
+ rename Logs/{AssetImportWorker3.log => AssetImportWorker3-prev.log} (100%)
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe1.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe2.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe3.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe4.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe5.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe6.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe7.log
+ create mode 100644 Logs/shadercompiler-UnityShaderCompiler.exe8.log
+[2024-09-29 21:03:55] Running git push origin sj 
+Everything up-to-date
+[2024-09-29 21:03:55] Git push process completed 
+[2024-09-29 21:06:50] Running git add . 
