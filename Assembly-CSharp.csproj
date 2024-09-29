@@ -92,6 +92,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Stylized Toon Pro\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\05. Models\designtext.shader" />
     <None Include="Assets\Shaders\Custom\GradientShader.shader" />
     <None Include="Assets\Shaders\CurvedUnlit.shader" />
     <None Include="Assets\Stylized Toon Pro\Demo\ShaderBall\license.txt" />

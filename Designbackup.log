@@ -1,1 +1,72 @@
-[2024-09-29 20:56:11] Starting Git push process 
+[2024-09-29 21:03:03] Running git add . 
+warning: in the working copy of 'Library/Bee/fullprofile.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Assets/05. Models/designtext.shader.meta', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Library/EditorInstance.json', LF will be replaced by CRLF the next time Git touches it
+error: open("Temp/FSTimeGet-14f3dcd0569fab64c965cbf99670d3b6"): Permission denied
+error: unable to index file 'Temp/FSTimeGet-14f3dcd0569fab64c965cbf99670d3b6'
+fatal: adding files failed
+[2024-09-29 21:03:03] Running git commit 
+On branch Design
+Your branch is ahead of 'origin/Design' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Assembly-CSharp.csproj
+	modified:   Designbackup.log
+	modified:   Library/ArtifactDB
+	deleted:    Library/Artifacts/27/27f1688972ccf1c10b89acaf22e9b48e
+	deleted:    Library/Artifacts/2a/2aa114e619e0c3701907e8a358ab034c
+	deleted:    Library/Artifacts/30/3043021cc5b0c64f4e2f1b33de77b7c7
+	deleted:    Library/Artifacts/37/37b3f1bfe1cd8eb70e1c1db29d414967
+	deleted:    Library/Artifacts/5d/5dade4302d921ef56f2a31c94e5bea9f
+	deleted:    Library/Artifacts/85/851b245944c15a755ecbffd3d7a970b6
+	deleted:    Library/Artifacts/96/96000050998f29cf84a56602196dcb60
+	deleted:    Library/Artifacts/9d/9da0b0d9222323b303761635d1eea408
+	deleted:    Library/Artifacts/bd/bd663baae7050b04304d2b1ed9abb4d5
+	deleted:    Library/Artifacts/e8/e81b8091fa2ff225c5e5e68a7e03f715
+	deleted:    Library/Artifacts/e9/e99e914844eedbc5019be3bc7f21be3a
+	modified:   Library/Bee/backend1.traceevents
+	modified:   Library/Bee/fullprofile.json
+	modified:   Library/Bee/tundra.digestcache
+	modified:   Library/SceneVisibilityState.asset
+	modified:   Library/ScriptMapper
+	modified:   Library/Search/transactions.db
+	modified:   Library/ShaderCache/EditorEncounteredVariants
+	modified:   Library/SourceAssetDB
+	modified:   Library/ilpp.pid
+	modified:   Logs/AssetImportWorker0-prev.log
+	modified:   Logs/AssetImportWorker0.log
+	modified:   Logs/AssetImportWorker1-prev.log
+	modified:   Logs/AssetImportWorker1.log
+	deleted:    Logs/AssetImportWorker2.log
+	deleted:    Logs/AssetImportWorker3.log
+	modified:   Logs/shadercompiler-AssetImportWorker0.log
+	modified:   Logs/shadercompiler-UnityShaderCompiler.exe0.log
+	modified:   obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Assets/05. Models/designtext.shader
+	Assets/05. Models/designtext.shader.meta
+	Library/Artifacts/15/15184d602ebe30db385faef5f28df4a8
+	Library/EditorInstance.json
+	Library/ShaderCache/shader/designtexte5d6/
+	Logs/AssetImportWorker2-prev.log
+	Logs/AssetImportWorker3-prev.log
+	Logs/shadercompiler-UnityShaderCompiler.exe1.log
+	Logs/shadercompiler-UnityShaderCompiler.exe2.log
+	Logs/shadercompiler-UnityShaderCompiler.exe3.log
+	Logs/shadercompiler-UnityShaderCompiler.exe4.log
+	Logs/shadercompiler-UnityShaderCompiler.exe5.log
+	Logs/shadercompiler-UnityShaderCompiler.exe6.log
+	Logs/shadercompiler-UnityShaderCompiler.exe7.log
+	Logs/shadercompiler-UnityShaderCompiler.exe8.log
+	Temp/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[2024-09-29 21:03:03] Running git push origin sj 
+Everything up-to-date
+[2024-09-29 21:03:03] Git push process completed 
+[2024-09-29 21:03:55] Running git add . 
