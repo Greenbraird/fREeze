@@ -49,7 +49,7 @@ public class FridgeInputCotroller : MonoBehaviour
         });
 
         // Rigidbody에 힘을 가함 (월드 좌표 기준)
-        rbFridgeDoor.AddForce(-Vector3.forward.normalized * 5, ForceMode.Impulse);
+        rbFridgeDoor.AddForce(-Vector3.forward.normalized * 7, ForceMode.Impulse);
     }
 
 }
