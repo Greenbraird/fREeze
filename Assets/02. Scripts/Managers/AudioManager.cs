@@ -1,123 +1,57 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
+using UnityEngine.UIElements;
+using UnityEditor.Rendering;
 
 public class AudioManager : Singleton<AudioManager>
 {
-    // Dictionary to manage sound clips for quick access
-    private Dictionary<string, AudioClip> soundEffects = new Dictionary<string, AudioClip>();
-    private Dictionary<string, AudioClip> backgroundMusic = new Dictionary<string, AudioClip>();
+    [SerializeField] private AudioMixer mainMixer;
 
-    // AudioSource for background music
-    private AudioSource musicSource;
+    [SerializeField] private AudioSource bgmSource;
+    [SerializeField] private AudioClip[] bgmClips;  
 
-    // List of AudioSources for SFX pooling
-    private List<AudioSource> sfxSources = new List<AudioSource>();
-    public int sfxSourcePoolSize = 10; // Number of AudioSources for SFX pooling
+    [SerializeField] private AudioClip[] sfxClips;
 
-    [Range(0f, 1f)]
-    public float sfxVolume = 1f;
-    [Range(0f, 1f)]
-    public float musicVolume = 1f;
-
-    void Awake()
+    private void OnEnable()
     {
-        // Setup the music AudioSource
-        musicSource = gameObject.AddComponent<AudioSource>();
-        musicSource.volume = musicVolume;
-        musicSource.loop = true; // Loop the music
-
-        // Initialize SFX AudioSource pool
-        for (int i = 0; i < sfxSourcePoolSize; i++)
-        {
-            AudioSource sfxSource = gameObject.AddComponent<AudioSource>();
-            sfxSource.volume = sfxVolume;
-            sfxSources.Add(sfxSource);
-        }
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        bgmSource.outputAudioMixerGroup = mainMixer.FindMatchingGroups("BGM")[0];
     }
 
-    // Method to load a sound effect into the dictionary
-    public void LoadSoundEffect(string key, AudioClip clip)
+    private void OnDisable()
     {
-        if (!soundEffects.ContainsKey(key))
-        {
-            soundEffects[key] = clip;
-        }
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    // Method to load background music into the dictionary
-    public void LoadBackgroundMusic(string key, AudioClip clip)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (!backgroundMusic.ContainsKey(key))
-        {
-            backgroundMusic[key] = clip;
-        }
+        PlayBGM(scene.buildIndex); // 해당 씬에 맞는 BGM 재생
     }
 
-    // Play sound effect by key using an available AudioSource from the pool
-    public void PlaySFX(string key)
+    public void PlayBGM(int sceneIndex)
     {
-        if (soundEffects.ContainsKey(key))
+        if (bgmClips.Length > sceneIndex && bgmClips[sceneIndex] != null)
         {
-            AudioSource availableSource = GetAvailableSFXSource();
-            if (availableSource != null)
+            
+            if(bgmSource.clip != bgmClips[sceneIndex])
             {
-                availableSource.PlayOneShot(soundEffects[key], sfxVolume);
+                bgmSource.clip = bgmClips[sceneIndex];
+                bgmSource.Play();
             }
-        }
-        else
-        {
-            Debug.LogWarning("Sound effect not found: " + key);
+      
         }
     }
 
-    // Play background music by key
-    public void PlayMusic(string key)
+    public void SFXPlay(GameObject playgameObject, int indexnumber)
     {
-        if (backgroundMusic.ContainsKey(key))
-        {
-            musicSource.clip = backgroundMusic[key];
-            musicSource.Play();
-        }
-        else
-        {
-            Debug.LogWarning("Music not found: " + key);
-        }
-    }
+        AudioSource audioSource = playgameObject.AddComponent<AudioSource>();
+        audioSource.outputAudioMixerGroup = mainMixer.FindMatchingGroups("SFX")[0];
 
-    // Stop the currently playing music
-    public void StopMusic()
-    {
-        musicSource.Stop();
-    }
-
-    // Adjust SFX volume
-    public void SetSFXVolume(float volume)
-    {
-        sfxVolume = volume;
-        foreach (AudioSource source in sfxSources)
-        {
-            source.volume = sfxVolume;
-        }
-    }
-
-    // Adjust Music volume
-    public void SetMusicVolume(float volume)
-    {
-        musicVolume = volume;
-        musicSource.volume = musicVolume;
-    }
-
-    // Get an available AudioSource from the pool
-    private AudioSource GetAvailableSFXSource()
-    {
-        foreach (AudioSource source in sfxSources)
-        {
-            if (!source.isPlaying)
-            {
-                return source;
-            }
-        }
-        Debug.LogWarning("No available AudioSource to play SFX");
-        return null;
+        Debug.LogFormat("{0}이 실행 되었습니다.", sfxClips[indexnumber].name);
+        audioSource.clip = sfxClips[indexnumber];
+        audioSource.Play();
+        Destroy(audioSource, sfxClips[indexnumber].length);
     }
 }

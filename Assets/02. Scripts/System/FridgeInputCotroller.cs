@@ -40,12 +40,19 @@ public class FridgeInputCotroller : MonoBehaviour
 
     void OpenFridge()
     {
+
+        Transform fridgeHandle = transform.GetChild(0);
+
+        fridgeHandle.DOLocalRotate(new Vector3(0, 0, -160),0.5f);
+
+        AudioManager.Instance.SFXPlay(gameObject, 1);
         touchable = false;
 
         //카메라가 앞으로 다가감
         _camera.transform.DOMoveZ(-12, 2f).SetEase(Ease.OutCirc).OnComplete(()=> 
         {
             rbFridgeDoor.freezeRotation = true;
+            
         });
 
         // Rigidbody에 힘을 가함 (월드 좌표 기준)

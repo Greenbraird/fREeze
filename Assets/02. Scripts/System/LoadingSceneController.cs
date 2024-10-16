@@ -13,7 +13,7 @@ public class LoadingSceneController : MonoBehaviour
     public static void LoadSceneMode(string sceneName)
     {
         nextScene = sceneName;
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("0. Loading");
     }
 
     void Start()
@@ -31,7 +31,7 @@ public class LoadingSceneController : MonoBehaviour
         {
             yield return null;
 
-            if (op.progress < 0.9f)
+            if (op.progress < 0.8f)
             {
                 progressBar.fillAmount = op.progress;
             }
@@ -39,7 +39,7 @@ public class LoadingSceneController : MonoBehaviour
             {
                 // 누적 타이머 증가
                 timer += Time.deltaTime;
-                progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
+                progressBar.fillAmount = Mathf.Lerp(0.8f, 1f, timer);
 
                 // 프로그레스바가 1에 도달하면 씬 활성화
                 if (progressBar.fillAmount >= 1f)
