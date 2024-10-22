@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Audio;
 
 public class FridgeInputCotroller : MonoBehaviour
 {
+    [SerializeField] private AudioMixer audioMixer;
+    private float Main_Start_LowPassValue;
+
     Camera _camera;
 
     Rigidbody rbFridgeDoor;
@@ -15,7 +19,9 @@ public class FridgeInputCotroller : MonoBehaviour
     void Start()
     {
         _camera = Camera.main;
-        rbFridgeDoor = GetComponent<Rigidbody>();    
+        rbFridgeDoor = GetComponent<Rigidbody>();
+        audioMixer.SetFloat("BGMLowpass", 500f);
+
     }
 
     void OnMouseDown()
@@ -37,7 +43,9 @@ public class FridgeInputCotroller : MonoBehaviour
             }
         }
     }
-
+    /// <summary>
+    /// 냉장고 문이 열릴 때의 함수
+    /// </summary>
     void OpenFridge()
     {
 
@@ -49,10 +57,17 @@ public class FridgeInputCotroller : MonoBehaviour
         touchable = false;
 
         //카메라가 앞으로 다가감
-        _camera.transform.DOMoveZ(-12, 2f).SetEase(Ease.OutCirc).OnComplete(()=> 
+        _camera.transform.DOMoveZ(-12.9f, 2f).SetEase(Ease.OutCirc).OnComplete(()=> 
         {
             rbFridgeDoor.freezeRotation = true;
-            
+        });
+
+        //Audio LowPass 적용
+        audioMixer.GetFloat("BGMLowpass", out Main_Start_LowPassValue);
+        DOTween.To(() => Main_Start_LowPassValue, x => Main_Start_LowPassValue = x, 5000f, 2f).OnUpdate(() =>
+        {
+            // AudioMixer의 LowPassCutoff 파라미터 값을 실시간으로 업데이트
+            audioMixer.SetFloat("BGMLowpass", Main_Start_LowPassValue);
         });
 
         // Rigidbody에 힘을 가함 (월드 좌표 기준)

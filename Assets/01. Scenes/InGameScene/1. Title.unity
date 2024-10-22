@@ -302,8 +302,8 @@ MonoBehaviour:
   mainMixer: {fileID: 24100000, guid: 91dd6ece49579a14a837db4b7fce45be, type: 2}
   bgmSource: {fileID: 1131251512}
   bgmClips:
-  - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
-  - {fileID: 8300000, guid: 4cd389fac9103a147bc61c5d59b3a605, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
   sfxClips:
   - {fileID: 8300000, guid: 806a05cccc9c1cc4a90dedbd39523a2d, type: 3}
