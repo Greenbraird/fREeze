@@ -412,7 +412,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
   sfxClips:
   - {fileID: 8300000, guid: 806a05cccc9c1cc4a90dedbd39523a2d, type: 3}
-  - {fileID: 8300000, guid: bcec77fed66969b4cbdadcc92746a046, type: 3}
+  - {fileID: 8300000, guid: f9551fc4ff043f14782a89b0e3ae0f47, type: 3}
 --- !u!4 &383485130
 Transform:
   m_ObjectHideFlags: 0
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1a0bdeb87e5ece44abf9af3c68692f68, type: 2}
     - target: {fileID: 3218758714498467312, guid: 94e359336ed78054eba389f0802846bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4
+      value: -0.24
       objectReference: {fileID: 0}
     - target: {fileID: 3218758714498467312, guid: 94e359336ed78054eba389f0802846bf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -822,6 +822,7 @@ GameObject:
   - component: {fileID: 917887067}
   - component: {fileID: 917887069}
   - component: {fileID: 917887068}
+  - component: {fileID: 917887070}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -929,6 +930,27 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &917887070
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917887066}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 3fcda655022ddde4cb71d3de9aef2228, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &944935158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3673069194011829345, guid: 94e359336ed78054eba389f0802846bf, type: 3}
@@ -947,6 +969,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 91dd6ece49579a14a837db4b7fce45be, type: 2}
+  pointLightAnimaor: {fileID: 917887070}
+  spotLightAnimaor: {fileID: 2062469852}
 --- !u!64 &944935163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1280,19 +1304,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.24
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3335938111196736720, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1422,7 +1446,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 632498015}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1466,6 +1490,7 @@ GameObject:
   - component: {fileID: 2062469849}
   - component: {fileID: 2062469851}
   - component: {fileID: 2062469850}
+  - component: {fileID: 2062469852}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -1573,6 +1598,27 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &2062469852
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062469848}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5268f1030706f24aad770aa71af5e79, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &822411498347667551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1627,7 +1673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5240853608251209350, guid: 7e4f30ce8665cad448c3b806172c7f18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -198
       objectReference: {fileID: 0}
     - target: {fileID: 5240853608251209350, guid: 7e4f30ce8665cad448c3b806172c7f18, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1647,11 +1693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5240853608251209350, guid: 7e4f30ce8665cad448c3b806172c7f18, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1037.2975
+      value: 952
       objectReference: {fileID: 0}
     - target: {fileID: 5240853608251209350, guid: 7e4f30ce8665cad448c3b806172c7f18, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 109
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 5240853608251209350, guid: 7e4f30ce8665cad448c3b806172c7f18, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

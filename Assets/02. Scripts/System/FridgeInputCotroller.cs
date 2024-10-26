@@ -7,6 +7,8 @@ using UnityEngine.Audio;
 public class FridgeInputCotroller : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
+    [SerializeField] private Animator pointLightAnimaor;
+    [SerializeField] private Animator spotLightAnimaor;
     private float Main_Start_LowPassValue;
 
     Camera _camera;
@@ -61,6 +63,9 @@ public class FridgeInputCotroller : MonoBehaviour
         {
             rbFridgeDoor.freezeRotation = true;
         });
+
+        pointLightAnimaor.SetTrigger("OpneTrigger");
+        spotLightAnimaor.SetTrigger("OpneTrigger");
 
         //Audio LowPass Àû¿ë
         audioMixer.GetFloat("BGMLowpass", out Main_Start_LowPassValue);
