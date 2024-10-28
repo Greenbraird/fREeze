@@ -45,6 +45,7 @@ public class FridgeInputCotroller : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// 냉장고 문이 열릴 때의 함수
     /// </summary>
@@ -58,11 +59,14 @@ public class FridgeInputCotroller : MonoBehaviour
         AudioManager.Instance.SFXPlay(gameObject, 1);
         touchable = false;
 
-        //카메라가 앞으로 다가감
-        _camera.transform.DOMoveZ(-12.9f, 2f).SetEase(Ease.OutCirc).OnComplete(()=> 
+        float camera_force_leght = _camera.focalLength;
+        DOTween.To(()=> camera_force_leght, x => camera_force_leght = x, 94, 2).OnUpdate(() =>
+        {
+            _camera.focalLength = camera_force_leght;
+        }).OnComplete(()=>
         {
             rbFridgeDoor.freezeRotation = true;
-        });
+        }); //카메라가 앞으로 다가감
 
         pointLightAnimaor.SetTrigger("OpneTrigger");
         spotLightAnimaor.SetTrigger("OpneTrigger");
