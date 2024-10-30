@@ -71,6 +71,7 @@
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\MainCameraManager.cs" />
     <Compile Include="Assets\02. Scripts\System\GameSystem.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterInputHandler.cs" />
+    <Compile Include="Assets\02. Scripts\Charater\CharacterFootSoundPlayer.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\Camera_Controller.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterController.cs" />
     <Compile Include="Assets\02. Scripts\Managers\Data\DataManaver.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\02. Scripts\Charater\CharaterCollider.cs" />
     <Compile Include="Assets\02. Scripts\System\LoadingSceneController.cs" />
     <Compile Include="Assets\02. Scripts\UI\UICountDown.cs" />
+    <Compile Include="Assets\02. Scripts\Quest\QuestObjectEventTrigger.cs" />
     <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\System\FridgeInputCotroller.cs" />

@@ -37,6 +37,7 @@ public class CharaterCollider : MonoBehaviour
         if (other.gameObject.tag == "Coin")
         {
             Destroy(other.gameObject);
+            //AudioManager.Instance.SFXPlay(gameObject, 0);
         }
         else
         {

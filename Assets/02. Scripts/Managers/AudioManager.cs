@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UIElements;
 using UnityEditor.Rendering;
+using UnityEditor.Build.Reporting;
 
 public class AudioManager : Singleton<AudioManager>
 {
@@ -13,6 +14,8 @@ public class AudioManager : Singleton<AudioManager>
     [SerializeField] private AudioClip[] bgmClips;  
 
     [SerializeField] private AudioClip[] sfxClips;
+
+    [SerializeField] private AudioClip[] footClips;
 
     private void OnEnable()
     {
@@ -53,5 +56,15 @@ public class AudioManager : Singleton<AudioManager>
         audioSource.clip = sfxClips[indexnumber];
         audioSource.Play();
         Destroy(audioSource, sfxClips[indexnumber].length);
+    }
+
+    public void footSFXPlay(GameObject playobject, int step)
+    {
+        AudioSource audioSource = playobject.AddComponent<AudioSource>();
+        audioSource.outputAudioMixerGroup = mainMixer.FindMatchingGroups("SFX")[0];
+
+        audioSource.clip = footClips[step];
+        audioSource.Play();
+        Destroy(audioSource, footClips[step].length);
     }
 }

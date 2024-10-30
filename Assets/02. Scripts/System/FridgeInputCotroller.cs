@@ -7,8 +7,9 @@ using UnityEngine.Audio;
 public class FridgeInputCotroller : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
-    [SerializeField] private Animator pointLightAnimaor;
-    [SerializeField] private Animator spotLightAnimaor;
+
+    [SerializeField] private List<Animator> LightAnimaor = new List<Animator>();
+
     private float Main_Start_LowPassValue;
 
     Camera _camera;
@@ -23,7 +24,6 @@ public class FridgeInputCotroller : MonoBehaviour
         _camera = Camera.main;
         rbFridgeDoor = GetComponent<Rigidbody>();
         audioMixer.SetFloat("BGMLowpass", 500f);
-
     }
 
     void OnMouseDown()
@@ -68,8 +68,10 @@ public class FridgeInputCotroller : MonoBehaviour
             rbFridgeDoor.freezeRotation = true;
         }); //카메라가 앞으로 다가감
 
-        pointLightAnimaor.SetTrigger("OpneTrigger");
-        spotLightAnimaor.SetTrigger("OpneTrigger");
+        foreach (Animator a in LightAnimaor)
+        {
+            a.SetTrigger("OpneTrigger");
+        }
 
         //Audio LowPass 적용
         audioMixer.GetFloat("BGMLowpass", out Main_Start_LowPassValue);
