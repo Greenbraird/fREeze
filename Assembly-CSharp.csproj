@@ -64,6 +64,7 @@
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialDialogue.cs" />
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\02. Scripts\Quest\InstanceDailyQuest.cs" />
+    <Compile Include="Assets\02. Scripts\UI\UITipText.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterMovement.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialManager.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\TestSceneManager.cs" />

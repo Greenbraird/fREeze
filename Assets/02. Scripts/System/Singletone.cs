@@ -18,7 +18,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                 }
                 else
                 {
-                    DontDestroyOnLoad(instance.gameObject);
+                    MakeRootAndDontDestroy(instance.gameObject);
                 }
             }
             return instance;
@@ -30,11 +30,20 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         if (instance == null)
         {
             instance = this as T;
-            DontDestroyOnLoad(gameObject);
+            MakeRootAndDontDestroy(gameObject);
         }
         else if (instance != this)
         {
             Destroy(gameObject);  // 중복 인스턴스 파괴
         }
+    }
+
+    private static void MakeRootAndDontDestroy(GameObject obj)
+    {
+        if (obj.transform.parent != null)
+        {
+            obj.transform.parent = null;  // 최상위 계층으로 이동
+        }
+        DontDestroyOnLoad(obj);  // 최상위 GameObject에 대해 호출
     }
 }

@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232624736901370957}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -49,11 +49,17 @@ MonoBehaviour:
   bgmSource: {fileID: 5838172361897804376}
   bgmClips:
   - {fileID: 8300000, guid: c804433a795bb6e4aa48a915e085ca87, type: 3}
-  - {fileID: 8300000, guid: 4cd389fac9103a147bc61c5d59b3a605, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
+  - {fileID: 8300000, guid: 4cd389fac9103a147bc61c5d59b3a605, type: 3}
   sfxClips:
-  - {fileID: 8300000, guid: 806a05cccc9c1cc4a90dedbd39523a2d, type: 3}
+  - {fileID: 8300000, guid: 13e85ac38ef00844e84b875cb9550141, type: 3}
   - {fileID: 8300000, guid: f9551fc4ff043f14782a89b0e3ae0f47, type: 3}
+  - {fileID: 8300000, guid: aea439c13f3a7b642a9d5508f0f8659f, type: 3}
+  - {fileID: 8300000, guid: 81f5b5c7c5135fe46b4e77862445b94e, type: 3}
+  footClips:
+  - {fileID: 8300000, guid: f1a07fca2f377474b87c468863ff88bf, type: 3}
+  - {fileID: 8300000, guid: 4b3df1b0c81d28c48aa9038fa1ea6d4b, type: 3}
 --- !u!82 &5838172361897804376
 AudioSource:
   m_ObjectHideFlags: 0

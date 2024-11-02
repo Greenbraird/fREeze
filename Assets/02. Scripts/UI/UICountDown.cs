@@ -11,8 +11,6 @@ public class UICountDown : MonoBehaviour
     [SerializeField]
     private GameObject CountTextObject;
 
-    int countTime = 3;
-
     // Update is called once per frame
     void Start()
     {
@@ -23,14 +21,29 @@ public class UICountDown : MonoBehaviour
     {
         TMP_Text CountText = CountTextObject.GetComponent<TMP_Text>();
         
-        for (int i = 0; i < 3; i++)
+        for (int i = 3; i> -1; i--)
         {
-            CountText.text = countTime.ToString();
-            CountTextObject.transform.DOScale(new Vector3(0, 0, 0), 1).From().SetEase(Ease.OutBounce);
+            if(i != 0){ 
+                CountText.text = i.ToString();
+                AudioManager.Instance.SFXPlay(gameObject, 3);
+            }
+            else {
+                CountText.text = "Run!";
+                AudioManager.Instance.SFXPlay(gameObject, 4);
+            }
+            
+            CountTextObject.transform.DOScale(new Vector3(0, 0, 0), 1).From().SetEase(Ease.OutBounce).OnComplete(()=>
+            {
+                //카운드가 거의 끝나고 GameSystem 값 초기화
+                if (i == 0)
+                {
+                    GameSystem.Instance.touchable = true;
+                    GameSystem.Instance.IsGamestart = true;
+                }
+            });
             yield return new WaitForSeconds(1);
-            countTime--;
+
         }
-        GameSystem.Instance.IsGamestart = true;
         CountPanel.SetActive(false);
     }
 }

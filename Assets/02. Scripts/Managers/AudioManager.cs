@@ -31,6 +31,10 @@ public class AudioManager : Singleton<AudioManager>
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         PlayBGM(scene.buildIndex); // 해당 씬에 맞는 BGM 재생
+        if(scene.buildIndex == 2)
+        {
+            mainMixer.SetFloat("BGMLowpass",500);
+        }
     }
 
     public void PlayBGM(int sceneIndex)
@@ -51,8 +55,6 @@ public class AudioManager : Singleton<AudioManager>
     {
         AudioSource audioSource = playgameObject.AddComponent<AudioSource>();
         audioSource.outputAudioMixerGroup = mainMixer.FindMatchingGroups("SFX")[0];
-
-        Debug.LogFormat("{0}이 실행 되었습니다.", sfxClips[indexnumber].name);
         audioSource.clip = sfxClips[indexnumber];
         audioSource.Play();
         Destroy(audioSource, sfxClips[indexnumber].length);

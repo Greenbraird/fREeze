@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7069834, z: 0.7072302, w: 0}
   m_LocalPosition: {x: -21.458107, y: 0, z: -57.79592}
-  m_LocalScale: {x: 300, y: 1499.9998, z: 99.999985}
+  m_LocalScale: {x: 300, y: 1499.9995, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6746598963747211930}
@@ -293,9 +293,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.z
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Name
       value: conerspline
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_TagString
+      value: Spline
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -341,15 +361,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.x
-      value: 6.9993696
+      value: 7.063333
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.y
-      value: -0.000000834465
+      value: 0.000000994849
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.z
-      value: 1.220062
+      value: 1.2203333
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[2].Position.x
@@ -491,9 +511,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.z
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Name
       value: conerspline (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_TagString
+      value: Spline
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -539,15 +579,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.x
-      value: 6.9993696
+      value: 6.9276667
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.y
-      value: -0.000000834465
+      value: 0.0000010067088
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.z
-      value: 1.220062
+      value: 1.2203333
       objectReference: {fileID: 0}
     - target: {fileID: 3153706961346574085, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[2].Position.x
@@ -689,9 +729,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Size.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435449570486621698, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_Center.z
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
       propertyPath: m_Name
       value: conerspline (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531936501146069963, guid: a328aa61b804c66448615c3531abab00, type: 3}
+      propertyPath: m_TagString
+      value: Spline
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

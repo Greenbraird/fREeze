@@ -6,16 +6,16 @@ using UnityEngine;
 public class CharacterFootSoundPlayer : MonoBehaviour
 {
     int step;
-
-    private void Start()
+    void Start()
     {
-        if (gameObject.name == "Foot_02.L_end") { step = 0; }
-        else { step = 1; }
+        step = 0;    
     }
-
-    private void OnTriggerEnter(Collider other)
+    public void playStepSound()
     {
+        if (step == 3) { step = 0; }
 
         AudioManager.Instance.footSFXPlay(gameObject, step);
+
+        step++;
     }
 }

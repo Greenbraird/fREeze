@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 669513699}
   - component: {fileID: 669513701}
   - component: {fileID: 669513700}
+  - component: {fileID: 669513702}
   m_Layer: 5
   m_Name: Tip Text
   m_TagString: Untagged
@@ -232,8 +233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 319}
-  m_SizeDelta: {x: 700, y: 100}
+  m_AnchoredPosition: {x: 0, y: 329}
+  m_SizeDelta: {x: 720, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669513700
 MonoBehaviour:
@@ -282,10 +283,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
+  m_fontSize: 50.25
   m_fontSizeBase: 45
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -332,6 +333,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669513698}
   m_CullTransparentMesh: 1
+--- !u!114 &669513702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669513698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8819e22326415fa44940c6ee966212db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
+  tiptext:
+  - "\uB9AC\uD2C0\uB9BF\uC774 \uAC00\uACE0 \uC2F6\uC740 \uB098\uB77C\uB294 \uC2A4\uC704\uC2A4\uB2E4"
+  - "\uD398\uB2C8\uB294 \uC131\uC9C8\uC774 \uAE09\uD558\uB2E4"
+  - "\uAFB8\uC900\uD558\uAC8C \uC77C\uC77C \uD018\uC2A4\uD2B8\uB97C \uD558\uBA74
+    \uC88B\uC740 \uBCF4\uC0C1\uC774?"
+  - "\uBE0C\uB85C\uCF5C\uB9AC \uC77C\uB2F9\uC744 \uB9CC\uB098\uBA74 \uC6A9\uAC10\uD558\uAC8C
+    \uB9DE\uC11C\uC790!"
+  - "\uB9AC\uD2C0\uB9BF\uC740 \uC791\uC740 \uBD88\uB7C9\uD488\uC774\uB2E4"
+  - "\uB0C9\uAE30\uB97C \uBAA8\uC544 \uBAB0\uB4DC\uB97C \uD574 \uBCBD\uC744 \uB118\uC790"
+  - "\uC18C\uC2A4\uB294 \uB9DB\uC788\uC9C0\uB9CC \uCE58\uBA85\uC801\uC774\uB2C8 \uC810\uD504\uB85C
+    \uD53C\uD558\uC790"
+  - "\uB370\uCF54 \uC544\uC774\uD15C\uC73C\uB85C \uAC8C\uC784 \uD074\uB9AC\uC5B4
+    \uD655\uB960\uC744 \uB192\uC774\uC790"
+  - "\uD401\uB4C0\uC758 \uCD9C\uC2E0\uC740 \uC2A4\uC704\uC2A4\uB2E4"
+  - "\uD504\uB85C\uC2A4\uD2F0\uB294 \uBD88\uC548\uC815\uD55C \uC131\uACA9\uC744 \uAC16\uACE0
+    \uC788\uB2E4"
+  - "\uACE0\uC7A5\uB09C \uB0C9\uC7A5\uACE0\uB294 \uB728\uAC70\uC6CC\uC9C0\uAE30\uB3C4
+    \uB108\uBB34 \uCC28\uAC00\uC6CC\uC9C0\uAE30\uB3C4 \uD55C\uB2E4"
 --- !u!1 &980223752
 GameObject:
   m_ObjectHideFlags: 0

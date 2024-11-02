@@ -8,10 +8,10 @@ public class GameSystem : Singleton<GameSystem>
     private GameObject RestartPanel;
 
     [HideInInspector]
-     public bool IsGamestart;
+    public bool IsGamestart = false;
 
     [HideInInspector]
-    public bool touchable = true;
+    public bool touchable = false;
     public void GameStart()
     {
 
@@ -20,6 +20,8 @@ public class GameSystem : Singleton<GameSystem>
     public void GameEnd()
     {
         print("실패하셨습니다");
+        IsGamestart = false;
+        Destroy(GameSystem.Instance);
         // 다시 시작 and 메인 화면으로 갈 수 있는 UI SetActive(true);
         RestartPanel.SetActive(true);
     }

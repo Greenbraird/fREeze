@@ -409,6 +409,7 @@
 "Assets/02. Scripts/Tutorial/TutorialDialogue.cs"
 "Assets/02. Scripts/Tutorial/TutorialManager.cs"
 "Assets/02. Scripts/UI/UICountDown.cs"
+"Assets/02. Scripts/UI/UITipText.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/Camera_Controller.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/MainCameraManager.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/TestSceneManager.cs"

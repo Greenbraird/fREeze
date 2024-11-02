@@ -80,6 +80,7 @@ public class CharaterMovement : MonoBehaviour
 
         // 점프 애니메이션 트리거 (필요 시 추가)
         animator.SetTrigger("OnJump");
+        AudioManager.Instance.SFXPlay(gameObject, 2);
 
         // 수직으로 점프하는 힘을 더하면서 앞으로 계속 이동
         rb.AddForce(Vector3.up * 120, ForceMode.Impulse);

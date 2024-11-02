@@ -486,7 +486,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1a0bdeb87e5ece44abf9af3c68692f68, type: 2}
     - target: {fileID: 3218758714498467312, guid: 94e359336ed78054eba389f0802846bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 3218758714498467312, guid: 94e359336ed78054eba389f0802846bf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1100,7 +1100,7 @@ HingeJoint:
   m_Anchor: {x: 0.01, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 90}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.053978223, y: 0.14006224, z: 0.28682938}
+  m_ConnectedAnchor: {x: -0.26417822, y: 0.14006224, z: 0.28682938}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1183,8 +1183,8 @@ Transform:
   m_GameObject: {fileID: 1011692405}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 2.92, y: 17.8, z: 14.91}
-  m_LocalScale: {x: 0.35336268, y: 0.5742, z: 0.5742}
+  m_LocalPosition: {x: 3.45, y: 19.88, z: 14.91}
+  m_LocalScale: {x: 0.23491551, y: 0.38172814, z: 0.38172814}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2048028366}

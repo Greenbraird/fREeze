@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Splines;
 
@@ -13,6 +14,11 @@ public class CharaterCollider : MonoBehaviour
      SplineAnimate _splineAnimate;
 
     bool animationFinished = false;
+
+    private void Start()
+    {
+        _splineAnimate = null;
+    }
 
     void Update()
     {
@@ -37,9 +43,9 @@ public class CharaterCollider : MonoBehaviour
         if (other.gameObject.tag == "Coin")
         {
             Destroy(other.gameObject);
-            //AudioManager.Instance.SFXPlay(gameObject, 0);
+            AudioManager.Instance.SFXPlay(gameObject, 0);
         }
-        else
+        else if (other.gameObject.tag == "Spline")
         {
             animationFinished = false;
             GameSystem.Instance.touchable = false;
@@ -48,13 +54,14 @@ public class CharaterCollider : MonoBehaviour
             {
                 _splineAnimate = gameObject.AddComponent<SplineAnimate>();
             }
-
             _splineAnimate.Loop = SplineAnimate.LoopMode.Once;
 
             SplineContainer otherspline = other.gameObject.GetComponent<SplineContainer>();
 
             _splineAnimate.Container = otherspline;
             _splineAnimate.Play();
+
+
         }
         
         
