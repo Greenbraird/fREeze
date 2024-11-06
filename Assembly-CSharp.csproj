@@ -62,10 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\02. Scripts\Camera\WorldCurver.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialDialogue.cs" />
+    <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Delete_After_Time.cs" />
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\02. Scripts\Quest\InstanceDailyQuest.cs" />
     <Compile Include="Assets\02. Scripts\UI\UITipText.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterMovement.cs" />
+    <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Easy_Spawn.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialManager.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\TestSceneManager.cs" />
     <Compile Include="Assets\02. Scripts\Managers\Data\GoogleSheetManager.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\02. Scripts\Managers\Data\DataManaver.cs" />
     <Compile Include="Assets\02. Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterCollider.cs" />
+    <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Vignette_Screen_Size_Auto_Scale.cs" />
     <Compile Include="Assets\02. Scripts\System\LoadingSceneController.cs" />
     <Compile Include="Assets\02. Scripts\UI\UICountDown.cs" />
     <Compile Include="Assets\02. Scripts\Quest\QuestObjectEventTrigger.cs" />
@@ -91,17 +94,30 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Stylized Toon Pro\Shader\StylizedToon.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Water\Shaders\SH_Vefects_URP_VFX_Vignette_Water_01.shader" />
     <None Include="Assets\Shaders\VertexColor.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Shaders\SH_Vefects_URP_VFX_Unlit_Particle_Adv_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Poisoned\Shaders\SH_Vefects_URP_VFX_Vignette_Poisoned_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Shaders\SH_Vefects_URP_VFX_Unlit_Particle_Symbol_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Bloody\Shaders\SH_Vefects_URP_VFX_Vignette_Bloody_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Charmed\Shaders\SH_Vefects_URP_VFX_Vignette_Charmed_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Glitch\Shaders\SH_Vefects_URP_VFX_Vignette_Glitch_01.shader" />
     <None Include="Assets\Shaders\CurvedUnlitAlpha.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Fear\Shaders\SH_Vefects_URP_VFX_Vignette_Fear_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Stylized Toon Pro\readme.txt" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Burning\Shaders\SH_Vefects_URP_VFX_Vignette_Burning_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Shaders\Custom\GradientShader.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Shaders\SH_Vefects_URP_VFX_Vignette_Edge_Arrows_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Heal\Shaders\SH_Vefects_URP_VFX_Vignette_Heal_01.shader" />
     <None Include="Assets\Shaders\CurvedUnlit.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Hurt\Shaders\SH_Vefects_URP_VFX_Vignette_Hurt_01.shader" />
     <None Include="Assets\Stylized Toon Pro\Demo\ShaderBall\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Puke\Shaders\SH_Vefects_URP_VFX_Vignette_Puke_01.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -109,15 +125,22 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Muddy\Shaders\SH_Vefects_URP_VFX_Vignette_Muddy_01.shader" />
     <None Include="Assets\Shaders\StylizedToon add Curved.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Drunk\Shaders\SH_Vefects_URP_VFX_Vignette_Drunk_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Demo\Resources\Shaders\SH_Vefects_URP_VFX_Character_Showoff.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Shaders\Custom\GradientAlphaShader.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Poo\Shaders\SH_Vefects_URP_VFX_Vignette_Poo_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\SciFiShield\Shaders\SH_Vefects_URP_VFX_Vignette_Sci_Fi_Shield_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Frozen\Shaders\SH_Vefects_URP_VFX_Vignette_Frozen_01.shader" />
+    <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Speed\Shaders\SH_Vefects_URP_VFX_Vignette_Speed_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>

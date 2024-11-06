@@ -11,6 +11,8 @@ public class UICountDown : MonoBehaviour
     [SerializeField]
     private GameObject CountTextObject;
 
+    public GameObject speedanimationobject;
+
     // Update is called once per frame
     void Start()
     {
@@ -30,6 +32,7 @@ public class UICountDown : MonoBehaviour
             else {
                 CountText.text = "Run!";
                 AudioManager.Instance.SFXPlay(gameObject, 4);
+                speedanimationobject.SetActive(true);
             }
             
             CountTextObject.transform.DOScale(new Vector3(0, 0, 0), 1).From().SetEase(Ease.OutBounce).OnComplete(()=>

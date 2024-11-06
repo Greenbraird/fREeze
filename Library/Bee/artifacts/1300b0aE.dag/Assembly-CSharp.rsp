@@ -413,6 +413,9 @@
 "Assets/Stylized Toon Pro/Demo/Scripts/Camera_Controller.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/MainCameraManager.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/TestSceneManager.cs"
+"Assets/Vefects/Vignette VFX URP/Vignettes/Shared/Scripts/SC_Vefects_Delete_After_Time.cs"
+"Assets/Vefects/Vignette VFX URP/Vignettes/Shared/Scripts/SC_Vefects_Easy_Spawn.cs"
+"Assets/Vefects/Vignette VFX URP/Vignettes/Shared/Scripts/SC_Vefects_Vignette_Screen_Size_Auto_Scale.cs"
 -langversion:9.0
 
 /deterministic
