@@ -32,4 +32,9 @@ public class TutorialTrigger : TutorialBase
     {
          isPointerExit = true;
     }
+
+    public override void Skip(TutorialController controller)
+    {
+        controller.SetNextTutorial(2);
+    }
 }

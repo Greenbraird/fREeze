@@ -36,4 +36,9 @@ public class TutorialFadeEffect : TutorialBase
     public override void Exit()
     {
     }
+
+    public override void Skip(TutorialController controller)
+    {
+        controller.SetNextTutorial(2);
+    }
 }

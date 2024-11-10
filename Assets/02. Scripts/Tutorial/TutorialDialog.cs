@@ -15,18 +15,24 @@ public class TutorialDialog : TutorialBase
 	public override void Execute(TutorialController controller)
 	{
 		// 현재 분기에 진행되는 대사 진행
-		bool isCompleted = dialogSystem.UpdateDialog();
+		int isCompleted = dialogSystem.UpdateDialog();
 
 		// 현재 분기의 대사 진행이 완료되면
-		if ( isCompleted == true )
+		if (isCompleted == 1)
 		{
 			// 다음 튜토리얼로 이동
 			controller.SetNextTutorial();
 		}
+		else if (isCompleted == 2) { controller.SetSkipNextTutorial(); }
 	}
 
 	public override void Exit()
 	{
+
 	}
+    public override void Skip(TutorialController controller)
+    {
+        controller.SetNextTutorial(2);
+    }
 }
 

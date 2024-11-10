@@ -2,8 +2,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.ComponentModel;
+using System;
 
-public enum Speaker { 레마르크 = 0, 낵캐러웨이 = 1, 로버트헤이즈 }
+public enum Speaker
+{
+    [Description("<color=#cc0000>리틀릿</color=#cc0000>")]
+    리틀릿 = 0,
+
+    [Description("작고 하얀 무언가")]
+    작고하얀무언가 = 1,
+
+    [Description("페니")]
+    페니 = 2
+}
+
 
 public class DialogSystem : MonoBehaviour
 {
@@ -11,10 +24,8 @@ public class DialogSystem : MonoBehaviour
 	private	Dialog[]			dialogs;                        // 현재 분기의 대사 목록
 
 	[SerializeField]
-	private Sprite[]			portraits;
+	private GameObject[]			portraits;
 
-	[SerializeField]
-	private	Image				imageDialogs;					// 대화창 Image UI
 	[SerializeField]
 	private	TMP_Text	        textNames;						// 현재 대사중인 캐릭터 이름 출력 Text UI
 	[SerializeField]
@@ -31,11 +42,16 @@ public class DialogSystem : MonoBehaviour
 	private AudioClip			ClickSFX;						// Click 소리 SFX
 
     [SerializeField]
-	private	KeyCode				keyCodeSkip = KeyCode.Space;	// 타이핑 효과를 스킵하는 키
+	private	KeyCode				keyCodeSkip = KeyCode.Space;    // 타이핑 효과를 스킵하는 키
 
-	private	int					currentIndex = -1;
+	[SerializeField]
+    private bool IsskipDialog = false;          // Ture면 다음 Dialog는 건너 뜀
+
+    private	int					currentIndex = -1;
 	private	bool				isTypingEffect = false;			// 텍스트 타이핑 효과를 재생중인지
-	private	Speaker				currentSpeaker = Speaker.낵캐러웨이;
+	private	Speaker				currentSpeaker = Speaker.리틀릿;
+
+	
 
 	public void Setup()
 	{
@@ -45,7 +61,7 @@ public class DialogSystem : MonoBehaviour
         SetNextDialog();
 	}
 
-	public bool UpdateDialog()
+	public int UpdateDialog()
 	{
 		if ( Input.GetKeyDown(keyCodeSkip) || Input.GetMouseButtonDown(0) )
 		{
@@ -53,7 +69,7 @@ public class DialogSystem : MonoBehaviour
 			if ( isTypingEffect == true )
 			{
 				//ClickSFX Play
-				AudioManager.Instance.SFXPlay(gameObject, "ClickSFX", ClickSFX);
+				//AudioManager.Instance.SFXPlay(gameObject, "ClickSFX", ClickSFX);
 
 				// 타이핑 효과를 중지하고, 현재 대사 전체를 출력한다
 				StopCoroutine("TypingText");
@@ -62,7 +78,7 @@ public class DialogSystem : MonoBehaviour
 				// 대사가 완료되었을 때 출력되는 커서 활성화
 				objectArrows.SetActive(true);
 
-				return false;
+				return 0;
 			}
 
 			// 다음 대사 진행
@@ -74,49 +90,60 @@ public class DialogSystem : MonoBehaviour
 			else
 			{
 				dialogPanel.SetActive(false);
-
-				return true;
+				if (IsskipDialog == true) {
+                    return 2;
+                }
+				else { return 1; }
+				
 			}
 		}
 
-		return false;
+		return 0;
 	}
 
 	private void SetNextDialog()
 	{
-		currentIndex ++;
+	
+		// 전 화자의 초상화를 Active false
+        portraits[(int)currentSpeaker].SetActive(false);
+
+        currentIndex ++;
 
 		// 현재 화자 설정
 		currentSpeaker = dialogs[currentIndex].speaker;
 
-		// 대화창 활성화
-		imageDialogs.gameObject.SetActive(true);
-
 		// 현재 화자 이름 텍스트 활성화 및 설정
 		textNames.gameObject.SetActive(true);
-		textNames.text = dialogs[currentIndex].speaker.ToString();
+		textNames.text = GetDescription(currentSpeaker);
 
 		// 현재 화자로 초상화 변경
-		imageDialogs.sprite = portraits[(int)currentSpeaker];
+		portraits[(int)currentSpeaker].SetActive(true);
 
 		// 화자의 대사 텍스트 활성화 및 설정 (Typing Effect)
 		textDialogues.gameObject.SetActive(true);
 		StartCoroutine(nameof(TypingText));
 	}
 
-	private IEnumerator TypingText()
+    public static string GetDescription(Speaker speaker)
+    {
+        var field = speaker.GetType().GetField(speaker.ToString());
+        var attribute = (DescriptionAttribute)Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute));
+        return attribute != null ? attribute.Description : speaker.ToString();
+    }
+
+    private IEnumerator TypingText()
 	{
 		int index = 0;
 		
 		isTypingEffect = true;
 
 		// 텍스트를 한글자씩 타이핑치듯 재생
-		while ( index < dialogs[currentIndex].dialogue.Length )
+		while ( index < dialogs[currentIndex].dialogue.Length  + 1)
 		{
 			textDialogues.text = dialogs[currentIndex].dialogue.Substring(0, index);
 			if(dialogs[currentIndex].dialogue.Substring(index) != " ")
 			{
-                AudioManager.Instance.InstantSFXPlay(typingSFX);
+               // AudioManager.Instance.InstantSFXPlay(typingSFX);
             }
 			
 			index ++;

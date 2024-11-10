@@ -76,6 +76,7 @@
     <Compile Include="Assets\02. Scripts\System\GameSystem.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterInputHandler.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterFootSoundPlayer.cs" />
+    <Compile Include="Assets\02. Scripts\Tutorial\TutorialChoice.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\Camera_Controller.cs" />
     <Compile Include="Assets\02. Scripts\Player\PlayerCollider.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialTrigger.cs" />
@@ -84,7 +85,6 @@
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialDialog.cs" />
     <Compile Include="Assets\02. Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\TutorialController.cs" />
-    <Compile Include="Assets\02. Scripts\Tutorial\TutorialMorseInput.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterCollider.cs" />
     <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Vignette_Screen_Size_Auto_Scale.cs" />
     <Compile Include="Assets\02. Scripts\Player\Player.cs" />
@@ -92,7 +92,6 @@
     <Compile Include="Assets\02. Scripts\UI\UICountDown.cs" />
     <Compile Include="Assets\02. Scripts\Quest\QuestObjectEventTrigger.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\TutorialFadeEffect.cs" />
-    <Compile Include="Assets\02. Scripts\Tutorial\TutorialCheckCoordinate.cs" />
     <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\ArrowBlink.cs" />

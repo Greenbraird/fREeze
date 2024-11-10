@@ -49,7 +49,7 @@ public class ArrowBlink : MonoBehaviour
 
 	public void ClickArrow(AudioClip clip)
 	{
-		AudioManager.Instance.SFXPlay(gameObject, "clickSFX",clip);
+		//AudioManager.Instance.SFXPlay(gameObject, "clickSFX",clip);
 	}
 }
 
