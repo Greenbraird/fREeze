@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664917731229566
+      ticks: 638668207086344997
     m_Hash: 1175765746
   m_LockFileStatus:
     m_FilePath: C:/Users/kimsijun/Desktop/Project/fREeze/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664917731239568
+      ticks: 638668207086360065
     m_Hash: 3962225305
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
