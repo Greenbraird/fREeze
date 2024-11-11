@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2032,6 +2032,8 @@ MonoBehaviour:
   - {fileID: 2062469852}
   - {fileID: 182819648}
   - {fileID: 2043214301}
+  tutorialController: {fileID: 1171484663}
+  slideTutorialPanel: {fileID: 0}
 --- !u!64 &944935163
 MeshCollider:
   m_ObjectHideFlags: 0

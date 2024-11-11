@@ -10,11 +10,17 @@ public class FridgeInputCotroller : MonoBehaviour
 
     [SerializeField] private List<Animator> LightAnimaor = new List<Animator>();
 
+    [SerializeField] private GameObject tutorialController;
+
+    //[SerializeField] private GameObject slideTutorialPanel;
+
     private float Main_Start_LowPassValue;
 
     Camera _camera;
 
     Rigidbody rbFridgeDoor;
+
+   
 
     private Vector3 touchStartPos;
     private bool touchable = true;
@@ -52,20 +58,34 @@ public class FridgeInputCotroller : MonoBehaviour
     void OpenFridge()
     {
 
-        Transform fridgeHandle = transform.GetChild(0);
+        // slideTutorialPanel UI를 비활성화 시킴
+        //slideTutorialPanel.SetActive(false);
 
+        // 냉장고 Handle를 받아서 animation 시킴
+        Transform fridgeHandle = transform.GetChild(0);
         fridgeHandle.DOLocalRotate(new Vector3(0, 0, -160),0.5f);
 
+        // 냉장고 열리는 소리 SFX
         AudioManager.Instance.SFXPlay(gameObject, 1);
+
         touchable = false;
 
+        // main 카메라의 포커스를 받음.
         float camera_force_leght = _camera.focalLength;
+
+        // main 카메라의 포커스를 앞으로 땅기는 Animation
         DOTween.To(()=> camera_force_leght, x => camera_force_leght = x, 94, 2).OnUpdate(() =>
         {
             _camera.focalLength = camera_force_leght;
         }).OnComplete(()=>
         {
+            // 문을 움직임을 freeze 시킨다.
             rbFridgeDoor.freezeRotation = true;
+
+            // Tutorial 시작
+            tutorialController.SetActive(true);
+
+
         }); //카메라가 앞으로 다가감
 
         foreach (Animator a in LightAnimaor)
@@ -83,6 +103,9 @@ public class FridgeInputCotroller : MonoBehaviour
 
         // Rigidbody에 힘을 가함 (월드 좌표 기준)
         rbFridgeDoor.AddForce(-Vector3.forward.normalized * 7, ForceMode.Impulse);
+
+        
+        
     }
 
 }
