@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/09. Level/Tutorial.unity
+=======
+- path: Assets/08. Design/Tutorial/Tutorial.unity
+>>>>>>> 20bca573 (BG_11/12)
   isLoaded: 1
   isActive: 1
   isSubScene: 0

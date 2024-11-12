@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\DLCO\fREeze\fREeze
+=======
+C:\Users\semin\Desktop\FREEZE\fREeze
+>>>>>>> 20bca573 (BG_11/12)
