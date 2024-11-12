@@ -27,10 +27,6 @@ public class DialogSystem : MonoBehaviour
 	private	float				typingSpeed;                    // 텍스트 타이핑 효과의 재생 속도
 	[SerializeField]
 	private GameObject          dialogPanel;                    // dialog UI들어 있는 Panel Object
-	[SerializeField]
-	private AudioClip			typingSFX;                      // 타이핑 animation이 나올 때, 재생됨
-	[SerializeField]
-	private AudioClip			ClickSFX;						// Click 소리 SFX
 
     [SerializeField]
 	private	KeyCode				keyCodeSkip = KeyCode.Space;    // 타이핑 효과를 스킵하는 키
@@ -58,8 +54,6 @@ public class DialogSystem : MonoBehaviour
 			// 텍스트 타이핑 효과를 재생중일때 마우스 왼쪽 클릭하면 타이핑 효과 종료
 			if ( isTypingEffect == true )
 			{
-				//ClickSFX Play
-				AudioManager.Instance.SFXPlay(gameObject, 4);
 
 				// 타이핑 효과를 중지하고, 현재 대사 전체를 출력한다
 				StopCoroutine("TypingText");
@@ -93,8 +87,8 @@ public class DialogSystem : MonoBehaviour
 
 	private void SetNextDialog()
 	{
-	
-		// 전 화자의 초상화를 Active false
+
+        // 전 화자의 초상화를 Active false
         portraits[(int)currentSpeaker].SetActive(false);
 
         currentIndex ++;

@@ -80,18 +80,13 @@ public class FridgeInputCotroller : MonoBehaviour
         }).OnComplete(()=>
         {
             // 문을 움직임을 freeze 시킨다.
-            rbFridgeDoor.freezeRotation = true;
+            Destroy(rbFridgeDoor.gameObject, 1);
 
             // Tutorial 시작
             tutorialController.SetActive(true);
 
 
         }); //카메라가 앞으로 다가감
-
-        foreach (Animator a in LightAnimaor)
-        {
-            a.SetTrigger("OpneTrigger");
-        }
 
         //Audio LowPass 적용
         audioMixer.GetFloat("BGMLowpass", out Main_Start_LowPassValue);
@@ -100,6 +95,13 @@ public class FridgeInputCotroller : MonoBehaviour
             // AudioMixer의 LowPassCutoff 파라미터 값을 실시간으로 업데이트
             audioMixer.SetFloat("BGMLowpass", Main_Start_LowPassValue);
         });
+
+        foreach (Animator a in LightAnimaor)
+        {
+            a.SetTrigger("OpneTrigger");
+        }
+
+        
 
         // Rigidbody에 힘을 가함 (월드 좌표 기준)
         rbFridgeDoor.AddForce(-Vector3.forward.normalized * 7, ForceMode.Impulse);
