@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/09. Level/Tutorial.unity
+- path: Assets/09. Level/1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
