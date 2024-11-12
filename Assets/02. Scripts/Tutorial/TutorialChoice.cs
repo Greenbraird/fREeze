@@ -6,7 +6,6 @@ using TMPro;
 public class TutorialChoice : TutorialBase
 {
     [SerializeField] private GameObject choiceUi;
-    [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text[] choices;
     [SerializeField] private string[] texts;
 
@@ -16,7 +15,6 @@ public class TutorialChoice : TutorialBase
     public override void Enter()
     {
         choiceUi.SetActive(true);
-        dialogPanel.SetActive(true);
         isCleck = false;    
         for (int i = 0; i < choices.Length; i++)
         {
@@ -43,7 +41,6 @@ public class TutorialChoice : TutorialBase
     public override void Exit()
     {
         choiceUi.SetActive(false);
-        dialogPanel.SetActive(false);
     }
 
     public override void Skip(TutorialController controller)
@@ -53,6 +50,8 @@ public class TutorialChoice : TutorialBase
 
     public void clickButton(bool i)
     {
+        //ClickSFX Play
+        AudioManager.Instance.SFXPlay(gameObject, 4);
         isSkip = i;
         isCleck = true;
     }

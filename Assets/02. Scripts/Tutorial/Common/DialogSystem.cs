@@ -7,14 +7,9 @@ using System;
 
 public enum Speaker
 {
-    [Description("<color=#cc0000>리틀릿</color=#cc0000>")]
-    리틀릿 = 0,
-
-    [Description("작고 하얀 무언가")]
+    리틀릿 = 2,
     작고하얀무언가 = 1,
-
-    [Description("페니")]
-    페니 = 2
+    페니 = 0
 }
 
 
@@ -27,11 +22,7 @@ public class DialogSystem : MonoBehaviour
 	private GameObject[]			portraits;
 
 	[SerializeField]
-	private	TMP_Text	        textNames;						// 현재 대사중인 캐릭터 이름 출력 Text UI
-	[SerializeField]
-	private TMP_Text            textDialogues;					// 현재 대사 출력 Text UI
-	[SerializeField]
-	private	GameObject  		objectArrows;					// 대사가 완료되었을 때 출력되는 커서 오브젝트
+	private TMP_Text[]            textDialogues;					// 현재 대사 출력 Text UI
 	[SerializeField]
 	private	float				typingSpeed;                    // 텍스트 타이핑 효과의 재생 속도
 	[SerializeField]
@@ -56,7 +47,6 @@ public class DialogSystem : MonoBehaviour
 	public void Setup()
 	{
 		dialogPanel.SetActive(true);
-        objectArrows.SetActive(false);
 
         SetNextDialog();
 	}
@@ -69,14 +59,12 @@ public class DialogSystem : MonoBehaviour
 			if ( isTypingEffect == true )
 			{
 				//ClickSFX Play
-				//AudioManager.Instance.SFXPlay(gameObject, "ClickSFX", ClickSFX);
+				AudioManager.Instance.SFXPlay(gameObject, 4);
 
 				// 타이핑 효과를 중지하고, 현재 대사 전체를 출력한다
 				StopCoroutine("TypingText");
 				isTypingEffect = false;
-				textDialogues.text = dialogs[currentIndex].dialogue;
-				// 대사가 완료되었을 때 출력되는 커서 활성화
-				objectArrows.SetActive(true);
+				textDialogues[(int)currentSpeaker].text = dialogs[currentIndex].dialogue;
 
 				return 0;
 			}
@@ -90,7 +78,9 @@ public class DialogSystem : MonoBehaviour
 			else
 			{
 				dialogPanel.SetActive(false);
-				if (IsskipDialog == true) {
+                // 전 화자의 초상화를 Active false
+                portraits[(int)currentSpeaker].SetActive(false);
+                if (IsskipDialog == true) {
                     return 2;
                 }
 				else { return 1; }
@@ -112,24 +102,11 @@ public class DialogSystem : MonoBehaviour
 		// 현재 화자 설정
 		currentSpeaker = dialogs[currentIndex].speaker;
 
-		// 현재 화자 이름 텍스트 활성화 및 설정
-		textNames.gameObject.SetActive(true);
-		textNames.text = GetDescription(currentSpeaker);
-
 		// 현재 화자로 초상화 변경
 		portraits[(int)currentSpeaker].SetActive(true);
 
-		// 화자의 대사 텍스트 활성화 및 설정 (Typing Effect)
-		textDialogues.gameObject.SetActive(true);
 		StartCoroutine(nameof(TypingText));
 	}
-
-    public static string GetDescription(Speaker speaker)
-    {
-        var field = speaker.GetType().GetField(speaker.ToString());
-        var attribute = (DescriptionAttribute)Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute));
-        return attribute != null ? attribute.Description : speaker.ToString();
-    }
 
     private IEnumerator TypingText()
 	{
@@ -140,7 +117,7 @@ public class DialogSystem : MonoBehaviour
 		// 텍스트를 한글자씩 타이핑치듯 재생
 		while ( index < dialogs[currentIndex].dialogue.Length  + 1)
 		{
-			textDialogues.text = dialogs[currentIndex].dialogue.Substring(0, index);
+			textDialogues[(int)currentSpeaker].text = dialogs[currentIndex].dialogue.Substring(0, index);
 			if(dialogs[currentIndex].dialogue.Substring(index) != " ")
 			{
                // AudioManager.Instance.InstantSFXPlay(typingSFX);
@@ -153,8 +130,6 @@ public class DialogSystem : MonoBehaviour
 
 		isTypingEffect = false;
 
-		// 대사가 완료되었을 때 출력되는 커서 활성화
-		objectArrows.SetActive(true);
 	}
 }
 

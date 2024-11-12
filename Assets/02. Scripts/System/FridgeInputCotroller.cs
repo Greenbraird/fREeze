@@ -12,7 +12,7 @@ public class FridgeInputCotroller : MonoBehaviour
 
     [SerializeField] private GameObject tutorialController;
 
-    //[SerializeField] private GameObject slideTutorialPanel;
+    [SerializeField] private GameObject slideTutorialPanel;
 
     private float Main_Start_LowPassValue;
 
@@ -59,7 +59,7 @@ public class FridgeInputCotroller : MonoBehaviour
     {
 
         // slideTutorialPanel UI를 비활성화 시킴
-        //slideTutorialPanel.SetActive(false);
+        slideTutorialPanel.SetActive(false);
 
         // 냉장고 Handle를 받아서 animation 시킴
         Transform fridgeHandle = transform.GetChild(0);
