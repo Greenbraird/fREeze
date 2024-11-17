@@ -9,6 +9,8 @@ public class CharaterMovement : MonoBehaviour
 {
     [SerializeField]
     private int speed;
+    [SerializeField]
+    private int jumpSpeed;
 
     Animator animator;
     Rigidbody rb;
@@ -83,7 +85,7 @@ public class CharaterMovement : MonoBehaviour
         AudioManager.Instance.SFXPlay(gameObject, 2);
 
         // 수직으로 점프하는 힘을 더하면서 앞으로 계속 이동
-        rb.AddForce(Vector3.up * 120, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * jumpSpeed, ForceMode.Impulse);
 
         // 점프 중에도 앞으로 계속 이동하도록 일정 시간 동안 moveforward를 계속 호출
         float jumpDuration = 0.5f; // 점프 지속 시간

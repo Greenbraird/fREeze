@@ -17,12 +17,12 @@ public class TutorialDialog : TutorialBase
 		// 현재 분기에 진행되는 대사 진행
 		int isCompleted = dialogSystem.UpdateDialog();
 
-        //AudioManager.Instance.SFXPlay(gameObject, 4);
+        
         // 현재 분기의 대사 진행이 완료되면
         if (isCompleted == 1)
 		{
             //ClickSFX Play
-            
+            AudioManager.Instance.SFXPlay(gameObject, 4);
             // 다음 튜토리얼로 이동
             controller.SetNextTutorial();
 		}

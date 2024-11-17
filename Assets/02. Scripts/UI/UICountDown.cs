@@ -32,7 +32,11 @@ public class UICountDown : MonoBehaviour
             else {
                 CountText.text = "Run!";
                 AudioManager.Instance.SFXPlay(gameObject, 4);
-                speedanimationobject.SetActive(true);
+                if (speedanimationobject != null)
+                {
+                    speedanimationobject.SetActive(true);
+                }
+
             }
             
             CountTextObject.transform.DOScale(new Vector3(0, 0, 0), 1).From().SetEase(Ease.OutBounce).OnComplete(()=>

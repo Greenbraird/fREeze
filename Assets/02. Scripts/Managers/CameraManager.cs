@@ -6,15 +6,15 @@ public class CameraManager : MonoBehaviour
 {
     public GameObject mainCharater;
 
-    public float upfloat;
-    public float forward;
+    //public float upfloat;
+    //public float forward;
 
     float fixedXRotation = 11;
     void LateUpdate()
     {
-        Vector3 camereUpdis = mainCharater.transform.up * upfloat;
-        Vector3 camereBackdis = mainCharater.transform.forward * forward;
-        transform.position = new Vector3(mainCharater.transform.position.x, mainCharater.transform.position.y, mainCharater.transform.position.z) + camereUpdis + camereBackdis;
+        //Vector3 camereUpdis = mainCharater.transform.up * upfloat;
+        //Vector3 camereBackdis = mainCharater.transform.forward * forward;
+        //transform.position = new Vector3(mainCharater.transform.position.x, mainCharater.transform.position.y, mainCharater.transform.position.z) + camereUpdis + camereBackdis;
 
         // 타겟 오브젝트를 바라보는 방향으로 카메라의 회전 값을 설정
         Vector3 direction = mainCharater.transform.position - transform.position;

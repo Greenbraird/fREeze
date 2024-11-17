@@ -89,6 +89,8 @@ public class CharaterCollider : MonoBehaviour
 
             charaterRagdoll.transform.position = charater.transform.position;
 
+            Camera.main.transform.SetParent(null);
+
             charaterRagdoll.SetActive(true);
             spine.AddForce(charaterRagdoll.transform.forward * -200f, ForceMode.Impulse);
             charater.SetActive(false);
