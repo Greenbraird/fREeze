@@ -58,8 +58,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: aea439c13f3a7b642a9d5508f0f8659f, type: 3}
   - {fileID: 8300000, guid: 81f5b5c7c5135fe46b4e77862445b94e, type: 3}
   footClips:
-  - {fileID: 8300000, guid: f1a07fca2f377474b87c468863ff88bf, type: 3}
-  - {fileID: 8300000, guid: 4b3df1b0c81d28c48aa9038fa1ea6d4b, type: 3}
+  - {fileID: 8300000, guid: ea78e459549b9be40967b8d768e73729, type: 3}
+  - {fileID: 8300000, guid: df2417b6268159e439f6be9daa7ea2af, type: 3}
 --- !u!82 &5838172361897804376
 AudioSource:
   m_ObjectHideFlags: 0
