@@ -7,8 +7,7 @@ using DG.Tweening;
 [RequireComponent(typeof(Animator))]
 public class CharaterMovement : MonoBehaviour
 {
-    [SerializeField]
-    private int speed;
+    public int speed;
     [SerializeField]
     private int jumpSpeed;
 

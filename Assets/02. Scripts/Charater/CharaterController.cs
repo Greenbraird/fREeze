@@ -8,7 +8,8 @@ public class CharaterController : MonoBehaviour
     private CharacterInputHandler charaterInputHanbler;
     [SerializeField]
     private CharaterMovement charaterMovement;
-    
+
+    public bool isinput = false;
 
     bool touchable;
  

@@ -60,8 +60,6 @@ public class CharaterCollider : MonoBehaviour
 
             _splineAnimate.Container = otherspline;
             _splineAnimate.Play();
-
-
         }
         
         

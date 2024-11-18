@@ -10,6 +10,11 @@ public class CharacterInputHandler : MonoBehaviour
     public event Action OnUpSlide;
     public event Action OnDownSlide;
 
+    public bool isRight;
+    public bool isLeft;
+    public bool isUp;
+    public bool isDown;
+
     private Vector3 touchStartPos;
     private float slideThreshold = 0.1f;
     private bool isDragging = false;  // 슬라이드 후 바로 드래그를 종료하기 위한 플래그
@@ -34,6 +39,7 @@ public class CharacterInputHandler : MonoBehaviour
             {
                 // 오른쪽으로 슬라이드
                 Debug.Log("Right Slide");
+                isRight = true;
                 OnRightSlide?.Invoke();
 
                 // 슬라이드가 끝났으므로 드래그를 멈춘다 (마우스 업 상태를 강제)
@@ -43,6 +49,7 @@ public class CharacterInputHandler : MonoBehaviour
             {
                 // 왼쪽으로 슬라이드
                 Debug.Log("Left Slide");
+                isLeft = true;
                 OnLeftSlide?.Invoke();
 
                 // 슬라이드가 끝났으므로 드래그를 멈춘다 (마우스 업 상태를 강제)
@@ -55,6 +62,7 @@ public class CharacterInputHandler : MonoBehaviour
             if (slideDistanceY > 0)
             {
                 Debug.Log("Jump");
+                isUp = true;
                 OnUpSlide?.Invoke();
 
                 // 위쪽 슬라이드가 끝났으므로 드래그를 멈춘다 (마우스 업 상태를 강제)
@@ -63,6 +71,7 @@ public class CharacterInputHandler : MonoBehaviour
             else if (slideDistanceY < 0)
             {
                 Debug.Log("Sliding");
+                isDown = true;
                 OnDownSlide?.Invoke();
 
                 // 아래쪽 슬라이드가 끝났으므로 드래그를 멈춘다 (마우스 업 상태를 강제)

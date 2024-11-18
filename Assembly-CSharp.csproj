@@ -73,6 +73,7 @@
     <Compile Include="Assets\02. Scripts\Managers\Data\GoogleSheetManager.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\DialogSystem.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\MainCameraManager.cs" />
+    <Compile Include="Assets\02. Scripts\Tutorial\TutorialCollider.cs" />
     <Compile Include="Assets\02. Scripts\System\GameSystem.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterInputHandler.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterFootSoundPlayer.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\02. Scripts\UI\UICountDown.cs" />
     <Compile Include="Assets\02. Scripts\Quest\QuestObjectEventTrigger.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\TutorialFadeEffect.cs" />
+    <Compile Include="Assets\02. Scripts\Tutorial\TutorialInput.cs" />
     <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
     <Compile Include="Assets\02. Scripts\System\Singletone.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\ArrowBlink.cs" />

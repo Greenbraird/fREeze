@@ -19,10 +19,10 @@ public class DialogSystem : MonoBehaviour
 	private	Dialog[]			dialogs;                        // 현재 분기의 대사 목록
 
 	[SerializeField]
-	private GameObject[]			portraits;
+	private GameObject[]		portraits;
 
 	[SerializeField]
-	private TMP_Text[]            textDialogues;					// 현재 대사 출력 Text UI
+	private TMP_Text[]          textDialogues;					// 현재 대사 출력 Text UI
 	[SerializeField]
 	private	float				typingSpeed;                    // 텍스트 타이핑 효과의 재생 속도
 	[SerializeField]
@@ -32,17 +32,30 @@ public class DialogSystem : MonoBehaviour
 	private	KeyCode				keyCodeSkip = KeyCode.Space;    // 타이핑 효과를 스킵하는 키
 
 	[SerializeField]
+	private Animator			characteranimator;
+	[SerializeField]
+	private CharaterMovement	characteraterMovement;
+
+    [SerializeField]
     private bool IsskipDialog = false;          // Ture면 다음 Dialog는 건너 뜀
 
     private	int					currentIndex = -1;
 	private	bool				isTypingEffect = false;			// 텍스트 타이핑 효과를 재생중인지
 	private	Speaker				currentSpeaker = Speaker.리틀릿;
+	private int					speedtmp = 0;
 
-	
 
-	public void Setup()
+
+    public void Setup()
 	{
-		dialogPanel.SetActive(true);
+        speedtmp = characteraterMovement.speed;
+        dialogPanel.SetActive(true);
+        if (characteranimator != null)
+		{
+            characteranimator.SetBool("Run", false);
+			characteraterMovement.speed = 0;
+        }
+        
 
         SetNextDialog();
 	}
@@ -72,6 +85,11 @@ public class DialogSystem : MonoBehaviour
 			else
 			{
 				dialogPanel.SetActive(false);
+                if (characteranimator != null)
+                {
+                    characteranimator.SetBool("Run",true);
+					characteraterMovement.speed = speedtmp;
+                }
                 // 전 화자의 초상화를 Active false
                 portraits[(int)currentSpeaker].SetActive(false);
                 if (IsskipDialog == true) {
