@@ -407,7 +407,6 @@
 "Assets/02. Scripts/System/GameSystem.cs"
 "Assets/02. Scripts/System/LoadingSceneController.cs"
 "Assets/02. Scripts/System/SceneController.cs"
-"Assets/02. Scripts/System/Singletone - 복사본.cs"
 "Assets/02. Scripts/System/Singletone.cs"
 "Assets/02. Scripts/Tutorial/Common/ArrowBlink.cs"
 "Assets/02. Scripts/Tutorial/Common/DialogSystem.cs"

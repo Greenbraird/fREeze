@@ -27,20 +27,6 @@ public class TutorialCollider : TutorialBase
         throw new System.NotImplementedException();
     }
 
-
-    void OnCollisionEnter(Collision collision)
-    {
-        // 충돌한 물체의 태그 가져오기
-        string collidedObjectTag = collision.gameObject.tag;
-
-        // 태그에 따라 다른 동작 수행
-        if (collidedObjectTag == "Food")
-        {
-            isfoodEnter = true;
-        }
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
 
@@ -48,6 +34,11 @@ public class TutorialCollider : TutorialBase
         {
             Destroy(other.gameObject);
             AudioManager.Instance.SFXPlay(gameObject, 0);
+        }
+
+        else if(other.gameObject.tag == "Food")
+        {
+            isfoodEnter = true;
         }
 
 

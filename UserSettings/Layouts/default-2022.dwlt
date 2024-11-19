@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 810
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 292
     width: 413
     height: 241
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 150}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 1
-  controlID: 41993
+  controlID: 179
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 150}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 41994
+  controlID: 180
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 52876
+  controlID: 89
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 413
     height: 292
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 0
     width: 414
     height: 760
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -984,9 +984,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -32.628716, y: 7.9781823, z: 284.1722}
+    m_Target: {x: -62.971912, y: 7.781542, z: 296.80728}
     speed: 2
-    m_Value: {x: -32.629494, y: 7.9774165, z: 284.17197}
+    m_Value: {x: -62.971912, y: 7.781542, z: 296.80728}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1032,13 +1032,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.086232334, y: 0.8631471, z: -0.47124988, w: -0.1599998}
+    m_Target: {x: -0.0966308, y: 0.74489784, z: -0.11214001, w: -0.65065783}
     speed: 2
-    m_Value: {x: -0.086579904, y: 0.8629685, z: -0.47115323, w: -0.16063626}
+    m_Value: {x: -0.095648095, y: 0.7450125, z: -0.11101455, w: -0.650756}
   m_Size:
-    m_Target: 23.892109
+    m_Target: 21.29551
     speed: 2
-    m_Value: 22.863262
+    m_Value: 23.401659
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1100,23 +1100,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f2090100
-      m_LastClickedID: 68082
-      m_ExpandedIDs: dec6faff800bfbff1a12feff6a15feff0416feff2416fefff217feffc018feffd032feff6850feff2651feff6ceeffff48efffff4af0ffffd4f1fffff0fafffff28100007e82000092820000a0820000b0820000de820000ea820000f0820000048300004eb7000078b7000086c20000b4c20000cac20000e8c2000020c3000066c3000036fb0000
+      m_SelectedIDs: e0cdffff
+      m_LastClickedID: -12832
+      m_ExpandedIDs: f8d1ffff9ed4ffff36efffffca7e0000c48d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: =====Tutorial Controller=====
-        m_OriginalName: =====Tutorial Controller=====
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 64406
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
@@ -1171,7 +1171,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/01. Scenes/InGameScene
+    - Assets/02. Scripts/Charater
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1179,16 +1179,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/01. Scenes/InGameScene
+  - Assets/02. Scripts/Charater
   m_LastFoldersGridSize: 53
   m_LastProjectPath: C:\Users\kimsijun\Desktop\Project\fREeze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e27f0000
-    m_LastClickedID: 32738
-    m_ExpandedIDs: 00000000c27f0000c47f0000c67f0000c87f0000ca7f0000cc7f0000ce7f0000d07f0000d27f0000d47f0000f07f00000480000006800000088000000a8000004080000046800000a695000010c4000068c400006ac400006cc400006ec400004ee5000000ca9a3b
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: 8c8a0000
+    m_LastClickedID: 35468
+    m_ExpandedIDs: 000000002a8800002c8800002e88000030880000328800003488000036880000388800003a8800003c8800003e88000040880000428800004488000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1216,7 +1216,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c27f0000c47f0000c67f0000c87f0000ca7f0000cc7f0000ce7f0000d07f0000d27f0000d47f0000f07f000004800000068000000a80000000ca9a3b
+    m_ExpandedIDs: 000000002a8800002c8800002e88000030880000328800003488000036880000388800003a8800003c8800003e880000408800004288000044880000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f66b0000666000006cff0000d0680000226100003e60000086790000de730000727700005e6f0000f4830000c672000034700000768b00006a8b0000448700002211010004670100f27400007e6f0000806f0000ac740000000000006c05010076fb0000ee7200007cd400004a740000506e00005a7400000a750000362f01000c76000018810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1268,7 +1268,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 78}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 53
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 114
