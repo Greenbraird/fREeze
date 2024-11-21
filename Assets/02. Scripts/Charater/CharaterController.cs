@@ -9,8 +9,6 @@ public class CharaterController : MonoBehaviour
     [SerializeField]
     private CharaterMovement charaterMovement;
 
-    public bool isinput = false;
-
     bool touchable;
  
     void Start()

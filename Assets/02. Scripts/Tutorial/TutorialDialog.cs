@@ -22,7 +22,7 @@ public class TutorialDialog : TutorialBase
         if (isCompleted == 1)
 		{
             //ClickSFX Play
-            AudioManager.Instance.SFXPlay(gameObject, 4);
+            //AudioManager.Instance.SFXPlay(gameObject, );
             // 다음 튜토리얼로 이동
             controller.SetNextTutorial();
 		}

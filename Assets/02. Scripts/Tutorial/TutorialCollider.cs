@@ -7,6 +7,13 @@ using UnityEngine.TextCore.Text;
 public class TutorialCollider : TutorialBase
 {
     bool isfoodEnter;
+
+    public GameObject mainCharacter;
+
+    private void Update()
+    {
+        transform.position = mainCharacter.transform.position;
+    }
     public override void Enter()
     {
         isfoodEnter = false;
@@ -27,20 +34,11 @@ public class TutorialCollider : TutorialBase
         throw new System.NotImplementedException();
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Coin")
-        {
-            Destroy(collision.gameObject);
-            AudioManager.Instance.SFXPlay(gameObject, 0);
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
+        print(other.gameObject.tag);
 
-
-        if(other.gameObject.tag == "Food")
+        if (other.gameObject.tag == "Food")
         {
             isfoodEnter = true;
         }

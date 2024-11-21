@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Animator))]
@@ -105,16 +106,17 @@ public class CharaterMovement : MonoBehaviour
     public IEnumerator Sliding()
     {
         CapsuleCollider playCollier = gameObject.GetComponent<CapsuleCollider>();
+        BoxCollider boxCollider = gameObject.GetComponent<BoxCollider>();
 
-        playCollier.center = new Vector3(0, 0.3f, 0);
-        playCollier.height = 1f;
+        playCollier.enabled = false;
+        boxCollider.enabled = true;
 
         animator.SetTrigger("OnSliding");
 
         yield return new WaitForSeconds(1);
 
-        playCollier.center = new Vector3(0, 0.8f, 0);
-        playCollier.height = 1.5f;
+        playCollier.enabled = true;
+        boxCollider.enabled = false;
 
         touchable = true;
     }

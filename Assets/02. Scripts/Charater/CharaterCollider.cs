@@ -7,7 +7,6 @@ using UnityEngine.Splines;
 public class CharaterCollider : MonoBehaviour
 {
     [Header("Ragdoll")]
-    public GameObject charater;
     public GameObject charaterRagdoll;
     public Rigidbody spine; 
 
@@ -85,13 +84,13 @@ public class CharaterCollider : MonoBehaviour
             Debug.Log("장애물이랑 접촉했습니다!");
             //충돌 시  필요한 event
 
-            charaterRagdoll.transform.position = charater.transform.position;
+            charaterRagdoll.transform.position = gameObject.transform.position;
 
             Camera.main.transform.SetParent(null);
 
             charaterRagdoll.SetActive(true);
             spine.AddForce(charaterRagdoll.transform.forward * -200f, ForceMode.Impulse);
-            charater.SetActive(false);
+            gameObject.SetActive(false);
 
             Invoke("callEndMassage", 2f);
         }

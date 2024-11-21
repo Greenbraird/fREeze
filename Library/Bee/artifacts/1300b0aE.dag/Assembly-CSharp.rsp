@@ -398,6 +398,7 @@
 "Assets/02. Scripts/Managers/CameraManager.cs"
 "Assets/02. Scripts/Managers/Data/DataManaver.cs"
 "Assets/02. Scripts/Managers/Data/GoogleSheetManager.cs"
+"Assets/02. Scripts/Managers/PathManager.cs"
 "Assets/02. Scripts/Managers/UIManager.cs"
 "Assets/02. Scripts/Player/Player.cs"
 "Assets/02. Scripts/Player/PlayerCollider.cs"
