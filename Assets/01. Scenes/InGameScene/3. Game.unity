@@ -3614,7 +3614,7 @@ MonoBehaviour:
   pathPrefabs:
   - {fileID: 1874665743649367518, guid: 7b00358b0264a184f8e2d311d0d7eab5, type: 3}
   - {fileID: 6621029907050054407, guid: 885d5d6459c3e7c4ba36702f7336c5f6, type: 3}
-  initialPathPrefab: {fileID: 0}
+  initialPathPrefab: {fileID: 1357416148}
   spawnDistance: 50
 --- !u!4 &641364558
 Transform:
@@ -6892,6 +6892,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1669065186}
   m_SourcePrefab: {fileID: 100100000, guid: 6174f21ae4cc6784ab6f2cd43cce7b80, type: 3}
+--- !u!1 &1357416148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 722356425716477872, guid: 66b96034046f5a6459238a9e38db041f, type: 3}
+  m_PrefabInstance: {fileID: 1201799207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1379261709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10351,6 +10356,10 @@ PrefabInstance:
     - target: {fileID: 8596584965416022043, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: speed
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596584965416022043, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
+      propertyPath: jumpForce
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8596584965416022043, guid: a220cb1a8fc0cf54094d7d75be0d2f4a, type: 3}
       propertyPath: jumpSpeed

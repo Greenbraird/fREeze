@@ -115,11 +115,11 @@ public class TutorialInput : TutorialBase
             switch (CurrentStatus)
             {
                 case StatusInput.Right:
-                    StartCoroutine(charaterMovement.moveRight());
+                    StartCoroutine(charaterMovement.MoveRight());
                     controller.SetNextTutorial();
                     break;
                 case StatusInput.Left:
-                    StartCoroutine(charaterMovement.moveLeft());
+                    StartCoroutine(charaterMovement.MoveLeft());
                     controller.SetNextTutorial();
                     break;
                 case StatusInput.Up:

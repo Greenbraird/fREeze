@@ -25,7 +25,7 @@ public class CharaterController : MonoBehaviour
     {
         if (touchable)
         {
-            StartCoroutine(charaterMovement.moveRight());
+            StartCoroutine(charaterMovement.MoveRight());
         }
     }
 
@@ -33,7 +33,7 @@ public class CharaterController : MonoBehaviour
     {
         if (touchable)
         {
-            StartCoroutine(charaterMovement.moveLeft());
+            StartCoroutine(charaterMovement.MoveLeft());
         }
     }
     void HandleUpSlide()

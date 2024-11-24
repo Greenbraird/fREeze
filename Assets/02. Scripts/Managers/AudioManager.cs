@@ -2,9 +2,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
-using UnityEngine.UIElements;
-using UnityEditor.Rendering;
-using UnityEditor.Build.Reporting;
 
 public class AudioManager : Singleton<AudioManager>
 {

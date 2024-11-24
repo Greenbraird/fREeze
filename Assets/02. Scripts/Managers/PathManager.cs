@@ -59,11 +59,12 @@ public class PathManager : MonoBehaviour
 
     private void RemoveOldPath()
     {
-        if (activePaths.Count > 1)
+        // N번째 길이 생성되었을 때 N-2번째 길을 삭제
+        if (activePaths.Count > 3)
         {
-            GameObject oldPath = activePaths[0];
-            activePaths.RemoveAt(0);
-            Destroy(oldPath);
+            GameObject oldPath = activePaths[0]; // 첫 번째 길(N-2번째 길)
+            activePaths.RemoveAt(0); // 리스트에서 제거
+            Destroy(oldPath); // 게임 오브젝트 삭제
         }
     }
 }
