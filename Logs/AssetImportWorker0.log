@@ -15,7 +15,7 @@ D:/DLCO/fREeze/fREeze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62574
+60884
 Successfully changed project path to: D:/DLCO/fREeze/fREeze
 D:/DLCO/fREeze/fREeze
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/DLCO/fREeze/fREeze
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4324] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3742814491 [EditorId] 3742814491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KLVG4A4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2628] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3462943 [EditorId] 3462943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KLVG4A4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4324] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3742814491 [EditorId] 3742814491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KLVG4A4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2628] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3462943 [EditorId] 3462943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KLVG4A4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 25.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,51 +70,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.033391 seconds.
-- Loaded All Assemblies, in  0.447 seconds
+Registered in 0.024103 seconds.
+- Loaded All Assemblies, in  0.358 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 525 ms
+Android Extension - Scanning For ADB Devices 396 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.898 seconds
-Domain Reload Profiling: 1338ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (136ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (899ms)
+	FinalizeReload (673ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (844ms)
+		SetupLoadedEditorAssemblies (633ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (662ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (498ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,8 +122,8 @@ Domain Reload Profiling: 1338ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.042 seconds
-Refreshing native plugins compatible for Editor in 7.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -135,47 +135,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 1771ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1626ms
+	BeginReloadAssembly (171ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (726ms)
-		LoadAssemblies (572ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (507ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (283ms)
-			TypeCache.Refresh (246ms)
-				TypeCache.ScanAssembly (225ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (737ms)
+	FinalizeReload (698ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (591ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (22ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 12.76 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5460 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (359.3 KB). Loaded Objects now: 5965.
-Memory consumption went from 247.9 MB to 247.5 MB.
-Total: 7.711500 ms (FindLiveObjects: 1.154300 ms CreateObjectMapping: 0.749600 ms MarkObjects: 5.544200 ms  DeleteObjects: 0.262300 ms)
+Unloading 75 unused Assets / (359.2 KB). Loaded Objects now: 5965.
+Memory consumption went from 248.1 MB to 247.7 MB.
+Total: 3.498000 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.797900 ms  DeleteObjects: 0.161800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,110 +192,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10178.106810 seconds.
-  path: Assets/05. Models/Fridge/Fridge1.fbx
-  artifactKey: Guid(6de04c6538d7fb54389e195fa441b5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Fridge/Fridge1.fbx using Guid(6de04c6538d7fb54389e195fa441b5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2a84fd5167a166295380e6e6cde4d5') in 0.470032 seconds
+  Time since last request: 54669.774652 seconds.
+  path: Assets/01. Scenes/TestScene.unity
+  artifactKey: Guid(25979ecff5becf545a99ff33ce2c8010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scenes/TestScene.unity using Guid(25979ecff5becf545a99ff33ce2c8010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc2fa3b63e907774fdb9b153b38c41b') in 0.001774 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 100
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.103231 seconds.
-  path: Assets/05. Models/Fridge/Element/egg.fbx
-  artifactKey: Guid(f5bf3e2002467d249a0cb4615a935314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Fridge/Element/egg.fbx using Guid(f5bf3e2002467d249a0cb4615a935314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ab47b475f9d8c2abfd43088567e9ea') in 0.022090 seconds
+  Time since last request: 7.828339 seconds.
+  path: Assets/01. Scenes/InGameScene
+  artifactKey: Guid(8a301622196a11d48a8a3dec7384e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scenes/InGameScene using Guid(8a301622196a11d48a8a3dec7384e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce0abe47f0547af9420b8f75752e139') in 0.000460 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.706419 seconds.
-  path: Assets/05. Models/Character/Character_LittleLit_JUSTBONE_Rig_kha_v07_w01 (1).blend
-  artifactKey: Guid(6a6045827d818e34aac8c1f6e8da57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Character/Character_LittleLit_JUSTBONE_Rig_kha_v07_w01 (1).blend using Guid(6a6045827d818e34aac8c1f6e8da57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba04c8f50bc21786a179db77fa69901') in 0.073266 seconds
+  Time since last request: 75.377300 seconds.
+  path: Assets/09. Level/Tutorial.unity
+  artifactKey: Guid(76a6b3b3a4133ea46b72fcf3350b0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09. Level/Tutorial.unity using Guid(76a6b3b3a4133ea46b72fcf3350b0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7322a44ca3375fe938d69dac88217b8') in 0.000459 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 88
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.141884 seconds.
-  path: Assets/05. Models/Map/01.fbx
-  artifactKey: Guid(da83ec6a72e7100428cce66111c9edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/01.fbx using Guid(da83ec6a72e7100428cce66111c9edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f16f14b51e35cd435e9e09c6c2f3b6') in 0.635615 seconds
+  Time since last request: 70.150429 seconds.
+  path: Assets/06. Animations/InGame/Little_Lit.overrideController
+  artifactKey: Guid(820ea942c4aea6942ac3871430eeb897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06. Animations/InGame/Little_Lit.overrideController using Guid(820ea942c4aea6942ac3871430eeb897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589efa6c24275805a043ed1dbe586819') in 0.026818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 314
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/05. Models/Map/Road_02.fbx
-  artifactKey: Guid(cbc70b9a3fbdfde4cb90e3f00f2af66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Road_02.fbx using Guid(cbc70b9a3fbdfde4cb90e3f00f2af66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7516db11221f03395a2011637763eaf4') in 0.057387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.001840 seconds.
-  path: Assets/05. Models/Map/Materials/lettuce.001.mat
-  artifactKey: Guid(25d8a7218b1241640a8cb5f3dfe6accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/lettuce.001.mat using Guid(25d8a7218b1241640a8cb5f3dfe6accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850e9cee02062bb8cba22b938d1d943b') in 0.016590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/05. Models/Map/Materials/road.mat
-  artifactKey: Guid(6555ae2a4a9f13f49a34106e9ef27694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/road.mat using Guid(6555ae2a4a9f13f49a34106e9ef27694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21300a3c5fae1682ad8002f7fe660a8') in 0.013910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/05. Models/Map/Materials/bread.001.mat
-  artifactKey: Guid(8d6fcc68fb5da3744aebe7d4a97687f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/bread.001.mat using Guid(8d6fcc68fb5da3744aebe7d4a97687f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37997df3fadedbb18f3ee832d5d60227') in 0.019391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/05. Models/Map/Materials/Carton_blue.mat
-  artifactKey: Guid(f7cbfe31ffeda8a478addbef183e4029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/Carton_blue.mat using Guid(f7cbfe31ffeda8a478addbef183e4029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8b877e568c96f28eb7db96186cb005') in 0.014556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/05. Models/Map/Materials/tomato inner.mat
-  artifactKey: Guid(05b38cf53c4e77f49b08f18ee069a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/tomato inner.mat using Guid(05b38cf53c4e77f49b08f18ee069a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4891119e60b4db7667ce505d696089fb') in 0.016638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/05. Models/Map/Materials/Tomato Outer.001.mat
-  artifactKey: Guid(26c198b9453b8364f986abad954ba9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/Tomato Outer.001.mat using Guid(26c198b9453b8364f986abad954ba9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17b135e045e0fc3b9a1302d52c397e1') in 0.017898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/05. Models/Map/Materials/Carton_white.mat
-  artifactKey: Guid(a89f3814f4dc12143b162f2befb3bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/Carton_white.mat using Guid(a89f3814f4dc12143b162f2befb3bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19012d049d4a4fd53918c811ac02a7ea') in 0.016758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/05. Models/Map/Materials/bread2.001.mat
-  artifactKey: Guid(1c23862c85341ca48a7ac7e60036594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05. Models/Map/Materials/bread2.001.mat using Guid(1c23862c85341ca48a7ac7e60036594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac23d8904631109e0a6fa63c06cb5ed') in 0.014413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 22
