@@ -7,6 +7,8 @@ TagManager:
   - Coin
   - Food
   - Spline
+  - Road
+  - PlayBox
   layers:
   - Default
   - TransparentFX

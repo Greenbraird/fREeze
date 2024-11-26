@@ -51,7 +51,7 @@ public class TutorialChoice : TutorialBase
     public void clickButton(bool i)
     {
         //ClickSFX Play
-        AudioManager.Instance.SFXPlay(gameObject, 4);
+        //AudioManager.Instance.SFXPlay(gameObject, 5);
         isSkip = i;
         isCleck = true;
     }

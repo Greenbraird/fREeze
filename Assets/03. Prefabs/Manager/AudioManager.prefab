@@ -50,6 +50,7 @@ MonoBehaviour:
   bgmClips:
   - {fileID: 8300000, guid: c804433a795bb6e4aa48a915e085ca87, type: 3}
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
   - {fileID: 8300000, guid: 4cd389fac9103a147bc61c5d59b3a605, type: 3}
   sfxClips:
@@ -57,9 +58,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f9551fc4ff043f14782a89b0e3ae0f47, type: 3}
   - {fileID: 8300000, guid: aea439c13f3a7b642a9d5508f0f8659f, type: 3}
   - {fileID: 8300000, guid: 81f5b5c7c5135fe46b4e77862445b94e, type: 3}
+  - {fileID: 8300000, guid: f30252df0767b5340978f5eaaf45d878, type: 3}
   footClips:
   - {fileID: 8300000, guid: ea78e459549b9be40967b8d768e73729, type: 3}
   - {fileID: 8300000, guid: df2417b6268159e439f6be9daa7ea2af, type: 3}
+  - {fileID: 8300000, guid: 7db8cbd956dbbdb489d174db4fa53167, type: 3}
 --- !u!82 &5838172361897804376
 AudioSource:
   m_ObjectHideFlags: 0

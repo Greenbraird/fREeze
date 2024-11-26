@@ -69,7 +69,7 @@ public class CharaterCollider : MonoBehaviour
         
         transform.position = new Vector3(transform.position.x, positionY, transform.position.z);
         Destroy(_splineAnimate);
-        GameSystem.Instance.touchable = true;
+        GameSystem.Instance.touchable = true;    
     }
 
    

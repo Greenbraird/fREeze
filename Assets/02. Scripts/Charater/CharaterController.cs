@@ -23,7 +23,7 @@ public class CharaterController : MonoBehaviour
 
     void HandleRightSlide()
     {
-        if (touchable)
+        if (GameSystem.Instance.touchable)
         {
             StartCoroutine(charaterMovement.MoveRight());
         }
@@ -31,14 +31,14 @@ public class CharaterController : MonoBehaviour
 
     void HandleLeftSlide()
     {
-        if (touchable)
+        if (GameSystem.Instance.touchable)
         {
             StartCoroutine(charaterMovement.MoveLeft());
         }
     }
     void HandleUpSlide()
     {
-        if (touchable)
+        if (GameSystem.Instance.touchable)
         {
             StartCoroutine(charaterMovement.Jumping());
         }
@@ -46,7 +46,7 @@ public class CharaterController : MonoBehaviour
 
     void HandleDownSlide()
     {
-        if (touchable)
+        if (GameSystem.Instance.touchable)
         {
             StartCoroutine(charaterMovement.Sliding());
         }

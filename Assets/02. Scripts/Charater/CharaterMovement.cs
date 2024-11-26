@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 using DG.Tweening;
 using static UnityEngine.UI.Image;
@@ -16,7 +16,6 @@ public class CharaterMovement : MonoBehaviour
     private Animator animator;
     private Rigidbody rb;
 
-    private bool touchable;
     private bool isRunning = false;
     private bool isGrounded = true;
 
@@ -24,17 +23,16 @@ public class CharaterMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
-        touchable = GameSystem.Instance.touchable;
     }
 
     private void FixedUpdate()
     {
-        // ±âÅ¸ µ¿ÀÛ Ã³¸®
+        // ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
         if (GameSystem.Instance.IsGamestart)
         {
-            if (isRunning && touchable)
+            if (isRunning && GameSystem.Instance.touchable)
             {
-                MoveForwardWithSlope(); // °æ»ç ±â¹Ý ÀÌµ¿
+                MoveForwardWithSlope(); // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ìµï¿½
             }
             else
             {
@@ -47,35 +45,29 @@ public class CharaterMovement : MonoBehaviour
     private void MoveForwardWithSlope()
     {
         RaycastHit hit;
-        Vector3 origin = transform.position + Vector3.up * 0.5f; // Ä³¸¯ÅÍ À§Ä¡ ¾à°£ À§¿¡¼­ Raycast ½ÃÀÛ
+        Vector3 origin = transform.position + Vector3.up * 0.5f; 
         Debug.DrawRay(origin, Vector3.down * 1f, Color.red);
-        // Áö¸éÀ» °¨ÁöÇÏ±â À§ÇØ ¾Æ·¡ ¹æÇâÀ¸·Î Raycast
         if (Physics.Raycast(origin, Vector3.down, out hit, 1f))
         {
-
-            // Ç¥¸éÀÇ ±â¿ï±â¸¦ ±âÁØÀ¸·Î ÀÌµ¿ ¹æÇâ Á¶Á¤
             Vector3 slopeDirection = Vector3.ProjectOnPlane(transform.forward, hit.normal).normalized;
             rb.velocity = slopeDirection * speed;
         }
         else
         {
-            // Raycast ½ÇÆÐ ½Ã ±âº»ÀûÀ¸·Î ÆòÁö ÀÌµ¿
             rb.velocity = transform.forward * speed;
-            // °øÁß¿¡ ¶° ÀÖ´Â °æ¿ì
             rb.velocity += Physics.gravity * Time.deltaTime;
         }
     }
 
     public IEnumerator MoveLeft()
     {
-        touchable = false;
+        GameSystem.Instance.touchable = false;
         animator.SetBool("OnDragLeft", true);
 
-        // ¿ÞÂÊÀ¸·Î ÀÌµ¿
         gameObject.transform.DOMove(transform.position - transform.right * 1.8f, 0.3f).OnComplete(() =>
         {
             animator.SetBool("OnDragLeft", false);
-            touchable = true;
+            GameSystem.Instance.touchable = true;
         });
 
         yield return null;
@@ -83,14 +75,13 @@ public class CharaterMovement : MonoBehaviour
 
     public IEnumerator MoveRight()
     {
-        touchable = false;
+        GameSystem.Instance.touchable = false;
         animator.SetBool("OnDragRight", true);
 
-        // ¿À¸¥ÂÊÀ¸·Î ÀÌµ¿
         gameObject.transform.DOMove(transform.position + transform.right * 1.8f, 0.3f).OnComplete(() =>
         {
             animator.SetBool("OnDragRight", false);
-            touchable = true;
+            GameSystem.Instance.touchable = true;
         });
 
         yield return null;
@@ -98,23 +89,23 @@ public class CharaterMovement : MonoBehaviour
 
     public IEnumerator Jumping()
     {
-        if (!isGrounded) yield break; // Á¡ÇÁ Áßº¹ ¹æÁö
+        if (!isGrounded) yield break; // ï¿½ï¿½ï¿½ï¿½ ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½
 
-        touchable = false;
+        GameSystem.Instance.touchable = false;
         isGrounded = false;
 
-        // Á¡ÇÁ ¾Ö´Ï¸ÞÀÌ¼Ç Æ®¸®°Å
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ Æ®ï¿½ï¿½ï¿½ï¿½
         animator.SetTrigger("OnJump");
         AudioManager.Instance.SFXPlay(gameObject, 2);
 
-        // À§·Î Á¡ÇÁ
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
 
-        // ÂøÁö ´ë±â
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         yield return new WaitUntil(() => IsGrounded());
 
-        // ÂøÁö ÈÄ touchable È°¼ºÈ­
-        touchable = true;
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ touchable È°ï¿½ï¿½È­
+        GameSystem.Instance.touchable = true;
         isGrounded = true;
     }
 
@@ -133,14 +124,14 @@ public class CharaterMovement : MonoBehaviour
         capsuleCollider.enabled = true;
         boxCollider.enabled = false;
 
-        touchable = true;
+        GameSystem.Instance.touchable = true;
     }
 
     private bool IsGrounded()
     {
-        // Ä³¸¯ÅÍ ¾Æ·¡·Î Raycast ¹ß»çÇÏ¿© Áö¸é °¨Áö
+        // Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ Raycast ï¿½ß»ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         RaycastHit hit;
-        Vector3 origin = transform.position + Vector3.down * 0.1f; // Raycast¸¦ Ä³¸¯ÅÍ ¾Æ·¡¼­ ½ÃÀÛ
+        Vector3 origin = transform.position + Vector3.down * 0.1f; // Raycastï¿½ï¿½ Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
         if (Physics.Raycast(origin, Vector3.down, out hit, 0.2f))
         {
