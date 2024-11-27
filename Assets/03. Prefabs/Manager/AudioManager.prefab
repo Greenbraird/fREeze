@@ -48,11 +48,11 @@ MonoBehaviour:
   mainMixer: {fileID: 24100000, guid: 91dd6ece49579a14a837db4b7fce45be, type: 2}
   bgmSource: {fileID: 5838172361897804376}
   bgmClips:
-  - {fileID: 8300000, guid: c804433a795bb6e4aa48a915e085ca87, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 8300000, guid: af11f11577edf1a4da93ebabfba76485, type: 3}
   - {fileID: 8300000, guid: 4cd389fac9103a147bc61c5d59b3a605, type: 3}
+  - {fileID: 8300000, guid: c804433a795bb6e4aa48a915e085ca87, type: 3}
   sfxClips:
   - {fileID: 8300000, guid: 13e85ac38ef00844e84b875cb9550141, type: 3}
   - {fileID: 8300000, guid: f9551fc4ff043f14782a89b0e3ae0f47, type: 3}

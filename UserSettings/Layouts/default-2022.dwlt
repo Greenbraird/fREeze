@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 109
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 110
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1110,7 +1110,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 30bfffff4ac0ffff46daffff3addffff3eddffff54ddffff52defffffcfaffff
+      m_ExpandedIDs: 5031ffff6032ffffc835ffff084dffff0650ffff0a50ffff3250ffff165bffff265cffff8e5fffffce76ffffcc79ffffd079fffff879ffff668bffff768cffffde8fffff1ea7ffff1caaffff20aaffff48aaffffbcb2ffffccb3ffff6ab7ffffaaceffffa8d1ffffacd1ffffd4d1fffffcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1179,7 +1179,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/05. Models/Fridge/Element
+    - Assets/Stylized Toon Pro/Shader
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1187,16 +1187,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/05. Models/Fridge/Element
+  - Assets/Stylized Toon Pro/Shader
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\kimsijun\Desktop\Project\fREeze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 329.5}
-    m_SelectedIDs: 66c10000
-    m_LastClickedID: 49510
-    m_ExpandedIDs: 0000000006970000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a9700001c9700001e97000020970000229700002497000026970000289700002a9700008497000000ca9a3b
+    scrollPos: {x: 0, y: 1273.5}
+    m_SelectedIDs: 60250100
+    m_LastClickedID: 75104
+    m_ExpandedIDs: 000000000a9700000c9700000e97000010970000129700001497000016970000189700001a9700001c9700001e97000020970000229700002497000026970000289700002a9700002c9700002e97000018b200004ab2000050b200002c2501002e2501003025010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1224,7 +1224,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000006970000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a9700001c9700001e97000020970000229700002497000026970000289700002a970000
+    m_ExpandedIDs: 000000000a9700000c9700000e97000010970000129700001497000016970000189700001a9700001c9700001e97000020970000229700002497000026970000289700002a9700002c9700002e970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f66b0000666000006cff0000d0680000226100003e60000086790000de730000727700005e6f0000f4830000c672000034700000768b00006a8b0000448700002211010004670100f27400007e6f0000806f0000ac740000000000006c05010076fb0000ee7200007cd400004a740000506e00005a7400000a750000362f01000c76000018810000b41f01007846010052880000de810000a2b3030064c10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 14.25}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 68
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 168
