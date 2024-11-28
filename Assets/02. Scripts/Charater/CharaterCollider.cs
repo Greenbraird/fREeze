@@ -6,16 +6,23 @@ using UnityEngine.Splines;
 
 public class CharaterCollider : MonoBehaviour
 {
+    [Header("Event")]
+    public CoinEvent coinEvent;
+
     [Header("Ragdoll")]
     public GameObject charaterRagdoll;
-    public Rigidbody spine; 
+    public Rigidbody spine;
 
-     SplineAnimate _splineAnimate;
+    
+    //spline Animate
+    SplineAnimate _splineAnimate;
 
+    //animation Finished bool
     bool animationFinished = false;
 
     private void Start()
     {
+        
         _splineAnimate = null;
     }
 
@@ -41,7 +48,9 @@ public class CharaterCollider : MonoBehaviour
         
         if (other.gameObject.tag == "Coin")
         {
-            Destroy(other.gameObject);
+            coinEvent.DestroyCoin(other.gameObject);
+            coinEvent.Increase(1);
+
             AudioManager.Instance.SFXPlay(gameObject, 0);
         }
         else if (other.gameObject.tag == "Spline")

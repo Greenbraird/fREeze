@@ -70,9 +70,11 @@
     <Compile Include="Assets\02. Scripts\Charater\CharaterMovement.cs" />
     <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Easy_Spawn.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\TestSceneManager.cs" />
+    <Compile Include="Assets\02. Scripts\Event\CoinEvent.cs" />
     <Compile Include="Assets\02. Scripts\Managers\Data\GoogleSheetManager.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\DialogSystem.cs" />
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\MainCameraManager.cs" />
+    <Compile Include="Assets\ElementalMeters\Scripts\MeterScript.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialCollider.cs" />
     <Compile Include="Assets\02. Scripts\System\CameraRaycast.cs" />
     <Compile Include="Assets\02. Scripts\System\GameSystem.cs" />
@@ -89,12 +91,14 @@
     <Compile Include="Assets\02. Scripts\Managers\PathManager.cs" />
     <Compile Include="Assets\02. Scripts\Managers\PathGenerator.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\TutorialController.cs" />
+    <Compile Include="Assets\ElementalMeters\Scripts\PlayerController.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharaterCollider.cs" />
     <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Vignette_Screen_Size_Auto_Scale.cs" />
     <Compile Include="Assets\02. Scripts\Player\Player.cs" />
     <Compile Include="Assets\02. Scripts\System\LoadingSceneController.cs" />
     <Compile Include="Assets\02. Scripts\UI\UICountDown.cs" />
     <Compile Include="Assets\02. Scripts\Quest\QuestObjectEventTrigger.cs" />
+    <Compile Include="Assets\ElementalMeters\Scripts\MeterButtons.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\Common\TutorialFadeEffect.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialInput.cs" />
     <Compile Include="Assets\02. Scripts\System\SceneController.cs" />
