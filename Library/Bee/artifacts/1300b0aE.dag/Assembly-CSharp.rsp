@@ -424,6 +424,7 @@
 "Assets/02. Scripts/Tutorial/TutorialTrigger.cs"
 "Assets/02. Scripts/UI/GradientUI.cs"
 "Assets/02. Scripts/UI/UICountDown.cs"
+"Assets/02. Scripts/UI/UIStory.cs"
 "Assets/02. Scripts/UI/UITipText.cs"
 "Assets/ElementalMeters/Scripts/MeterButtons.cs"
 "Assets/ElementalMeters/Scripts/MeterScript.cs"

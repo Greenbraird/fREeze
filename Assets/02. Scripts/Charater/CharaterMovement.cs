@@ -27,12 +27,12 @@ public class CharaterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // ��Ÿ ���� ó��
         if (GameSystem.Instance.IsGamestart)
         {
             if (isRunning && GameSystem.Instance.touchable)
             {
-                MoveForwardWithSlope(); // ��� ��� �̵�
+                Vector3 movement = Vector3.forward * (speed * Time.deltaTime);
+                transform.Translate(movement);
             }
             else
             {

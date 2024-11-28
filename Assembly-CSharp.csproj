@@ -106,6 +106,7 @@
     <Compile Include="Assets\02. Scripts\Tutorial\Common\ArrowBlink.cs" />
     <Compile Include="Assets\02. Scripts\System\FridgeInputCotroller.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\02. Scripts\UI\UIStory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\CurvedCode.cginc" />
