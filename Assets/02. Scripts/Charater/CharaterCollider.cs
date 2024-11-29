@@ -8,11 +8,6 @@ public class CharaterCollider : MonoBehaviour
 
     [Header("Event")]
     public CoinEvent coinEvent;
-
-    [Header("Ragdoll")]
-    public GameObject charaterRagdoll;
-    public Rigidbody spine;
-
     
     //spline Animate
     SplineAnimate _splineAnimate;

@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class GameSystem : Singleton<GameSystem>
 {
-    [SerializeField]
     private GameObject RestartPanel;
 
     public bool IsGamestart = false;
 
     public bool touchable = false;
+
+    private void Start()
+    {
+        RestartPanel = GameObject.Find("Restart Panel");
+    }
+
     public void GameStart()
     {
 

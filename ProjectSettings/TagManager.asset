@@ -9,6 +9,7 @@ TagManager:
   - Spline
   - Road
   - PlayBox
+  - Map
   layers:
   - Default
   - TransparentFX

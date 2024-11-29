@@ -32,10 +32,13 @@ public class CharacterInputHandler : MonoBehaviour
     protected bool m_chageLane;
     protected float m_chageLaneStart;
     protected int m_LaneDirection;
+    protected int m_LaneCount;
 
     private Vector3 rootMotionVelocity; // Root Motion에서 가져온 이동 속도
     public float gravity = -5f;      // 중력 값
     private float verticalVelocity;    // 중력에 의한 Y축 속도
+
+
 
     private void Start()
     {
@@ -48,6 +51,15 @@ public class CharacterInputHandler : MonoBehaviour
         // Rigidbody 설정: 중력 활성화, 물리 상호작용 방지
         rb.useGravity = false; // Root Motion과 중력 충돌 방지
         rb.isKinematic = false;
+
+        // 캐릭터의 이동
+        Vector3 forwardDirection = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
+        transform.Translate(forwardDirection * (speed * Time.deltaTime), Space.World);
+
+        // 캐릭터의 방향을 정확히 전방으로 보정
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
+
+        m_LaneCount =1;
     }
 
     void Update()
@@ -250,7 +262,11 @@ public class CharacterInputHandler : MonoBehaviour
     // 바닥에 있는지 확인 (Raycast를 사용)
     private bool IsGrounded()
     {
-        return Physics.Raycast(transform.position, Vector3.down, 1f);
+        float CheckDistance = 0.1f; // 바닥 체크 거리
+        Vector3 capsuleBottom = transform.position - new Vector3(0, 0.5f, 0); // 캡슐의 아래쪽
+        Vector3 capsuleTop = transform.position + new Vector3(0, 0.5f, 0);   // 캡슐의 위쪽
+        float capsuleRadius = 0.45f; // 캡슐의 반지름
+        return Physics.CheckCapsule(capsuleBottom, capsuleTop, capsuleRadius);
     }
 
 }

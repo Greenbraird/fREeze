@@ -104,6 +104,7 @@
     <Compile Include="Assets\02. Scripts\Tutorial\Common\ArrowBlink.cs" />
     <Compile Include="Assets\02. Scripts\System\FridgeInputCotroller.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\RoadUpdate.cs" />
     <Compile Include="Assets\02. Scripts\UI\UIStory.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,7 +144,6 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Muddy\Shaders\SH_Vefects_URP_VFX_Vignette_Muddy_01.shader" />
-    <None Include="Assets\Shaders\StylizedToon add Curved.shader" />
     <None Include="Assets\Vefects\Vignette VFX URP\Vignettes\Drunk\Shaders\SH_Vefects_URP_VFX_Vignette_Drunk_01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Vefects\Vignette VFX URP\Demo\Resources\Shaders\SH_Vefects_URP_VFX_Character_Showoff.shader" />

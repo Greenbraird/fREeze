@@ -427,6 +427,7 @@
 "Assets/ElementalMeters/Scripts/MeterButtons.cs"
 "Assets/ElementalMeters/Scripts/MeterScript.cs"
 "Assets/ElementalMeters/Scripts/PlayerController.cs"
+"Assets/RoadUpdate.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/Camera_Controller.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/MainCameraManager.cs"
 "Assets/Stylized Toon Pro/Demo/Scripts/TestSceneManager.cs"
