@@ -402,8 +402,6 @@
 "Assets/02. Scripts/Managers/PathGenerator.cs"
 "Assets/02. Scripts/Managers/PathManager.cs"
 "Assets/02. Scripts/Managers/UIManager.cs"
-"Assets/02. Scripts/Player/Player.cs"
-"Assets/02. Scripts/Player/PlayerCollider.cs"
 "Assets/02. Scripts/Quest/InstanceDailyQuest.cs"
 "Assets/02. Scripts/Quest/QuestObjectEventTrigger.cs"
 "Assets/02. Scripts/System/CameraRaycast.cs"

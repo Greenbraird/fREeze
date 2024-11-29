@@ -32,9 +32,4 @@ public class CoinEvent : MonoBehaviour
 
         currentHealth -= n; //decreases the variable's value by 10
     }
-
-    public void DestroyCoin(GameObject coin)
-    {
-        Destroy(coin.gameObject);
-    }
 }

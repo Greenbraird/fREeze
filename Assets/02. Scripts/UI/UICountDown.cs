@@ -23,7 +23,7 @@ public class UICountDown : MonoBehaviour
     {
         TMP_Text CountText = CountTextObject.GetComponent<TMP_Text>();
         
-        for (int i = 3; i> -1; i--)
+        for (int i = 5; i> -1; i--)
         {
             if(i != 0){ 
                 CountText.text = i.ToString();

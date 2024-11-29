@@ -19,6 +19,7 @@ Material:
   - _USEADDITIONALLIGHTSDIFFUSE_ON
   - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_STEP
+  - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
@@ -119,7 +120,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdaptiveThicnkess: 0
+    - _AdaptiveThicnkess: 0.0001
     - _AdditionalLightsAmount: 1
     - _AdditionalLightsFaloff: 1
     - _AdditionalLightsIntesity: 1
@@ -205,7 +206,7 @@ Material:
     - _StepOffset: 0
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0
+    - _Thicnkess: 0.0001
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
@@ -228,7 +229,7 @@ Material:
     - _UseEnvironmentRefletion: 0
     - _UseHatchingConstantScale: 1
     - _UseLightRamp: 0
-    - _UseOutline: 0
+    - _UseOutline: 1
     - _UsePureSketch: 1
     - _UseRimLight: 0
     - _UseScreenUvs: 0

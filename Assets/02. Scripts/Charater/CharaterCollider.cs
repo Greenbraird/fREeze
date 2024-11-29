@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Splines;
 
 public class CharaterCollider : MonoBehaviour
 {
+    Animator _animator;
+
     [Header("Event")]
     public CoinEvent coinEvent;
 
@@ -22,7 +22,7 @@ public class CharaterCollider : MonoBehaviour
 
     private void Start()
     {
-        
+        _animator = GetComponent<Animator>();
         _splineAnimate = null;
     }
 
@@ -48,15 +48,16 @@ public class CharaterCollider : MonoBehaviour
         
         if (other.gameObject.tag == "Coin")
         {
-            coinEvent.DestroyCoin(other.gameObject);
+            other.gameObject.SetActive(false);
             coinEvent.Increase(1);
 
             AudioManager.Instance.SFXPlay(gameObject, 0);
         }
         else if (other.gameObject.tag == "Spline")
         {
-            animationFinished = false;
+            _animator.applyRootMotion = true;
             GameSystem.Instance.touchable = false;
+            animationFinished = false;
 
             if (_splineAnimate == null)
             {
@@ -67,7 +68,13 @@ public class CharaterCollider : MonoBehaviour
             SplineContainer otherspline = other.gameObject.GetComponent<SplineContainer>();
 
             _splineAnimate.Container = otherspline;
+
             _splineAnimate.Play();
+
+            other.gameObject.SetActive(false);
+            other.gameObject.SetActive(true);
+
+
         }
         
         
@@ -91,15 +98,21 @@ public class CharaterCollider : MonoBehaviour
         if (collidedObjectTag == "Food")
         {
             Debug.Log("장애물이랑 접촉했습니다!");
+
             //충돌 시  필요한 event
-
-            charaterRagdoll.transform.position = gameObject.transform.position;
-
             Camera.main.transform.SetParent(null);
 
-            charaterRagdoll.SetActive(true);
-            spine.AddForce(charaterRagdoll.transform.forward * -200f, ForceMode.Impulse);
-            gameObject.SetActive(false);
+            _animator.SetBool("OnDragRight", false); // 오른쪽으로 변경
+            _animator.SetBool("OnDragLeft", false); // 오른쪽으로 변경
+            _animator.SetTrigger("Dead");
+            GameSystem.Instance.IsGamestart = false;
+
+
+            //charaterRagdoll.transform.position = gameObject.transform.position;
+
+            //charaterRagdoll.SetActive(true);
+            //spine.AddForce(charaterRagdoll.transform.forward * -200f, ForceMode.Impulse);
+            //gameObject.SetActive(false);
 
             Invoke("callEndMassage", 2f);
         }

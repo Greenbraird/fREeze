@@ -32,6 +32,7 @@ Material:
   - _USEADDITIONALLIGHTSDIFFUSE_ON
   - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_STEP
+  - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
@@ -132,7 +133,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdaptiveThicnkess: 0
+    - _AdaptiveThicnkess: 0.0001
     - _AdditionalLightsAmount: 1
     - _AdditionalLightsFaloff: 1
     - _AdditionalLightsIntesity: 1
@@ -218,7 +219,7 @@ Material:
     - _StepOffset: 0
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0
+    - _Thicnkess: 0.0001
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
@@ -241,7 +242,7 @@ Material:
     - _UseEnvironmentRefletion: 0
     - _UseHatchingConstantScale: 1
     - _UseLightRamp: 0
-    - _UseOutline: 0
+    - _UseOutline: 1
     - _UsePureSketch: 1
     - _UseRimLight: 0
     - _UseScreenUvs: 0
@@ -257,7 +258,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.45862854, g: 0.46964085, b: 0.48060918, a: 1}
-    - _Color: {r: 0.45862848, g: 0.4696408, b: 0.48060912, a: 1}
+    - _Color: {r: 0.8980392, g: 0.7254902, b: 0.61960787, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}

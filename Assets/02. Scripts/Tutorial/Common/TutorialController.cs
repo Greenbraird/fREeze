@@ -74,6 +74,8 @@ public class TutorialController : MonoBehaviour
     {
         currentTutorial = null;
 
+        PlayerPrefs.SetInt("TutorialEnd", 1);
+
         // 행동 양식이 여러 종류가 되었을 때 코드 추가 작성
         // 현재는 씬 전환
 

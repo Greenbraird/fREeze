@@ -1,78 +1,256 @@
 using System;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
+[RequireComponent(typeof(Animator))]
 public class CharacterInputHandler : MonoBehaviour
 {
-    public event Action OnRightSlide;
-    public event Action OnLeftSlide;
-    public event Action OnUpSlide;
-    public event Action OnDownSlide;
+    Animator animator;
+    Rigidbody rb;
 
+    public int speed = 5;
+    public float jumpHeight = 1;
 
-    private Vector2 touchStartPos;
-    private float slideThreshold = 0.1f; // 슬라이드 감지 민감도 (화면 비율 기준)
-    private bool isDragging = false;
+    public float jumpDuration = 1.0f;
+    public float slideDuration = 1.0f;
+    public float laneDuration = 0.01f;
 
-    private void Update()
+    bool m_IsSwiping = false;
+    Vector2 m_StartingTouch;
+
+    bool m_IsRunning = false;
+
+    protected float m_jumpStartTime;
+    protected bool m_Jumping;
+    protected float m_JumpStart;
+
+    private float slideStartTime;
+    protected bool m_Sliding;
+    protected float m_SlideStart;
+
+    protected float m_chageLaneTime;
+    protected bool m_chageLane;
+    protected float m_chageLaneStart;
+    protected int m_LaneDirection;
+
+    private Vector3 rootMotionVelocity; // Root Motion에서 가져온 이동 속도
+    public float gravity = -5f;      // 중력 값
+    private float verticalVelocity;    // 중력에 의한 Y축 속도
+
+    private void Start()
     {
-        HandleTouchInput();
+        rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
+        m_IsRunning = true;
+        m_Jumping = false;
+        m_Sliding = false;
+
+        // Rigidbody 설정: 중력 활성화, 물리 상호작용 방지
+        rb.useGravity = false; // Root Motion과 중력 충돌 방지
+        rb.isKinematic = false;
     }
 
-    private void HandleTouchInput()
+    void Update()
     {
-        // 터치 시작
-        if (Input.GetMouseButtonDown(0))
+
+        // 중력 업데이트
+        if (IsGrounded())
         {
-            touchStartPos = Input.mousePosition;
-            isDragging = true;
+            verticalVelocity = 0f; // 바닥에 있을 때 Y축 속도 초기화
+        }
+        else
+        {
+            verticalVelocity += gravity * Time.deltaTime; // 중력 가속도
         }
 
-        // 터치 중 (드래그)
-        if (Input.GetMouseButton(0) && isDragging)
-        {
-            Vector2 currentPos = Input.mousePosition;
-            Vector2 slideDistance = CalculateSlideDistance(currentPos);
+        if (!GameSystem.Instance.IsGamestart) return;
+        else animator.SetBool("Run", true);
+        if (!GameSystem.Instance.touchable) return;
+        if (!m_IsRunning) return;
 
-            if (Mathf.Abs(slideDistance.x) > slideThreshold)
+        transform.Translate(transform.forward * (speed * Time.deltaTime), Space.World);
+
+        // 입력 처리
+        if (Input.GetKeyDown(KeyCode.UpArrow)) Jump();
+        if (Input.GetKeyDown(KeyCode.DownArrow)) Slide();
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) ChangeLane(-1);
+        if (Input.GetKeyDown(KeyCode.RightArrow)) ChangeLane(1);
+
+        // 점프 상태 업데이트
+        if (m_Jumping)
+        {
+            float jumpTime = Time.time - m_jumpStartTime; // 점프 경과 시간
+            float jumpRatio = jumpTime / jumpDuration;
+            if (jumpRatio >= 1.0f)
             {
-                if (slideDistance.x > 0)
-                    TriggerSlide("Right", OnRightSlide);
-                else
-                    TriggerSlide("Left",  OnLeftSlide);
+                m_Jumping = false;
             }
-            else if (Mathf.Abs(slideDistance.y) > slideThreshold)
+            else
             {
-                if (slideDistance.y > 0)
-                    TriggerSlide("Up", OnUpSlide);
-                else
-                    TriggerSlide("Down",OnDownSlide);
+                float yOffset = Mathf.Sin(jumpRatio * Mathf.PI) * jumpHeight; // Y축으로 점프
+                transform.position = new Vector3(transform.position.x, m_JumpStart + yOffset, transform.position.z); // Y축만 수정
             }
         }
 
-        // 터치 종료
-        if (Input.GetMouseButtonUp(0))
+        if (m_chageLane)
         {
-            EndDrag();
+            float chageLaneTime = Time.time - m_chageLaneTime;
+            float chageLane = chageLaneTime / laneDuration;
+
+            Debug.Log("변화 시간 " + chageLaneTime);
+            Debug.Log("변화 비율 " + chageLane);
+            
+            if (chageLaneTime > 0.2f)
+            {
+                m_chageLane = false;
+                animator.SetBool("OnDragRight", false); // 오른쪽으로 변경
+                animator.SetBool("OnDragLeft", false); // 오른쪽으로 변경
+            }
+            else
+            {
+                // X축 이동 계산
+                Vector3 xOffset = m_LaneDirection * 2.0f * transform.right; // 이동 거리 계산
+
+                transform.position = new Vector3(m_chageLaneStart, transform.position.y, transform.position.z) + xOffset;
+            }
+        }
+
+        if (m_Sliding)
+        {
+            // 슬라이드 중인지 확인
+            if (m_Sliding)
+            {
+                // 슬라이드 지속 시간이 지나면 슬라이드 종료
+                if (Time.time - slideStartTime > slideDuration)
+                {
+                    m_Sliding = false;
+                    //characterCollider.Slide(false);
+                }
+            }
+        } 
+        // Use touch input on mobile
+        if (Input.touchCount == 1)
+        {
+			if(m_IsSwiping)
+			{
+				Vector2 diff = Input.GetTouch(0).position - m_StartingTouch;
+
+				// Put difference in Screen ratio, but using only width, so the ratio is the same on both
+                // axes (otherwise we would have to swipe more vertically...)
+				diff = new Vector2(diff.x/Screen.width, diff.y/Screen.width);
+
+				if(diff.magnitude > 0.01f) //we set the swip distance to trigger movement to 1% of the screen width
+				{
+					if(Mathf.Abs(diff.y) > Mathf.Abs(diff.x))
+					{
+						if(diff.y < 0)
+						{
+							Slide();
+						}
+						else
+						{
+							Jump();
+						}
+					}
+					else
+					{
+						if(diff.x < 0)
+						{
+							ChangeLane(-1);
+						}
+						else
+						{
+							ChangeLane(1);
+						}
+					}
+						
+					m_IsSwiping = false;
+				}
+            }
+
+        	// Input check is AFTER the swip test, that way if TouchPhase.Ended happen a single frame after the Began Phase
+			// a swipe can still be registered (otherwise, m_IsSwiping will be set to false and the test wouldn't happen for that began-Ended pair)
+			if(Input.GetTouch(0).phase == TouchPhase.Began)
+			{
+				m_StartingTouch = Input.GetTouch(0).position;
+				m_IsSwiping = true;
+			}
+			else if(Input.GetTouch(0).phase == TouchPhase.Ended)
+			{
+				m_IsSwiping = false;
+			}
         }
     }
 
-    private Vector2 CalculateSlideDistance(Vector2 currentPos)
+    void Jump()
     {
-        float normalizedX = (currentPos.x - touchStartPos.x) / Screen.width;
-        float normalizedY = (currentPos.y - touchStartPos.y) / Screen.height;
-        return new Vector2(normalizedX, normalizedY);
+        if (!m_IsRunning || m_Jumping) return;
+
+        m_Jumping = true;
+        m_jumpStartTime = Time.time; // 점프 시작 위치 저장
+        m_JumpStart = transform.position.y;
+
+        //애니메이션 재생
+        animator.SetTrigger("OnJump");
+
+        // 점프 사운드 재생
+        AudioManager.Instance.SFXPlay(gameObject, 2);
     }
 
-    private void TriggerSlide(string direction, Action slideEvent)
+    void Slide()
     {
-        Debug.Log($"{direction} Slide");
-        slideEvent?.Invoke();
-        EndDrag();
+        // 이미 슬라이드 중이거나 캐릭터가 달리고 있지 않다면 슬라이드 시작하지 않음
+        if (!m_IsRunning || m_Sliding) return;
+
+        m_Sliding = true;
+        slideStartTime = Time.time; // 슬라이드 시작 시간 기록
+
+        //애니메이션 재생
+        animator.SetTrigger("OnSliding");
+
+        // 슬라이드 크기 조정
+        //characterCollider.Slide(true);
     }
 
-    private void EndDrag()
+    void ChangeLane(int direction)
     {
-        isDragging = false;
+        if (!m_IsRunning || m_chageLane) return; // 이미 레인 변경 중이라면 실행하지 않음
+
+        m_LaneDirection = direction; // 이동 방향 설정
+
+        m_chageLane = true;
+        m_chageLaneTime = Time.time; // 레인 변경 시작 시간 저장
+        m_chageLaneStart = transform.position.x; // 현재 X 위치 저장
+
+        // 애니메이션 재생
+        if (direction == 1)
+            animator.SetBool("OnDragRight",true); // 오른쪽으로 변경
+        else if (direction == -1)
+            animator.SetBool("OnDragLeft", true); // 왼쪽으로 변경
+    }
+
+    private void OnAnimatorMove()
+    {
+        if (animator == null || rb == null)
+            return;
+        if (m_Jumping)
+            return;
+
+        // Root Motion에서 이동 값을 가져옴
+        rootMotionVelocity = animator.deltaPosition / Time.deltaTime;
+
+        // Rigidbody를 사용하여 이동 적용 (중력 포함)
+        Vector3 newVelocity = new Vector3(rootMotionVelocity.x, verticalVelocity, rootMotionVelocity.z);
+        rb.velocity = newVelocity;
+
+        // Root Motion 회전 값도 적용
+        rb.MoveRotation(animator.rootRotation);
+    }
+
+    // 바닥에 있는지 확인 (Raycast를 사용)
+    private bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, 1f);
     }
 
 }

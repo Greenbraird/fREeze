@@ -2,6 +2,7 @@
 using UnityEngine;
 using DG.Tweening;
 using static UnityEngine.UI.Image;
+using UnityEngine.TextCore.Text;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Animator))]
@@ -18,6 +19,12 @@ public class CharaterMovement : MonoBehaviour
 
     private bool isRunning = false;
     private bool isGrounded = true;
+
+    protected float m_JumpStart;
+    protected bool m_Jumping;
+
+    protected bool m_Sliding;
+    protected float m_SlideStart;
 
     void Start()
     {
@@ -85,6 +92,17 @@ public class CharaterMovement : MonoBehaviour
         });
 
         yield return null;
+    }
+
+    void Jump()
+    {
+        if (!isRunning || m_Jumping) return;
+
+        m_Jumping = true;
+        m_JumpStart = transform.position.y; // 점프 시작 위치 저장
+        animator.SetTrigger("OnJump");
+
+        AudioManager.Instance.SFXPlay(gameObject, 2);
     }
 
     public IEnumerator Jumping()

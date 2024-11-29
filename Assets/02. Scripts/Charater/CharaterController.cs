@@ -13,10 +13,10 @@ public class CharaterController : MonoBehaviour
  
     void Start()
     {
-        charaterInputHanbler.OnRightSlide += HandleRightSlide;
-        charaterInputHanbler.OnLeftSlide += HandleLeftSlide;
-        charaterInputHanbler.OnUpSlide += HandleUpSlide;
-        charaterInputHanbler.OnDownSlide += HandleDownSlide;
+        //charaterInputHanbler.OnRightSlide += HandleRightSlide;
+        //charaterInputHanbler.OnLeftSlide += HandleLeftSlide;
+        //charaterInputHanbler.OnUpSlide += HandleUpSlide;
+        //charaterInputHanbler.OnDownSlide += HandleDownSlide;
 
         touchable = GameSystem.Instance.touchable;  
     }

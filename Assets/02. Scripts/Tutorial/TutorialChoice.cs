@@ -24,7 +24,7 @@ public class TutorialChoice : TutorialBase
 
     public override void Execute(TutorialController controller)
     {
-        if(isCleck== true ) 
+        if(isCleck== true) 
         {
             if(isSkip == true)
             {

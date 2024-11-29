@@ -21,6 +21,7 @@ Material:
   - _USELIGHTRAMP_POSTERIZE
   - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
+  - _USERIMLIGHT_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
   - _GLOSSYREFLECTIONS_OFF
@@ -142,7 +143,7 @@ Material:
     - _Darken: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DiffusePosterizeOffset: -0.093
+    - _DiffusePosterizeOffset: -0.049
     - _DiffusePosterizePower: 1.55
     - _DiffusePosterizeSteps: 10
     - _DiffuseWarpAffectHalftone: 0
@@ -183,10 +184,10 @@ Material:
     - _QueueOffset: 0
     - _RampDiffuseTextureLoaded: 1
     - _ReceiveShadows: 1
-    - _RimPower: 2
-    - _RimSmoothness: 0
+    - _RimPower: 1.71
+    - _RimSmoothness: 0.196
     - _RimSplitColor: 0
-    - _RimThickness: 1
+    - _RimThickness: 0.63
     - _ShapeSmoothness: 0.2
     - _SideShineAmount: 0.2717647
     - _SideShineHardness: 0
@@ -232,7 +233,7 @@ Material:
     - _UseLightRamp: 2
     - _UseOutline: 1
     - _UsePureSketch: 1
-    - _UseRimLight: 0
+    - _UseRimLight: 1
     - _UseScreenUvs: 0
     - _UseScreenUvsSpecular: 0
     - _UseScreenUvsWarp: 0
@@ -246,12 +247,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.8396226, g: 0.5060726, b: 0.21386614, a: 1}
+    - _Color: {r: 0.50980395, g: 0.29411766, b: 0.14509805, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RimColor: {r: 0.103773594, g: 0.06608224, b: 0.06608224, a: 0}
     - _RimShadowColor: {r: 0, g: 0.055514283, b: 0.9622641, a: 0}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.6981132, g: 0.601986, b: 0.5367569, a: 1}

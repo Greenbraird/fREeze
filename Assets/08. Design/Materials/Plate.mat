@@ -21,6 +21,7 @@ Material:
   - _USELIGHTRAMP_POSTERIZE
   - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
+  - _USERIMLIGHT_ON
   - _USESPECULAR_ON
   m_InvalidKeywords:
   - _GLOSSYREFLECTIONS_OFF
@@ -207,7 +208,7 @@ Material:
     - _StepOffset: 0
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0.00001
+    - _Thicnkess: 0.0001
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
@@ -232,7 +233,7 @@ Material:
     - _UseLightRamp: 2
     - _UseOutline: 1
     - _UsePureSketch: 1
-    - _UseRimLight: 0
+    - _UseRimLight: 1
     - _UseScreenUvs: 0
     - _UseScreenUvsSpecular: 0
     - _UseScreenUvsWarp: 0
@@ -246,12 +247,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.8773585, g: 0.6366898, b: 0.6166341, a: 1}
+    - _Color: {r: 0.627451, g: 0.39607844, b: 0.3529412, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _RimColor: {r: 0.9386859, g: 0.79129815, b: 0.46778384, a: 0}
+    - _RimColor: {r: 0.8113208, g: 0.30132303, b: 0.2793699, a: 0}
     - _RimShadowColor: {r: 0, g: 0.055514283, b: 0.9622641, a: 0}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.8584906, g: 0.8288137, b: 0.7491545, a: 1}
