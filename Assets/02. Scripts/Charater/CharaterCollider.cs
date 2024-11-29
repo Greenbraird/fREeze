@@ -17,6 +17,8 @@ public class CharaterCollider : MonoBehaviour
     //animation Finished bool
     bool animationFinished = false;
 
+    bool isdrop = false;
+
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -25,6 +27,23 @@ public class CharaterCollider : MonoBehaviour
 
     void Update()
     {
+        if(transform.position.y < -10)
+        {
+            gameEvent.ResetEvent();
+            isdrop = true;
+            Camera.main.transform.position = new Vector3(3.6f, 39.5f, 138);
+            Camera.main.transform.eulerAngles = new Vector3(32, 356, -0.5f);
+        }
+
+        if (isdrop)
+        {
+
+
+            isdrop =false;
+        }
+
+
+
         // SplineAnimate가 존재할 때 진행도를 확인
         if (_splineAnimate != null && !animationFinished)
         {
@@ -111,7 +130,7 @@ public class CharaterCollider : MonoBehaviour
             //charaterRagdoll.SetActive(true);
             //spine.AddForce(charaterRagdoll.transform.forward * -200f, ForceMode.Impulse);
             //gameObject.SetActive(false);
-
+            gameEvent.ResetEvent();
             Invoke("callEndMassage", 2f);
         }
         else if(collidedObjectTag == "Finish")

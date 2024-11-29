@@ -14,6 +14,6 @@ public class GameEvent : MonoBehaviour
 
     public void ResetEvent()
     {
-        FinishPanel.SetActive(true);
+        RestartPanel.SetActive(true);
     }
 }
