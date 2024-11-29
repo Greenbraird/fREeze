@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\02. Scripts\Camera\WorldCurver.cs" />
     <Compile Include="Assets\02. Scripts\UI\GradientUI.cs" />
+    <Compile Include="Assets\02. Scripts\Event\GameEvent.cs" />
     <Compile Include="Assets\Vefects\Vignette VFX URP\Vignettes\Shared\Scripts\SC_Vefects_Delete_After_Time.cs" />
     <Compile Include="Assets\02. Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\02. Scripts\Quest\InstanceDailyQuest.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Stylized Toon Pro\Demo\Scripts\MainCameraManager.cs" />
     <Compile Include="Assets\ElementalMeters\Scripts\MeterScript.cs" />
     <Compile Include="Assets\02. Scripts\Tutorial\TutorialCollider.cs" />
-    <Compile Include="Assets\02. Scripts\System\CameraRaycast.cs" />
     <Compile Include="Assets\02. Scripts\System\GameSystem.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterInputHandler.cs" />
     <Compile Include="Assets\02. Scripts\Charater\CharacterFootSoundPlayer.cs" />
@@ -105,6 +105,7 @@
     <Compile Include="Assets\02. Scripts\System\FridgeInputCotroller.cs" />
     <Compile Include="Assets\02. Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\RoadUpdate.cs" />
+    <Compile Include="Assets\02. Scripts\System\PlayBox.cs" />
     <Compile Include="Assets\02. Scripts\UI\UIStory.cs" />
   </ItemGroup>
   <ItemGroup>

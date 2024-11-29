@@ -6,8 +6,10 @@ public class CharaterCollider : MonoBehaviour
 {
     Animator _animator;
 
+
     [Header("Event")]
     public CoinEvent coinEvent;
+    public GameEvent gameEvent;
     
     //spline Animate
     SplineAnimate _splineAnimate;
@@ -111,6 +113,13 @@ public class CharaterCollider : MonoBehaviour
             //gameObject.SetActive(false);
 
             Invoke("callEndMassage", 2f);
+        }
+        else if(collidedObjectTag == "Finish")
+        {
+            _animator.SetBool("Run", false);
+            GameSystem.Instance.IsGamestart = false;
+            gameEvent.FinishEvent();
+
         }
      }
 

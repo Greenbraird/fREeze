@@ -10,6 +10,7 @@ TagManager:
   - Road
   - PlayBox
   - Map
+  - Background
   layers:
   - Default
   - TransparentFX
