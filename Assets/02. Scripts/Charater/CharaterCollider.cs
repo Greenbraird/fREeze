@@ -31,6 +31,7 @@ public class CharaterCollider : MonoBehaviour
             {
                 Debug.Log("Spline animation finished.");
                 animationFinished = true;
+                _animator.applyRootMotion = false;
 
                 // 애니메이션 종료 시의 추가 행동을 여기서 정의 가능
                 SplineEndInitY(transform.position.y);

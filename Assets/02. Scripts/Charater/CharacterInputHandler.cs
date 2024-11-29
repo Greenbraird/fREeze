@@ -35,7 +35,7 @@ public class CharacterInputHandler : MonoBehaviour
     protected int m_LaneCount;
 
     private Vector3 rootMotionVelocity; // Root Motion에서 가져온 이동 속도
-    public float gravity = -5f;      // 중력 값
+    public float gravity = -9.8f;      // 중력 값
     private float verticalVelocity;    // 중력에 의한 Y축 속도
 
 
@@ -49,15 +49,8 @@ public class CharacterInputHandler : MonoBehaviour
         m_Sliding = false;
 
         // Rigidbody 설정: 중력 활성화, 물리 상호작용 방지
-        rb.useGravity = false; // Root Motion과 중력 충돌 방지
+  
         rb.isKinematic = false;
-
-        // 캐릭터의 이동
-        Vector3 forwardDirection = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
-        transform.Translate(forwardDirection * (speed * Time.deltaTime), Space.World);
-
-        // 캐릭터의 방향을 정확히 전방으로 보정
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
 
         m_LaneCount =1;
     }
@@ -65,10 +58,10 @@ public class CharacterInputHandler : MonoBehaviour
     void Update()
     {
 
-        // 중력 업데이트
+        //중력 업데이트
         if (IsGrounded())
         {
-            verticalVelocity = 0f; // 바닥에 있을 때 Y축 속도 초기화
+           verticalVelocity = 0f; // 바닥에 있을 때 Y축 속도 초기화
         }
         else
         {
@@ -108,9 +101,6 @@ public class CharacterInputHandler : MonoBehaviour
         {
             float chageLaneTime = Time.time - m_chageLaneTime;
             float chageLane = chageLaneTime / laneDuration;
-
-            Debug.Log("변화 시간 " + chageLaneTime);
-            Debug.Log("변화 비율 " + chageLane);
             
             if (chageLaneTime > 0.2f)
             {
@@ -241,23 +231,23 @@ public class CharacterInputHandler : MonoBehaviour
             animator.SetBool("OnDragLeft", true); // 왼쪽으로 변경
     }
 
-    private void OnAnimatorMove()
-    {
-        if (animator == null || rb == null)
-            return;
-        if (m_Jumping)
-            return;
+    //private void OnAnimatorMove()
+    //{
+    //    if (animator == null || rb == null)
+    //        return;
+    //    if (m_Jumping)
+    //        return;
 
-        // Root Motion에서 이동 값을 가져옴
-        rootMotionVelocity = animator.deltaPosition / Time.deltaTime;
+    //    // Root Motion에서 이동 값을 가져옴
+    //    rootMotionVelocity = animator.deltaPosition / Time.deltaTime;
 
-        // Rigidbody를 사용하여 이동 적용 (중력 포함)
-        Vector3 newVelocity = new Vector3(rootMotionVelocity.x, verticalVelocity, rootMotionVelocity.z);
-        rb.velocity = newVelocity;
+    //    // Rigidbody를 사용하여 이동 적용 (중력 포함)
+    //    Vector3 newVelocity = new Vector3(rootMotionVelocity.x, verticalVelocity, rootMotionVelocity.z);
+    //    rb.velocity = newVelocity;
 
-        // Root Motion 회전 값도 적용
-        rb.MoveRotation(animator.rootRotation);
-    }
+    //    // Root Motion 회전 값도 적용
+    //    rb.MoveRotation(animator.rootRotation);
+    //}
 
     // 바닥에 있는지 확인 (Raycast를 사용)
     private bool IsGrounded()

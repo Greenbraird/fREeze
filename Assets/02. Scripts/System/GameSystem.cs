@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameSystem : Singleton<GameSystem>
 {
-    private GameObject RestartPanel;
+    public GameObject RestartPanel;
 
     public bool IsGamestart = false;
 
